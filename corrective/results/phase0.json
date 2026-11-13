@@ -1,0 +1,1760 @@
+{
+  "baseline": {
+    "summary": {
+      "correct": {
+        "now": 0.9347826086956522,
+        "saved": 0.9347826086956522,
+        "differs": []
+      },
+      "correct3": {
+        "now": 0.9347826086956522,
+        "saved": 0.9347826086956522,
+        "differs": []
+      },
+      "cost_per_question": 0.002551428260869565,
+      "p50_ms": 9743.0,
+      "routes": {
+        "none": 5,
+        "single": 17,
+        "multi": 24
+      }
+    },
+    "questions": {
+      "which-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0047228999999999995,
+        "ms": 21170,
+        "searches": 3,
+        "thoughts": [
+          "Murali Vijay was out for 99 in India's second innings, given lbw by Nathan Lyon.",
+          "Murali Vijay was dismissed in the same over as Ajinkya Rahane, who went for a duck.",
+          "Murali Vijay was given lbw for 99 after a partnership with Virat Kohli that extended to 185 runs."
+        ],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2014-15::s006::04",
+            "indian_cricket_team_in_australia_in_2014-15::s006::02",
+            "indian_cricket_team_in_australia_in_2014-15::s006::05",
+            "indian_cricket_team_in_australia_in_2014-15::s006::00",
+            "indian_cricket_team_in_australia_in_2014-15::s007::00"
+          ],
+          [
+            "indian_cricket_team_in_australia_in_2014-15::s007::03",
+            "indian_cricket_team_in_australia_in_2014-15::s008::02"
+          ],
+          [
+            "indian_cricket_team_in_australia_in_2014-15::s008::05",
+            "indian_cricket_team_in_australia_in_2014-15::s008::04",
+            "indian_cricket_team_in_australia_in_2014-15::s007::01"
+          ]
+        ],
+        "answer": "In India's second innings of the first Test at Adelaide, Murali Vijay was out for 99, given lbw [1].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "which-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0030190499999999997,
+        "ms": 12978,
+        "searches": 2,
+        "thoughts": [
+          "Michael Carberry top-scored for England in their second innings with 43 runs, and England made a total of 166 runs.",
+          "So the answer is: Michael Carberry, 43 runs."
+        ],
+        "added": [
+          [
+            "2013-14_ashes_series::s006::01",
+            "2013-14_ashes_series::s006::00",
+            "ben_stokes::s005::00",
+            "2013-14_ashes_series::s006::02",
+            "2013_ashes_series::s007::01"
+          ],
+          [
+            "2013-14_ashes_series::s005::01",
+            "joe_root::s004::02"
+          ]
+        ],
+        "answer": "Michael Carberry top-scored for England in their second innings of the fifth Test with 43 runs, and England made a total of 166 runs [1][2].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "which-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00309825,
+        "ms": 10376,
+        "searches": 2,
+        "thoughts": [
+          "Joe Root was stumped by wicketkeeper Alex Carey off the bowling of Nathan Lyon for a score of 46 runs.",
+          "So the answer is: Joe Root was stumped by wicketkeeper Alex Carey off Nathan Lyon for 46 runs."
+        ],
+        "added": [
+          [
+            "2023_ashes_series::s006::00",
+            "2023_ashes_series::s002::00",
+            "2023_ashes_series::s003::01",
+            "joe_root::s019::00",
+            "2019_ashes_series::s005::00"
+          ],
+          [
+            "2023_ashes_series::s003::00",
+            "2023_ashes_series::s010::00",
+            "joe_root::s004::03"
+          ]
+        ],
+        "answer": "In England's second innings of the first Test of the 2023 Ashes at Edgbaston, Joe Root was stumped by wicketkeeper Alex Carey off the bowling of Nathan Lyon for a score of 46 runs [1].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "which-04": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0029033999999999996,
+        "ms": 11384,
+        "searches": 2,
+        "thoughts": [
+          "Ajinkya Rahane was out for 89 runs, caught by Cameron Green.",
+          "So the answer is: 89 runs, caught by Cameron Green."
+        ],
+        "added": [
+          [
+            "2023_world_test_championship_final::s010::00",
+            "2023_world_test_championship_final::s012::03",
+            "2023_world_test_championship_final::s007::00",
+            "2023_world_test_championship_final::s009::01",
+            "2023_world_test_championship_final::s011::01"
+          ],
+          [
+            "2023_world_test_championship_final::s009::00",
+            "indian_cricket_team_in_australia_in_2020-21::s018::00"
+          ]
+        ],
+        "answer": "Ajinkya Rahane was out for 89 runs, and he was caught by Green [1].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "which-05": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0039453,
+        "ms": 17667,
+        "searches": 3,
+        "thoughts": [
+          "Washington Sundar scored 62 runs and Shardul Thakur scored 67 runs in India's first innings.",
+          "Washington Sundar and Shardul Thakur added a total of 129 runs together in India's first innings.",
+          "So the answer is: 129."
+        ],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s028::00",
+            "indian_cricket_team_in_australia_in_2020-21::s025::00",
+            "indian_cricket_team_in_australia_in_2020-21::s026::00",
+            "indian_cricket_team_in_australia_in_2020-21::s029::00",
+            "english_cricket_team_in_india_in_2020-21::s002::00"
+          ],
+          [
+            "english_cricket_team_in_india_in_2020-21::s008::00"
+          ],
+          [
+            "2017_indian_premier_league_final::s006::01"
+          ]
+        ],
+        "answer": "Washington Sundar and Shardul Thakur added 123 runs together in India's first innings [1].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "which-06": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0014184,
+        "ms": 7047,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "wankhede_stadium::s012::00",
+            "2011_cricket_world_cup_final::s007::01",
+            "2011_cricket_world_cup_final::s000::01",
+            "2011_cricket_world_cup_final::s008::02",
+            "2011_cricket_world_cup_final::s008::03"
+          ]
+        ],
+        "answer": "In the 2011 Cricket World Cup final, MS Dhoni and Gautam Gambhir added 109 runs together for the fourth wicket partnership [2].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "twin-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0013548,
+        "ms": 5856,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s011::00",
+            "indian_cricket_team_in_australia_in_2020-21::s010::00",
+            "indian_cricket_team_in_australia_in_2020-21::s013::00",
+            "indian_cricket_team_in_australia_in_2020-21::s006::00",
+            "indian_cricket_team_in_australia_in_2014-15::s006::00"
+          ]
+        ],
+        "answer": "Virat Kohli was run out for 74 runs in India's first innings of the day-night Adelaide Test in December 2020. He was stranded in the middle of the pitch after a mix-up with Ajinkya Rahane, leading to his dismissal by Josh Hazlewood and Nathan Lyon breaking the stumps [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "twin-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0029837999999999996,
+        "ms": 11648,
+        "searches": 2,
+        "thoughts": [
+          "Cheteshwar Pujara top-scored for India in their first innings of the Adelaide Test with a score of 123 runs.",
+          "So the answer is: Cheteshwar Pujara, 123 runs."
+        ],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2018-19::s007::00",
+            "indian_cricket_team_in_australia_in_2018-19::s000::00",
+            "adelaide_oval::s014::03",
+            "rohit_sharma::s004::00",
+            "2025_champions_trophy::s029::00"
+          ],
+          [
+            "indian_cricket_team_in_australia_in_2018-19::s009::00",
+            "australian_cricket_team_in_india_in_2016-17::s005::01",
+            "indian_cricket_team_in_australia_in_2020-21::s011::00"
+          ]
+        ],
+        "answer": "Cheteshwar Pujara top-scored for India in their first innings of the Adelaide Test of the 2018–19 series with a score of 123 runs off 246 balls [1].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "twin-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00487125,
+        "ms": 22060,
+        "searches": 3,
+        "thoughts": [
+          "Jasprit Bumrah bowled the last over for Mumbai Indians, and Rising Pune Supergiant needed 11 runs from it.",
+          "On the final ball of the innings, Washington Sundar was run out attempting a third run, resulting in a thrilling one-run victory for Mumbai Indians.",
+          "So the answer is: Jasprit Bumrah bowled the last over, and Rising Pune Supergiant needed 11 runs from it."
+        ],
+        "added": [
+          [
+            "2017_indian_premier_league_final::s000::00",
+            "2017_indian_premier_league::s012::00",
+            "2017_indian_premier_league_final::s006::02",
+            "2017_indian_premier_league_final::s006::01",
+            "2017_indian_premier_league::s000::00"
+          ],
+          [
+            "2017_indian_premier_league_final::s005::01",
+            "2017_indian_premier_league_final::s006::03"
+          ],
+          [
+            "2017_indian_premier_league_final::s006::00",
+            "2017_indian_premier_league_final::s003::01",
+            "2017_indian_premier_league::s009::00"
+          ]
+        ],
+        "answer": "In the 2017 IPL final, Mitchell Johnson bowled the last over for the Mumbai Indians, and the Rising Pune Supergiant needed 11 runs from it to win the match [6].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "twin-04": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0043614,
+        "ms": 15233,
+        "searches": 3,
+        "thoughts": [
+          "Ajinkya Rahane scored a century for India in the Boxing Day Test at the Melbourne Cricket Ground, finishing his innings on 104 not out.",
+          "Rahane was eventually run out for 112 during the third day of the Test.",
+          "Rahane was run out by Marnus Labuschagne combining with Tim Paine at the stumps."
+        ],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s014::01",
+            "indian_cricket_team_in_australia_in_2020-21::s016::00",
+            "indian_cricket_team_in_australia_in_2020-21::s018::00",
+            "indian_cricket_team_in_australia_in_2020-21::s003::00",
+            "narendra_modi_stadium::s003::00"
+          ],
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s014::00",
+            "indian_cricket_team_in_australia_in_2020-21::s017::00"
+          ],
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s024::00",
+            "ajinkya_rahane::s004::05",
+            "ajinkya_rahane::s004::06",
+            "ajinkya_rahane::s004::03"
+          ]
+        ],
+        "answer": "Ajinkya Rahane scored a century for India in the Boxing Day Test at the MCG in December 2020, finishing his innings with 112 runs before being run out [1][7].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "twin-05": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0013654499999999998,
+        "ms": 6933,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2019_cricket_world_cup_group_stage::s031::00",
+            "2019_cricket_world_cup::s014::00",
+            "2019_cricket_world_cup::s014::01",
+            "2019_cricket_world_cup_group_stage::s044::00",
+            "2019_cricket_world_cup_group_stage::s012::00"
+          ]
+        ],
+        "answer": "Carlos Brathwaite scored 101 runs for the West Indies against New Zealand at the 2019 Cricket World Cup [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "pron-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0012756,
+        "ms": 6623,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2019_ashes_series::s016::00",
+            "2019_ashes_series::s018::00",
+            "ben_stokes::s011::00",
+            "headingley_cricket_ground::s002::04",
+            "headingley_cricket_ground::s002::00"
+          ]
+        ],
+        "answer": "Josh Hazlewood took five wickets when England were bowled out for 67 in the Headingley Test of the 2019 Ashes, with figures of 5/30 in 12.5 overs [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "pron-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00451095,
+        "ms": 14383,
+        "searches": 3,
+        "thoughts": [
+          "In India's first innings at The Oval, MS Dhoni and Ishant Sharma put on a last-wicket partnership worth 58 runs.",
+          "MS Dhoni scored 82 runs in that innings.",
+          "Ishant Sharma contributed to the partnership by scoring 66 runs in total during the match."
+        ],
+        "added": [
+          [
+            "indian_cricket_team_in_england_in_2014::s009::00",
+            "indian_cricket_team_in_england_in_2014::s009::01",
+            "indian_cricket_team_in_england_in_2014::s005::00",
+            "adelaide_oval::s014::03",
+            "indian_cricket_team_in_england_in_2025::s010::00"
+          ],
+          [
+            "the_oval::s006::00",
+            "indian_cricket_team_in_england_in_2014::s001::00",
+            "wankhede_stadium::s019::00",
+            "2012_world_twenty20::s005::00"
+          ],
+          [
+            "ms_dhoni::s005::01",
+            "ms_dhoni::s014::00",
+            "ms_dhoni::s012::00",
+            "ms_dhoni::s007::00"
+          ]
+        ],
+        "answer": "In the fifth Test of India's 2014 tour of England at The Oval, MS Dhoni and Ishant Sharma put on a last-wicket partnership worth 58 runs in India's first innings [1].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "pron-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0053178,
+        "ms": 15167,
+        "searches": 3,
+        "thoughts": [
+          "England were left at 1/35 at stumps on day two, with Mitchell Johnson having claimed the wicket of Alastair Cook.",
+          "England were eventually bowled out for 172, with Johnson taking three wickets in one over shortly after lunch on the third day.",
+          "At stumps on day two, England's score was 1/35, and Mitchell Johnson had taken the wicket of Alastair Cook."
+        ],
+        "added": [
+          [
+            "2013-14_ashes_series::s003::01",
+            "2013-14_ashes_series::s003::00",
+            "2013-14_ashes_series::s003::02",
+            "2013_ashes_series::s004::01",
+            "2013_ashes_series::s004::00"
+          ],
+          [
+            "2013-14_ashes_series::s002::00",
+            "2013-14_ashes_series::s002::02",
+            "2013-14_ashes_series::s002::01",
+            "2010-11_ashes_series::s004::04"
+          ],
+          [
+            "2013-14_ashes_series::s004::01",
+            "2013-14_ashes_series::s005::01",
+            "2013-14_ashes_series::s000::01",
+            "2015_ashes_series::s006::01"
+          ]
+        ],
+        "answer": "At stumps on day two of the second Test of the 2013–14 Ashes in Adelaide, England's score was 1/35, and the wicket was taken by Mitchell Johnson, who dismissed Cook [1][2].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "pron-04": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0012751499999999999,
+        "ms": 4714,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s013::00",
+            "indian_cricket_team_in_australia_in_2020-21::s012::00",
+            "jasprit_bumrah::s006::00",
+            "indian_cricket_team_in_australia_in_2018-19::s007::00",
+            "indian_cricket_team_in_australia_in_2020-21::s012::01"
+          ]
+        ],
+        "answer": "On the third morning of the December 2020 Adelaide Test, Jasprit Bumrah was caught and bowled by Pat Cummins for 2 runs in the second over of the day [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "pron-05": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0012678,
+        "ms": 4856,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2015_ashes_series::s004::02",
+            "2015_ashes_series::s004::00",
+            "2015_ashes_series::s004::01",
+            "2019_ashes_series::s010::00",
+            "2015_ashes_series::s005::02"
+          ]
+        ],
+        "answer": "Australia set England a target of 509 runs in the Lord's Test of the 2015 Ashes [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "num-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00137475,
+        "ms": 6639,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s010::00",
+            "indian_cricket_team_in_australia_in_2020-21::s013::00",
+            "josh_hazlewood::s000::00",
+            "indian_cricket_team_in_australia_in_2020-21::s011::00",
+            "indian_cricket_team_in_australia_in_2018-19::s007::00"
+          ]
+        ],
+        "answer": "Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020 were 5 wickets for 8 runs in 5 overs [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "num-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0013031999999999998,
+        "ms": 5003,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2019_ashes_series::s016::00",
+            "ben_stokes::s011::00",
+            "2019_ashes_series::s020::03",
+            "2019_ashes_series::s020::02",
+            "2019_ashes_series::s020::01"
+          ]
+        ],
+        "answer": "Ben Stokes faced 219 balls for his unbeaten 135 in the Headingley Test of the 2019 Ashes [2].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "num-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0014025,
+        "ms": 5667,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2018-19::s009::00",
+            "jasprit_bumrah::s005::00",
+            "indian_cricket_team_in_australia_in_2024-25::s012::00",
+            "indian_cricket_team_in_australia_in_2018-19::s007::00",
+            "indian_cricket_team_in_australia_in_2024-25::s011::00"
+          ]
+        ],
+        "answer": "Jasprit Bumrah's bowling figures in Australia's first innings of the Boxing Day Test at the MCG in December 2018 were 6 wickets for 33 runs in 15.5 overs [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "num-04": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0013735499999999999,
+        "ms": 4531,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2023_cricket_world_cup_group_stage::s009::00",
+            "2023_cricket_world_cup_group_stage::s009::01",
+            "2023_cricket_world_cup::s011::01",
+            "2023_cricket_world_cup_group_stage::s005::01",
+            "2023_cricket_world_cup_group_stage::s005::00"
+          ]
+        ],
+        "answer": "Mitchell Santner's bowling figures against the Netherlands at the 2023 Cricket World Cup in Hyderabad were 5 wickets for 59 runs in 10 overs [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "num-05": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00136335,
+        "ms": 5010,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2016_indian_premier_league::s014::00",
+            "2016_indian_premier_league_final::s000::00",
+            "2016_indian_premier_league_final::s000::01",
+            "2016_indian_premier_league_final::s003::00",
+            "2016_indian_premier_league::s000::00"
+          ]
+        ],
+        "answer": "Sunrisers Hyderabad made a total of 208 runs for 7 wickets while batting first in the 2016 IPL final [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "multi-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0029495999999999997,
+        "ms": 11063,
+        "searches": 2,
+        "thoughts": [
+          "Rohit Sharma scored 47 runs for India, while Travis Head made 137 runs in Australia's chase.",
+          "So the answer is: Rohit Sharma scored 47 runs, and Travis Head made 137 runs."
+        ],
+        "added": [
+          [
+            "2023_cricket_world_cup_final::s007::00",
+            "2023_cricket_world_cup_final::s000::00",
+            "2023_cricket_world_cup_final::s005::00",
+            "2023_cricket_world_cup_final::s006::00",
+            "narendra_modi_stadium::s013::03"
+          ],
+          [
+            "2023_cricket_world_cup::s019::00",
+            "2023_cricket_world_cup_final::s007::03"
+          ]
+        ],
+        "answer": "In the 2023 Cricket World Cup final, Rohit Sharma scored 47 runs for India, while Travis Head made 137 runs in Australia's chase [1][4].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "multi-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 0.5,
+        "cost": 0.0042825,
+        "ms": 15799,
+        "searches": 3,
+        "thoughts": [
+          "India chased a target of 328 runs on the last day, and Shubman Gill scored 91 runs in the chase.",
+          "India won the match by 3 wickets.",
+          "The match took place at The Gabba, Brisbane."
+        ],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s030::00",
+            "indian_cricket_team_in_australia_in_2020-21::s025::00",
+            "shubman_gill::s003::01",
+            "indian_cricket_team_in_australia_in_2020-21::s027::00",
+            "indian_cricket_team_in_australia_in_2020-21::s023::00"
+          ],
+          [
+            "shubman_gill::s003::07",
+            "shubman_gill::s002::01"
+          ],
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s000::02",
+            "english_cricket_team_in_india_in_2016-17::s007::00",
+            "english_cricket_team_in_india_in_2020-21::s000::01",
+            "indian_cricket_team_in_england_in_2011::s007::00",
+            "english_cricket_team_in_india_in_2023-24::s000::01"
+          ]
+        ],
+        "answer": "In the Gabba Test of January 2021, India chased a target of 328 runs on the last day. Shubman Gill scored 91 runs in the chase [1][2].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "multi-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.004774649999999999,
+        "ms": 21958,
+        "searches": 3,
+        "thoughts": [
+          "Joe Root made 77 runs before being caught behind by Warner off Lyon's bowling.",
+          "Jonny Bairstow made 36 runs before being caught behind by Labuschagne off Hazlewood's bowling.",
+          "So the answer is: Joe Root made 77 runs and Jonny Bairstow made 36 runs."
+        ],
+        "added": [
+          [
+            "2019_ashes_series::s020::00",
+            "2019_ashes_series::s019::01",
+            "joe_root::s014::00",
+            "headingley_cricket_ground::s000::01",
+            "2015_ashes_series::s006::02"
+          ],
+          [
+            "2019_ashes_series::s019::00",
+            "2019_ashes_series::s008::00",
+            "joe_root::s004::03",
+            "2021-22_ashes_series::s012::00"
+          ],
+          [
+            "2019_ashes_series::s016::00",
+            "2023_ashes_series::s022::01",
+            "2023_ashes_series::s028::01"
+          ]
+        ],
+        "answer": "On the fourth day of the Headingley Test in the 2019 Ashes, Joe Root made 77 runs before being caught behind, while Jonny Bairstow scored 36 runs before being caught behind as well [1].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "multi-04": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00293475,
+        "ms": 11632,
+        "searches": 2,
+        "thoughts": [
+          "Fakhar Zaman was reprieved on 3 runs due to a no-ball by Jasprit Bumrah and went on to score 114 runs.",
+          "So the answer is: 3 runs, 114 runs."
+        ],
+        "added": [
+          [
+            "2017_champions_trophy_final::s006::00",
+            "2017_champions_trophy_final::s000::01",
+            "2017_champions_trophy::s013::00",
+            "2017_champions_trophy_final::s000::00",
+            "2017_champions_trophy_final::s008::04"
+          ],
+          [
+            "2017_champions_trophy_final::s008::00",
+            "2017_champions_trophy_final::s007::00"
+          ]
+        ],
+        "answer": "Fakhar Zaman was reprieved by a no-ball when he had scored 3 runs, and he went on to make 114 runs in total [1].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "bio-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00315855,
+        "ms": 10841,
+        "searches": 2,
+        "thoughts": [
+          "Jasprit Bumrah made his Test debut for India against South Africa at Newlands in Cape Town on 5 January 2018 and took the wicket of AB de Villiers as his first test wicket.",
+          "So the answer is: AB de Villiers at Newlands, Cape Town."
+        ],
+        "added": [
+          [
+            "jasprit_bumrah::s005::00",
+            "jasprit_bumrah::s006::00",
+            "jasprit_bumrah::s005::02",
+            "jasprit_bumrah::s000::02",
+            "jasprit_bumrah::s005::01"
+          ],
+          [
+            "jasprit_bumrah::s000::03",
+            "2009_indian_premier_league::s005::04"
+          ]
+        ],
+        "answer": "Jasprit Bumrah's first Test wicket was AB de Villiers, and he made his Test debut at Newlands in Cape Town on 5 January 2018 [1].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "bio-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00128595,
+        "ms": 4342,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "nathan_lyon::s003::00",
+            "nathan_lyon::s003::01",
+            "nathan_lyon::s003::02",
+            "nathan_lyon::s003::07",
+            "nathan_lyon::s000::02"
+          ]
+        ],
+        "answer": "Nathan Lyon's first Test wicket was Kumar Sangakkara, which he took on 1 September 2011 during his debut match against Sri Lanka at Galle [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "bio-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0040127999999999995,
+        "ms": 14620,
+        "searches": 3,
+        "thoughts": [
+          "Perth Stadium was announced to host the first Test of the 2025–2026 Men's Ashes series.",
+          "This was the first time Perth Stadium hosted an Ashes Test.",
+          "The first Test was scheduled to take place from 21–22 November 2025, featuring England versus Australia."
+        ],
+        "added": [
+          [
+            "perth_stadium::s011::00",
+            "2025-26_ashes_series::s002::00",
+            "2025-26_ashes_series::s006::00",
+            "indian_cricket_team_in_australia_in_2024-25::s001::00",
+            "2021-22_ashes_series::s003::00"
+          ],
+          [
+            "2025-26_ashes_series::s000::01",
+            "perth_stadium::s000::01"
+          ],
+          [
+            "perth_stadium::s011::01",
+            "2017-18_ashes_series::s002::00"
+          ]
+        ],
+        "answer": "Perth Stadium was announced to host the first Test of the 2025–26 Ashes series in October 2024. This marked the first time Perth Stadium hosted an Ashes Test [2].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "none-01": {
+        "correct": 1.0,
+        "refused": true,
+        "recall": null,
+        "cost": 0.0013604999999999997,
+        "ms": 5070,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2014-15::s009::00",
+            "indian_cricket_team_in_australia_in_2014-15::s009::04",
+            "indian_cricket_team_in_australia_in_2014-15::s000::00",
+            "indian_cricket_team_in_australia_in_2024-25::s000::00",
+            "2019_cricket_world_cup::s017::02"
+          ]
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "none-02": {
+        "correct": 1.0,
+        "refused": true,
+        "recall": null,
+        "cost": 0.00119325,
+        "ms": 4405,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2019_ashes_series::s000::01",
+            "2019_ashes_series::s000::00",
+            "2017-18_ashes_series::s000::00",
+            "2017-18_ashes_series::s002::00",
+            "2017-18_ashes_series::s000::01"
+          ]
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "rule-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 0.0,
+        "cost": 8.745e-05,
+        "ms": 2010,
+        "searches": 0,
+        "thoughts": [],
+        "added": [],
+        "answer": "In a Twenty20 match, if both teams finish with the same score, the winner is decided by a Super Over, where each team bats for one additional over, and the team with the higher score in that Super Over wins.",
+        "route": "none",
+        "correct3": 1.0
+      },
+      "rule-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 0.0,
+        "cost": 6.104999999999999e-05,
+        "ms": 1513,
+        "searches": 0,
+        "thoughts": [],
+        "added": [],
+        "answer": "Australia and England contest the Ashes.",
+        "route": "none",
+        "correct3": 1.0
+      },
+      "rule-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 0.0,
+        "cost": 7.815e-05,
+        "ms": 2347,
+        "searches": 0,
+        "thoughts": [],
+        "added": [],
+        "answer": "The Duckworth–Lewis method is used in cricket to calculate target scores in rain-affected matches, ensuring a fair outcome when the game cannot be completed as originally planned.",
+        "route": "none",
+        "correct3": 1.0
+      },
+      "fame-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 0.0,
+        "cost": 6.285e-05,
+        "ms": 1780,
+        "searches": 0,
+        "thoughts": [],
+        "added": [],
+        "answer": "India won the 2011 Cricket World Cup.",
+        "route": "none",
+        "correct3": 1.0
+      },
+      "fame-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 0.0,
+        "cost": 6.525e-05,
+        "ms": 1743,
+        "searches": 0,
+        "thoughts": [],
+        "added": [],
+        "answer": "The Rajasthan Royals won the first IPL season in 2008.",
+        "route": "none",
+        "correct3": 1.0
+      },
+      "fame-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00143355,
+        "ms": 4513,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2007_world_twenty20::s014::00",
+            "2024_mens_t20_world_cup::s019::03",
+            "2024_mens_t20_world_cup::s018::01",
+            "2024_mens_t20_world_cup::s018::03",
+            "stuart_broad::s014::00"
+          ]
+        ],
+        "answer": "Brett Lee took the first ever hat-trick in a T20I match during the match between Bangladesh and Australia on 16 September 2007 [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "recent-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0011606999999999998,
+        "ms": 4793,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2024_mens_t20_world_cup_final::s000::00",
+            "2024_mens_t20_world_cup::s000::01",
+            "2024_mens_t20_world_cup::s024::00",
+            "2024_mens_t20_world_cup_final::s001::00",
+            "2024_mens_t20_world_cup_final::s009::00"
+          ]
+        ],
+        "answer": "India won the 2024 Men's T20 World Cup by defeating South Africa by 7 runs in the final held on 29 June 2024 at Kensington Oval, Bridgetown [1].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "recent-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0012756,
+        "ms": 4658,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2025_indian_premier_league::s000::00",
+            "2025_indian_premier_league_final::s000::00",
+            "2025_indian_premier_league_final::s011::00",
+            "2025_indian_premier_league::s017::00",
+            "2025_indian_premier_league_final::s001::00"
+          ]
+        ],
+        "answer": "Royal Challengers Bengaluru won the 2025 Indian Premier League by defeating Punjab Kings by 6 runs in the final on 3 June 2025 [2].",
+        "route": "single",
+        "correct3": 1.0
+      },
+      "chain-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0037588499999999998,
+        "ms": 18328,
+        "searches": 3,
+        "thoughts": [
+          "The two ends of The Oval, where the 2023 World Test Championship final was held, are called the Pavilion End and the Vauxhall End.",
+          "The north-western end is known as the Vauxhall End, while the opposite end is the Pavilion End.",
+          "The Oval is located in Kennington, London."
+        ],
+        "added": [
+          [
+            "2023_world_test_championship_final::s001::00",
+            "2023_world_test_championship_final::s000::00",
+            "2023_world_test_championship_final::s006::00",
+            "2023_world_test_championship_final::s009::01",
+            "2023_world_test_championship_final::s001::01"
+          ],
+          [
+            "the_oval::s002::00",
+            "2023_world_test_championship_final::s007::00"
+          ],
+          [
+            "the_oval::s000::00",
+            "the_oval::s003::00",
+            "the_oval::s003::01",
+            "old_trafford_cricket_ground::s004::00"
+          ]
+        ],
+        "answer": "The two ends of The Oval, which hosted the 2023 World Test Championship final, are called the Vauxhall End and the Pavilion End [6].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "chain-02": {
+        "correct": 0.0,
+        "refused": false,
+        "recall": 0.5,
+        "cost": 0.00435015,
+        "ms": 15697,
+        "searches": 3,
+        "thoughts": [
+          "The Narendra Modi Stadium, which replaced the Sardar Patel Gujarat Stadium, took five years to build and opened on 24 February 2020.",
+          "The 2011 Cricket World Cup final was held at Wankhede Stadium in Mumbai.",
+          "The Wankhede Stadium in Mumbai hosted the 2011 Cricket World Cup final on 2 April 2011."
+        ],
+        "added": [
+          [
+            "narendra_modi_stadium::s000::02",
+            "2011_cricket_world_cup::s000::00",
+            "2011_cricket_world_cup_final::s000::00",
+            "2011_cricket_world_cup_final::s000::02",
+            "2011_cricket_world_cup::s000::01"
+          ],
+          [
+            "english_cricket_team_in_india_in_2020-21::s005::00",
+            "narendra_modi_stadium::s000::03",
+            "narendra_modi_stadium::s003::00",
+            "narendra_modi_stadium::s004::00"
+          ],
+          [
+            "2011_cricket_world_cup::s024::01",
+            "2011_cricket_world_cup::s024::00",
+            "2011_cricket_world_cup_final::s000::03"
+          ]
+        ],
+        "answer": "The stadium that hosted the 2011 Cricket World Cup final took five years to build and officially opened on 24 February 2020 [1][7].",
+        "route": "multi",
+        "correct3": 0.0
+      },
+      "chain-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.004047749999999999,
+        "ms": 15314,
+        "searches": 3,
+        "thoughts": [
+          "The Narendra Modi Stadium was inaugurated by Prime Minister Modi during the 2022 National Games of India.",
+          "The stadium first opened to the public by hosting the Namaste Trump event on 24 February 2020.",
+          "The stadium officially became known as the Narendra Modi Stadium on 24 February 2021."
+        ],
+        "added": [
+          [
+            "2025_indian_premier_league_final::s001::00",
+            "2025_indian_premier_league_final::s000::00",
+            "narendra_modi_stadium::s004::00",
+            "2025_indian_premier_league::s004::00",
+            "2024_indian_premier_league::s004::00"
+          ],
+          [
+            "narendra_modi_stadium::s000::03",
+            "narendra_modi_stadium::s000::02",
+            "narendra_modi_stadium::s010::00",
+            "narendra_modi_stadium::s000::01"
+          ],
+          [
+            "narendra_modi_stadium::s009::00",
+            "2020_indian_premier_league::s001::00"
+          ]
+        ],
+        "answer": "The stadium that hosted the 2025 IPL final, the Narendra Modi Stadium, was officially inaugurated by Indian president Ram Nath Kovind on 24 February 2021 [6].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "chain-04": {
+        "correct": 0.0,
+        "refused": true,
+        "recall": 0.0,
+        "cost": 0.004485899999999999,
+        "ms": 14484,
+        "searches": 3,
+        "thoughts": [
+          "The last men's Test match at Edgbaston Cricket Ground is scheduled for 9–12 September 2026.",
+          "Edgbaston Cricket Ground has a spectator capacity of approximately 25,000.",
+          "The first men's Test match at Edgbaston was played from 29–31 May 1902 between England and Australia."
+        ],
+        "added": [
+          [
+            "edgbaston_cricket_ground::s000::01",
+            "edgbaston_cricket_ground::s000::00",
+            "edgbaston_cricket_ground::s004::00",
+            "edgbaston_cricket_ground::s002::00",
+            "edgbaston_cricket_ground::s007::05"
+          ],
+          [
+            "indian_cricket_team_in_england_in_2021::s007::00",
+            "edgbaston_cricket_ground::s007::04"
+          ],
+          [
+            "edgbaston_cricket_ground::s003::00",
+            "edgbaston_cricket_ground::s003::01"
+          ]
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "multi",
+        "correct3": 0.0
+      },
+      "chain-05": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0027716999999999998,
+        "ms": 9110,
+        "searches": 2,
+        "thoughts": [
+          "Perth Stadium officially opened on 21 January 2018.",
+          "So the answer is: 21 January 2018."
+        ],
+        "added": [
+          [
+            "perth_stadium::s011::00",
+            "2025-26_ashes_series::s002::00",
+            "2025-26_ashes_series::s006::00",
+            "2025-26_ashes_series::s000::01",
+            "2017-18_ashes_series::s002::00"
+          ],
+          [
+            "perth_stadium::s005::00",
+            "perth_stadium::s015::00",
+            "perth_stadium::s016::00",
+            "perth_stadium::s000::02"
+          ]
+        ],
+        "answer": "The stadium that hosted the first Test of the 2025–26 Ashes, Perth Stadium, was officially opened on 21 January 2018 [9].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "chain-06": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 0.5,
+        "cost": 0.00437025,
+        "ms": 13528,
+        "searches": 3,
+        "thoughts": [
+          "The first Test match was played at Adelaide Oval on 12 December 1884.",
+          "The second Test of India's 2024–25 tour of Australia was played at Adelaide Oval.",
+          "So the answer is: 1884."
+        ],
+        "added": [
+          [
+            "adelaide_oval::s000::00",
+            "adelaide_oval::s014::00",
+            "indian_cricket_team_in_australia_in_2024-25::s004::01",
+            "indian_cricket_team_in_australia_in_2024-25::s000::00",
+            "adelaide_oval::s001::01"
+          ],
+          [
+            "adelaide_oval::s000::01",
+            "adelaide_oval::s012::00"
+          ],
+          [
+            "indian_cricket_team_in_australia_in_2024-25::s010::00",
+            "indian_cricket_team_in_australia_in_2024-25::s001::00",
+            "adelaide_oval::s014::03"
+          ]
+        ],
+        "answer": "The first Test was played at Adelaide Oval in 1884 [6].",
+        "route": "multi",
+        "correct3": 1.0
+      },
+      "chain-07": {
+        "correct": 0.0,
+        "refused": true,
+        "recall": 1.0,
+        "cost": 0.004770600000000001,
+        "ms": 14741,
+        "searches": 3,
+        "thoughts": [
+          "Mitchell Starc, the player of the match in the 2024 IPL final, attended the New South Wales Institute of Sport.",
+          "Mitchell Starc attended Homebush Boys High School, where he represented the school's 1st grade cricket team.",
+          "Homebush Boys High School is where Mitchell Starc began his cricket journey."
+        ],
+        "added": [
+          [
+            "2024_indian_premier_league_final::s000::00",
+            "2024_indian_premier_league_final::s004::00",
+            "2024_indian_premier_league::s017::00",
+            "2024_indian_premier_league::s000::00",
+            "2024_indian_premier_league_final::s001::00"
+          ],
+          [
+            "mitchell_starc::s002::03",
+            "mitchell_starc::s001::00",
+            "mitchell_starc::s000::02",
+            "mitchell_starc::s007::03"
+          ],
+          [
+            "mitchell_starc::s005::00",
+            "mitchell_starc::s003::01",
+            "mitchell_starc::s004::00",
+            "mitchell_starc::s008::02"
+          ]
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "multi",
+        "correct3": 0.0
+      },
+      "chain-08": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 0.5,
+        "cost": 0.0041247,
+        "ms": 14652,
+        "searches": 3,
+        "thoughts": [
+          "Perth Stadium has a total capacity of 61,266, including standing room.",
+          "The stadium can be extended to hold up to 65,000 seats for rectangular sports.",
+          "Perth Stadium hosted the first Test of India's 2024–25 tour of Australia."
+        ],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2024-25::s001::00",
+            "perth_stadium::s000::01",
+            "indian_cricket_team_in_australia_in_2024-25::s009::01",
+            "indian_cricket_team_in_australia_in_2024-25::s004::01",
+            "indian_cricket_team_in_australia_in_2024-25::s000::00"
+          ],
+          [
+            "perth_stadium::s000::02",
+            "perth_stadium::s011::01",
+            "perth_stadium::s011::00",
+            "perth_stadium::s007::00"
+          ],
+          [
+            "perth_stadium::s001::02",
+            "2011_cricket_world_cup::s012::01",
+            "wankhede_stadium::s003::01"
+          ]
+        ],
+        "answer": "The stadium that hosted the first Test of India's 2024–25 tour of Australia, Perth Stadium, has a total capacity of 61,266, including standing room, and can be extended to 65,000 seats for rectangular sports [2].",
+        "route": "multi",
+        "correct3": 1.0
+      }
+    }
+  },
+  "fallback": {
+    "collection": "cricket_fallback_header_match_note",
+    "docs": [
+      "cheteshwar_pujara",
+      "alastair_cook",
+      "rishabh_pant",
+      "travis_head",
+      "marnus_labuschagne",
+      "kevin_pietersen",
+      "mitchell_johnson",
+      "kane_williamson",
+      "suryakumar_yadav"
+    ],
+    "chunks": 306,
+    "stored": 306,
+    "main_count": 4650,
+    "notes_new": 306,
+    "notes_cost": 0.059570849999999995,
+    "sanity": {
+      "Cheteshwar Pujara first-class debut": {
+        "dense": [
+          "cheteshwar_pujara::s000::02",
+          "cheteshwar_pujara::s007::00",
+          "cheteshwar_pujara::s007::03"
+        ],
+        "bm25": [
+          "cheteshwar_pujara::s000::02",
+          "cheteshwar_pujara::s000::03",
+          "cheteshwar_pujara::s002::03"
+        ]
+      },
+      "Rishabh Pant car accident": {
+        "dense": [
+          "rishabh_pant::s009::01",
+          "rishabh_pant::s009::00",
+          "rishabh_pant::s005::00"
+        ],
+        "bm25": [
+          "rishabh_pant::s009::00",
+          "rishabh_pant::s009::01",
+          "rishabh_pant::s007::00"
+        ]
+      },
+      "Kane Williamson captaincy": {
+        "dense": [
+          "kane_williamson::s010::00",
+          "kane_williamson::s006::00",
+          "kane_williamson::s011::00"
+        ],
+        "bm25": [
+          "kane_williamson::s004::00",
+          "kane_williamson::s010::02",
+          "kane_williamson::s010::00"
+        ]
+      },
+      "Kevin Pietersen switch-hit": {
+        "dense": [
+          "kevin_pietersen::s021::00",
+          "kevin_pietersen::s021::01",
+          "kevin_pietersen::s018::00"
+        ],
+        "bm25": [
+          "kevin_pietersen::s021::00",
+          "kevin_pietersen::s021::01",
+          "kevin_pietersen::s014::00"
+        ]
+      },
+      "Travis Head century": {
+        "dense": [
+          "travis_head::s002::00",
+          "travis_head::s001::01",
+          "travis_head::s015::01"
+        ],
+        "bm25": [
+          "travis_head::s002::00",
+          "travis_head::s000::02",
+          "travis_head::s009::06"
+        ]
+      }
+    }
+  },
+  "models": {
+    "laya": {
+      "load_s": 99.37975395895774,
+      "peak_rss_gb": 1.048690688,
+      "device": "mps",
+      "cfg": {
+        "max_len": 512,
+        "head_max_len": 192
+      },
+      "rows": [
+        {
+          "id": "which-01",
+          "question": "In the first Test of India's 2014–15 tour of Australia at Adelaide, how was Murali Vijay out in India's second innings, and for how many?",
+          "passage": "Indian cricket team in Australia in 2014–15 › Test series › 1st Test\n9–13 December 2014 | Australia v India | Adelaide Oval, Adelaide\nShikhar Dhawan were fined 30%.\nAustralia again declared overnight, leaving them 98 overs to bowl out India. Shikhar Dhawan was first to go (9), but shouldn't have been, after replays showed the ball came off his arm. Cheteshwar Pujara (21) was next out when he was caught behind off Nathan Lyon. Murali Vijay and stand-in captain Virat Kohli put on a further 45 as India reached a solid 2/105 at lunch. After lunch the pair extended their partnership to 185, as Kohli brought up his second century of the match and completed 2000 test runs (innings 53), before a devastated Vijay was given lbw for 99. Ajinkya Rahane went in the same over for a duck, caught at bat-pad. Rohit Sharma joined Kohli and they put on 35 before Sharma started a collapse when he went for 6. Wriddhiman Saha was bowled for 13 as Lyon took his second 5-wicket haul of the game. Kohli holed out to Mitchell Marsh eventually for 141 and the remaining 3 wickets fell quickly as Nathan Lyon took 7/152, his maiden 10 wicket match haul and was awarded Man of the Match. India lost their last 8 wickets for only 73 runs, at one stage at a commanding 2/243. Australia took a 1–0 series lead. Australian captain, Michael Clarke injured his right hamstring during the run-chase and admitted that he may",
+          "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::04",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.408,
+          "ms": 334.7813749569468
+        },
+        {
+          "id": "which-01",
+          "question": "In the first Test of India's 2014–15 tour of Australia at Adelaide, how was Murali Vijay out in India's second innings, and for how many?",
+          "passage": "2014 Indian Premier League final › Match › Report\nKolkata Knight Riders defeated Kings XI Punjab by 3 wickets to win the 2014 Indian Premier League in a high intensity final match, which was played in flawless spirit between the top two teams. The defining knock of Manish Pandey ensured Knight Riders' victory and helped them lift their second Indian Premier League trophy in three years.\nEarlier, the Knight Riders won the toss and elected to field. The Kings XI start was not encouraging with Virender Sehwag falling to the extra pace of Umesh Yadav and the promotion of George Bailey to No.3 lasting just two balls. Kings XI made only 32 runs in Powerplay, their lowest in the entire season and also scored only 58 off ten overs. But their innings took a dramatic turn with Wriddhiman Saha and Manan Vohra orchestrating a jaw-dropping turnaround in tempo. Both reached their fifties with Saha needing only 29 balls; they added 129 runs in twelve overs. Though Vohra got out in the 17th over off Piyush Chawla, Saha continued his onslaught to reach his century off 49 balls with a six off Narine and hence finishing the innings with an unbeaten knock of 115 off 55 balls. Saha's century was the first ever century in an IPL final. This helped the Kings XI reach 199/4 in 20 overs with 141 runs coming off last ten overs.\nThe Knight Riders lost Uthappa early to Mitchell Johnson but Pandey lead the way for the Knight Riders",
+          "chunk_id": "2014_indian_premier_league_final::s005::00",
+          "relevant": false,
+          "pick": "A",
+          "confidence": 0.3175,
+          "ms": 341.9570419937372
+        },
+        {
+          "id": "which-05",
+          "question": "In the Gabba Test of India's 2020–21 tour of Australia, how many did Washington Sundar and Shardul Thakur add together in India's first innings?",
+          "passage": "Indian cricket team in Australia in 2020–21 › Test series › 4th Test › Day Three\n15–19 January 2021 | Australia v India | The Gabba, Brisbane\nDay three started with Pujara and Rahane leading India's reply. However, Pujara was dismissed by Hazlewood. Rahane fell soon after and with Mayank Agarwal, playing in middle order and Pant falling in the second session India were in trouble at 6/186. This was followed by the most enterprising partnership of the match with debutant Washington Sundar and Shardul Thakur, playing only his second Test, counter punching. They both scored sixties and with their 123 run partnership made sure India got as close to Australia's total as possible. Australia ended the day on 0/21.",
+          "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s028::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.1516,
+          "ms": 304.0686249732971
+        },
+        {
+          "id": "which-05",
+          "question": "In the Gabba Test of India's 2020–21 tour of Australia, how many did Washington Sundar and Shardul Thakur add together in India's first innings?",
+          "passage": "Steve Smith (cricketer) › International career › 2021–2023: Return to Australia captaincy and form › Tour of Sri Lanka 2022\n113, and had a target of 5 runs, winning the match by 10 wickets. During the second test, Smith scored 145 runs from 272 balls and remained not out. This was his first century since January 2021; a time span of 547 days, as well as being his 28th Test century. During the second innings however, Smith was dismissed for 0 and Australia collapsed, as Sri Lanka beat Australia by an innings and 39 runs. During the second innings, Smith had reviewed the original \"out\" decision by the umpire, only to confirm the umpire's decision. This review was called \"comical\" and \"appalling\" by multiple news sources. Smith finished the test series with 151 runs from 3 innings, an average of 75.50 and with a high score of 145*. He was the second highest run scorer during the series, behind Sri Lankan Dinesh Chandimal.",
+          "chunk_id": "steve_smith_cricketer::s037::01",
+          "relevant": false,
+          "pick": "B",
+          "confidence": 0.0521,
+          "ms": 270.4241669853218
+        },
+        {
+          "id": "twin-03",
+          "question": "In the 2017 IPL final, who bowled Mumbai Indians' last over, and how many did Rising Pune Supergiant need from it?",
+          "passage": "2017 Indian Premier League final › Final › Report\n-run partnership with Smith which ended with Rahane's dismissal in the 12th over. Economical bowling from Mumbai bowlers restricted Pune to 83 for 2 after 15 overs, leaving them 47 to get from the last 5 overs. Pune struck 14 runs in the 16th over to tilt the match in their favour, before Jasprit Bumrah dismissed MS Dhoni in the next over in which he conceded only 3 runs. Pune reached 119 for 3 at the end of 19 overs with a six from Smith off the penultimate ball of the penultimate over, and the equation read 11 runs to get in the final over to be bowled by Johnson. Manoj Tiwary struck a four off the first ball, before he and Smith were dismissed caught in the deep in the next two deliveries. A drop catch off the penultimate ball allowed Pune to get two runs and come within four runs of the target with one ball to go. On the final ball of the innings, Dan Christian ran two and Washington Sundar was run out attempting a third run, resulting in a thrilling one-run victory for Mumbai Indians.",
+          "chunk_id": "2017_indian_premier_league_final::s005::01",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.0983,
+          "ms": 274.8808749602176
+        },
+        {
+          "id": "twin-03",
+          "question": "In the 2017 IPL final, who bowled Mumbai Indians' last over, and how many did Rising Pune Supergiant need from it?",
+          "passage": "2019 Ashes series › Matches › First Test › Aftermath\n1–5 August 2019 | Australia v England | Edgbaston, Birmingham\nwith Australia's performance in preceding tours against India, South Africa and Pakistan, where they \"[jumped] the gun with an emphatic win only to surrender a high-profile series\". In the meantime, Australia played a three-day tour match against Worcestershire, which, as a result of rain washing out most of the final day, was drawn.\nCriticism was directed at umpires Aleem Dar and Joel Wilson, who had 10 of their decisions overturned over the course of the game, with former Australia captain Ricky Ponting suggesting that the ICC's requirements of neutral umpires should be waived in the future, to reduce umpire workload and fatigue. Root, however, noted that players and umpires, both under pressure to perform, make mistakes, and that over-criticism and blame games should be avoided. The idea, which had already surfaced before, had also been opposed by the umpires themselves, who \"[were] happier to accept criticism of their decision-making on a basis of skills, conditions, eyesight – just about anything so long as they are not regarded as biased towards one side\".",
+          "chunk_id": "2019_ashes_series::s009::01",
+          "relevant": false,
+          "pick": "A",
+          "confidence": 0.1189,
+          "ms": 357.8047499759123
+        },
+        {
+          "id": "pron-02",
+          "question": "In the fifth Test of India's 2014 tour of England at The Oval, who put on a last-wicket partnership in India's first innings, and worth how many?",
+          "passage": "Indian cricket team in England in 2014 › Test series › 5th Test\n15–19 August 2014 | India v England | The Oval, London\nMatch: 15–19 August 2014 | India v England\nIndia: 148 (61.1 overs); MS Dhoni 82 (140); Chris Woakes 3/30 (14 overs)\nEngland: 486 (116.3 overs); Joe Root 149* (165); Ishant Sharma 4/96 (30 overs)\nIndia: 94 (29.2 overs); Stuart Binny 25* (28); Chris Jordan 4/18 (4.2 overs)\nResult: England won by an innings and 244 runs\nVenue: The Oval, London\nUmpires: Kumar Dharmasena (SL) and Paul Reiffel (Aus)\nPlayer of the match: Joe Root (Eng)\n- England won the toss and elected to field.\n- The start of day 1 was delayed by 30 minutes due to a wet outfield.\n- Rain on day 3 at 12:50 prompted an early lunch and the start of the afternoon session was delayed until 14:30.\nEngland won the toss and elected to field first, and reduced India to 36/5 before lunch. The visitors were 90/9 by the end of the 45th over, but a 58-run partnership for the 10th wicket from Dhoni and Ishant Sharma brought India to 148 by the end of their innings. Dhoni made more than half of India's runs, scoring 82 before he was caught at long leg off Stuart Broad. England achieved 62 runs for no wicket in the 19 overs that remained of",
+          "chunk_id": "indian_cricket_team_in_england_in_2014::s009::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.2974,
+          "ms": 343.639999977313
+        },
+        {
+          "id": "pron-02",
+          "question": "In the fifth Test of India's 2014 tour of England at The Oval, who put on a last-wicket partnership in India's first innings, and worth how many?",
+          "passage": "2010 Indian Premier League › League stage\n19 April 2010 | Mumbai Indians v Kolkata Knight Riders (H) | Eden Gardens, Kolkata\nRiders (H)\nMumbai Indians: 133/8 (20 overs)\nKolkata Knight Riders (H): 135/1 (17.3 overs)\nMumbai Indians: Saurabh Tiwary 46 (37); Murali Kartik 2/20 (4 overs)\nKolkata Knight Riders (H): Brendon McCullum 57* (56); Rajagopal Sathish 1/11 (2 overs)\nResult: Kolkata won by 9 wickets\nVenue: Eden Gardens, Kolkata\nUmpires: Brian Jerling and Rudi Koertzen\nPlayer of the match: Murali Kartik\n- Mumbai Indians won the toss and elected to bat\n- Royal Challengers Bangalore qualified for playoffs, and Kolkata Knight Riders were eliminated as a result of the match.",
+          "chunk_id": "2010_indian_premier_league::s007::32",
+          "relevant": false,
+          "pick": "A",
+          "confidence": 0.1926,
+          "ms": 255.9323330060579
+        },
+        {
+          "id": "num-01",
+          "question": "What were Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020?",
+          "passage": "Indian cricket team in Australia in 2020–21 › Test series › 1st Test\n17–21 December 2020 (D/N) | India v Australia | Adelaide Oval, Adelaide\nMatch: 17–21 December 2020 (D/N) | India v Australia\nIndia: 244 (93.1 overs); Virat Kohli 74 (180); Mitchell Starc 4/53 (21 overs)\nAustralia: 191 (72.1 overs); Tim Paine 73* (99); Ravichandran Ashwin 4/55 (18 overs)\nIndia: 36 (21.2 overs); Mayank Agarwal 9 (40); Josh Hazlewood 5/8 (5 overs)\nAustralia: 2/93 (21 overs); Joe Burns 51* (63); Ravichandran Ashwin 1/16 (6 overs)\nResult: Australia won by 8 wickets\nVenue: Adelaide Oval, Adelaide\nUmpires: Bruce Oxenford (Aus) and Paul Reiffel (Aus)\nPlayer of the match: Tim Paine (Aus)\n- India won the toss and elected to bat.\n- Cameron Green (Aus) made his Test debut.\n- Mayank Agarwal (Ind) scored his 1,000th run in Tests.\n- Pat Cummins (Aus) took his 150th wicket in Tests.\n- Josh Hazlewood (Aus) took his 200th wicket in Tests.\n- India recorded their lowest team total in Tests and the joint-fourth lowest overall. It was the first instance in Tests when all 11 batsmen, and extras, did not cross single-figures in an innings.\n- World Test Championship points: Australia",
+          "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s010::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.2511,
+          "ms": 347.7894590469077
+        },
+        {
+          "id": "num-01",
+          "question": "What were Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020?",
+          "passage": "Melbourne Cricket Ground › Cricket › Early years\nThe first cricket match at the venue was played on 30 September 1854, while the first inter-colonial cricket match to be played at the MCG was between Victoria and New South Wales in March 1856. Victoria had played Tasmania (then known as Van Diemen's Land) as early as 1851 but the Victorians had included two professionals in the 1853 team upsetting the Tasmanians and causing a cooling of relations between the two colonies. To replace the disgruntled Tasmanians the Melbourne Cricket Club issued a challenge to play any team in the colonies for £1000. Sydney publican William Tunks accepted the challenge on behalf of New South Wales although the Victorians were criticised for playing for money. Ethics aside, New South Wales could not afford the £1000 and only managed to travel to Melbourne after half the team's travel cost of £181 was put up by Sydney barrister Richard Driver.\nThe game eventually got under way on 26 March 1856. The Victorians, stung by criticism over the £1000 stake, argued over just about everything; the toss, who should bat first, whether different pitches should be used for the different innings and even what the umpires should wear.\nVictoria won the toss but New South Wales captain George Gilbert successfully argued that the visiting team should decide who bats first. The MCG was a grassless desert and Gilbert, considering players fielded without boots, promptly sent Victoria into bat. Needing only 16 to win in the final innings, New South Wales collapsed to be 5",
+          "chunk_id": "melbourne_cricket_ground::s003::00",
+          "relevant": false,
+          "pick": "B",
+          "confidence": 0.0531,
+          "ms": 303.4635410294868
+        },
+        {
+          "id": "num-05",
+          "question": "What total did Sunrisers Hyderabad make batting first in the 2016 IPL final?",
+          "passage": "2016 Indian Premier League › Playoffs › Final\n29 May 2016; 20:00 (D/N) | Sunrisers Hyderabad v Royal Challengers Bangalore | M. Chinnaswamy Stadium, Bangalore\nMatch: 29 May; 20:00 (D/N) | Sunrisers Hyderabad v Royal Challengers Bangalore\nSunrisers Hyderabad: 208/7 (20 overs)\nRoyal Challengers Bangalore: 200/7 (20 overs)\nSunrisers Hyderabad: David Warner 69 (38); Chris Jordan 3/45 (4 overs)\nRoyal Challengers Bangalore: Chris Gayle 76 (38); Ben Cutting 2/35 (4 overs)\nResult: Sunrisers Hyderabad won by 8 runs\nVenue: M. Chinnaswamy Stadium, Bangalore\nAttendance: 31,468\nUmpires: Kumar Dharmasena (Sri Lanka) and Bruce Oxenford (Australia)\nPlayer of the match: Ben Cutting (Sunrisers Hyderabad)\n- Sunrisers Hyderabad won the toss and elected to bat.\n- This was the maiden IPL title for Sunrisers Hyderabad and the 2nd IPL Title for an Hyderabadi Franchise.",
+          "chunk_id": "2016_indian_premier_league::s014::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.3585,
+          "ms": 278.5138330073096
+        },
+        {
+          "id": "num-05",
+          "question": "What total did Sunrisers Hyderabad make batting first in the 2016 IPL final?",
+          "passage": "Shubman Gill › International career\nIn December 2016, Gill was part of the Indian U-19 team for the 2016 ACC Under-19 Asia Cup, where he emerged as the second-highest run-scorer of the tournament, behind teammate Himanshu Rana. India won the tournament by defeating Sri Lanka U-19 in the final, with Gill scoring 70 runs off 92 balls. In February 2017, he played a key role in the team's series win against England U-19. In December 2017, he was named vice captain of India's squad for the 2018 Under-19 Cricket World Cup. In the semifinal against Pakistan U-19, Gill scored 102* runs off 94 balls, earning him the title of Player of the Match. India defeated Australia U-19 in the final, securing their 4th title. He had a successful tournament, leading the team in runs scored with 372 runs and was also named the player of the tournament. Following India's matches in the tournament, the International Cricket Council (ICC) named Gill as the rising star of the squad.\nIn January 2019, Gill was selected for India's squad for the limited-overs series against New Zealand. On 31 January 2019, he made his One Day International (ODI) debut for India, playing in the fourth ODI match of the series against New Zealand at Seddon Park in Hamilton. In August 2019, Gill set a record as the youngest Indian batsman to score a double century in a first-class match. At the age of",
+          "chunk_id": "shubman_gill::s003::00",
+          "relevant": false,
+          "pick": "A",
+          "confidence": 0.0949,
+          "ms": 290.6320419861004
+        },
+        {
+          "id": "multi-04",
+          "question": "In the 2017 Champions Trophy final, on what score was Fakhar Zaman reprieved by a no-ball, and how many did he go on to make?",
+          "passage": "2017 Champions Trophy › Knockout stage › Final\n18 June 2017; 10:30 | Pakistan v India | The Oval, London\nMatch: 18 June 2017; 10:30 | Pakistan v India\nPakistan: 338/4 (50 overs)\nIndia: 158 (30.3 overs)\nPakistan: Fakhar Zaman 114 (106); Kedar Jadhav 1/27 (3 overs)\nIndia: Hardik Pandya 76 (43); Mohammad Amir 3/16 (6 overs)\nResult: Pakistan won by 180 runs\nVenue: The Oval, London\nUmpires: Marais Erasmus (SA) and Richard Kettleborough (Eng)\nPlayer of the match: Fakhar Zaman (Pak)\n- India won the toss and elected to field.\n- Fakhar Zaman (Pak) scored his first century in ODIs.\n- Pakistan won the ICC Champions Trophy for the first time.\n- Pakistan's total was their highest in any ICC tournament final.\n- The margin of victory was the largest in any ICC ODI tournament final in terms of runs.",
+          "chunk_id": "2017_champions_trophy::s013::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.3741,
+          "ms": 266.851874999702
+        },
+        {
+          "id": "multi-04",
+          "question": "In the 2017 Champions Trophy final, on what score was Fakhar Zaman reprieved by a no-ball, and how many did he go on to make?",
+          "passage": "2024 Indian Premier League final › Match › Match officials\nFinal; 26 May 2024; 19:30 (N) | Sunrisers Hyderabad v Kolkata Knight Riders | M. A. Chidambaram Stadium, Chennai\n- On-field umpires: Jayaraman Madanagopal (Ind) and Nitin Menon (Ind)\n- Third umpire: Michael Gough (Eng)\n- Reserve umpire: Virender Sharma (Ind)\n- Match referee: Manu Nayyar (Ind)\n- Toss: Sunrisers Hyderabad won the toss and elected to bat.",
+          "chunk_id": "2024_indian_premier_league_final::s003::00",
+          "relevant": false,
+          "pick": "A",
+          "confidence": 0.0797,
+          "ms": 195.9087909781374
+        },
+        {
+          "id": "rule-01",
+          "question": "In a Twenty20 match, how is the winner decided if both teams finish with the same score?",
+          "passage": "2009 World Twenty20 › Rules and regulations\nDuring the group stage and Super Eight, points are awarded to the teams as follows:\nResult | Points\nWin | 2 points\nNo result | 1 point\nLoss | 0 points\nIn case of a tie (i.e. both teams score the same number of runs at the end of their respective innings), a Super Over decides the winner. This applies in all stages of the tournament.\nWithin each group (both group stage and Super Eight stage), teams are ranked against each other based on the following criteria:\n- Higher number of points\n- If equal, higher number of wins\n- If still equal, higher net run rate\n- If still equal, lower bowling strike rate\n- If still equal, result of head-to-head meeting.",
+          "chunk_id": "2009_world_twenty20::s004::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.2607,
+          "ms": 225.84741603350267
+        },
+        {
+          "id": "rule-01",
+          "question": "In a Twenty20 match, how is the winner decided if both teams finish with the same score?",
+          "passage": "2017 Indian Premier League › League stage › Match results\n10 April (D/N) 2017 | Royal Challengers Bangalore v Kings XI Punjab (H) | Holkar Stadium, Indore\n11 April (D/N) 2017 | Delhi Daredevils v Rising Pune Supergiant (H) | Maharashtra Cricket Association Stadium, Pune\n); Varun Aaron 2/21 (4 overs)\nKings XI Punjab (H): Hashim Amla 58* (38); Tymal Mills 1/22 (2 overs)\nResult: Kings XI Punjab won by 8 wickets\nVenue: Holkar Stadium, Indore\nUmpires: Anil Chaudhary (India) and Chettithody Shamshuddin (India)\nPlayer of the match: Axar Patel (Kings XI Punjab)\n- Royal Challengers Bangalore won the toss and elected to bat.\nMatch: 11 April (D/N) | Delhi Daredevils v Rising Pune Supergiant (H)\nDelhi Daredevils: 205/4 (20 overs)\nRising Pune Supergiant (H): 108 (16.1 overs)\nDelhi Daredevils: Sanju Samson 102 (63); Imran Tahir 1/24 (4 overs)\nRising Pune Supergiant (H): Mayank Agarwal 20 (18); Amit Mishra 3/11 (3 overs)\nResult: Delhi Daredevils won by 97 runs\nVenue: Maharashtra Cricket Association Stadium, Pune\nUmpires: Anil Dandekar (India) and Sundaram Ravi (India)\nPlayer of the match: Sanju Samson (Delhi Daredevils)\n- Rising Pune Supergiant won the toss and elected to field.\n- All 10 RPS batsmen were out caught, the first time this occurred in the IPL\nMatch: 12",
+          "chunk_id": "2017_indian_premier_league::s007::05",
+          "relevant": false,
+          "pick": "A",
+          "confidence": 0.048,
+          "ms": 342.581250006333
+        },
+        {
+          "id": "fame-02",
+          "question": "Which team won the first IPL season in 2008?",
+          "passage": "2008 Indian Premier League\nDates: 18 April 2008 (2008-04-18) – 1 June 2008 (2008-06-01)\nAdministrator: Board of Control for Cricket in India\nCricket format: Twenty20\nTournament format(s): Double round-robin and knockout\nChampions: Rajasthan Royals (1st title)\nRunners-up: Chennai Super Kings\nParticipants: 8\nMatches: 59\nPlayer of the series: Shane Watson (RR)\nMost runs: Shaun Marsh (KXIP) (616)\nMost wickets: Sohail Tanvir (RR) (22)\nOfficial website: www.iplt20.com\nThe 2008 Indian Premier League season was the inaugural season of the Indian Premier League, established by the BCCI in 2007. The season commenced on 18 April 2008 with the final match was held on 1 June 2008. The competition started with a double round robin league stage, in which each of the 8 teams played a home match and an away match against every other team. These matches were followed by two semi-finals and a final.\nIn a match which went down to the last ball, Rajasthan Royals defeated Chennai Super Kings in the final to win the title, with Yusuf Pathan named the player of the match in the Finals and Shane Watson adjudged the player of the tournament. Sohail Tanvir won the purple cap for being the top wicket-taking bowler while Shaun Marsh won the orange cap for leading run-scorer in the tournament. Shreevats Goswami was awarded the best under-",
+          "chunk_id": "2008_indian_premier_league::s000::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.1432,
+          "ms": 312.0975420461036
+        },
+        {
+          "id": "fame-02",
+          "question": "Which team won the first IPL season in 2008?",
+          "passage": "Stuart Broad › International career › 2009–10: South Africa, Bangladesh, T20 World Cup, Australia and Pakistan\nwith Graham Onions batting out the final over to save the test.\nIn the second test Broad showed good form with the ball with 2–44 in the first innings but then taking 4–43 in the second dismissing Jacques Kallis, AB de Villiers and JP Duminy all within 3 overs. He took the wicket of Mark Boucher the next day to leave Graeme Swann to dismiss the rest of the South African line up. This gave England an innings and 98 run victory. After this test Broad went up to 7th in the ICC Test bowling rankings, the highest in his career. During this tour he declined to play in the IPL with James Anderson on the grounds he wanted to focus on his Test cricket first, and feared injury in the IPL.\nAfter South Africa, England toured Bangladesh, playing three ODIs and two Test matches. Injuries to Anderson, Onions and Sidebottom meant that Broad was the leader of a relatively inexperienced pace attack. However, an injury before the Test series meant that he wasn't fully fit and was outbowled by Tim Bresnan and debutant Steven Finn.\nEngland then travelled to the West Indies for the 2010 ICC World Twenty20. England won the tournament, beating Australia in the final. Broad won the man of the match award against Sri Lanka in the semi-final, and overall took 8 wickets at an average of 17.50.\nBack in England, Broad was rested for the home series against Bangladesh before returning to the side for a 5-",
+          "chunk_id": "stuart_broad::s008::01",
+          "relevant": false,
+          "pick": "B",
+          "confidence": 0.0555,
+          "ms": 302.0126670016907
+        },
+        {
+          "id": "chain-01",
+          "question": "What are the two ends of the ground that hosted the 2023 World Test Championship final called?",
+          "passage": "2023 World Test Championship final\n7–11 June 2023 | Australia v India | The Oval, London\nEvent: 2021–2023 ICC World Test Championship\nAustralia: Australia India 469 296 & & 270/8d 234\nAustralia\n469\n&\n270/8d\nAustralia won by 209 runs\nDate: 7–11 June 2023\nVenue: The Oval, London\nPlayer of the match: Travis Head (Aus)\nUmpires: Chris Gaffaney (NZ) Richard Illingworth (Eng)\n← 2021 2025 →\nThe final of the 2021–2023 ICC World Test Championship, a Test cricket match, was played from 7 to 11 June 2023 at The Oval, London, between Australia and India. Australia won the match by 209 runs to win the second edition of the ICC World Test Championship. This marked Australia's maiden win of the Championship. As winners, they received a cash prize of US$1.6 million, while the Indian team received a cash prize of US$800,000. The victory in the final established Australia as the first team to have won all ICC tournaments across all three cricket formats.",
+          "chunk_id": "2023_world_test_championship_final::s000::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.0956,
+          "ms": 260.963166016154
+        },
+        {
+          "id": "chain-01",
+          "question": "What are the two ends of the ground that hosted the 2023 World Test Championship final called?",
+          "passage": "2024 Indian Premier League › Opening ceremony\nExternal videos\nIPL 2024 – Opening ceremony on JioCinema (subscription required).\nIn January 2024, the BCCI invited bids for staging the opening ceremony. The following month, Kasi Viswanathan, the CEO of Chennai Super Kings stated that the opening ceremony would be held in Chennai by virtue of being the home of the defending champions. The opening ceremony took place on 22 March at the M. A. Chidambaram Stadium in Chennai and was followed by the opening match between Chennai Super Kings and Royal Challengers Bengaluru.\nActors Tiger Shroff and Akshay Kumar promoted and performed for a song sequence from their film Bade Miyan Chote Miyan. Singer Sonu Nigam delivered a rendition of \"Vande Mataram\", followed by A. R. Rahman and Mohit Chauhan's joint-performance of \"Maa Tujhe Salaam\", and solo performances of \"Jai Ho\" and \"Masakali\" respectively. Singer Neeti Mohan also performed at the event.",
+          "chunk_id": "2024_indian_premier_league::s009::00",
+          "relevant": false,
+          "pick": "A",
+          "confidence": 0.3855,
+          "ms": 255.35920896800235
+        }
+      ],
+      "ms_p50": 296.32235449389555,
+      "ms_max": 357.8047499759123,
+      "smoke_hits": 10,
+      "pairs": 20,
+      "picks": {
+        "A": 17,
+        "B": 3,
+        "C": 0
+      },
+      "download_gb": 1.6,
+      "note": "peak_rss_gb is process RSS; MPS memory may be partly outside it"
+    },
+    "kev": {
+      "rows": [
+        {
+          "id": "which-01",
+          "question": "In the first Test of India's 2014–15 tour of Australia at Adelaide, how was Murali Vijay out in India's second innings, and for how many?",
+          "passage": "Indian cricket team in Australia in 2014–15 › Test series › 1st Test\n9–13 December 2014 | Australia v India | Adelaide Oval, Adelaide\nShikhar Dhawan were fined 30%.\nAustralia again declared overnight, leaving them 98 overs to bowl out India. Shikhar Dhawan was first to go (9), but shouldn't have been, after replays showed the ball came off his arm. Cheteshwar Pujara (21) was next out when he was caught behind off Nathan Lyon. Murali Vijay and stand-in captain Virat Kohli put on a further 45 as India reached a solid 2/105 at lunch. After lunch the pair extended their partnership to 185, as Kohli brought up his second century of the match and completed 2000 test runs (innings 53), before a devastated Vijay was given lbw for 99. Ajinkya Rahane went in the same over for a duck, caught at bat-pad. Rohit Sharma joined Kohli and they put on 35 before Sharma started a collapse when he went for 6. Wriddhiman Saha was bowled for 13 as Lyon took his second 5-wicket haul of the game. Kohli holed out to Mitchell Marsh eventually for 141 and the remaining 3 wickets fell quickly as Nathan Lyon took 7/152, his maiden 10 wicket match haul and was awarded Man of the Match. India lost their last 8 wickets for only 73 runs, at one stage at a commanding 2/243. Australia took a 1–0 series lead. Australian captain, Michael Clarke injured his right hamstring during the run-chase and admitted that he may",
+          "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::04",
+          "relevant": true,
+          "pick": "B",
+          "confidence": 0.1574,
+          "ms": 127.90175003465265
+        },
+        {
+          "id": "which-01",
+          "question": "In the first Test of India's 2014–15 tour of Australia at Adelaide, how was Murali Vijay out in India's second innings, and for how many?",
+          "passage": "2014 Indian Premier League final › Match › Report\nKolkata Knight Riders defeated Kings XI Punjab by 3 wickets to win the 2014 Indian Premier League in a high intensity final match, which was played in flawless spirit between the top two teams. The defining knock of Manish Pandey ensured Knight Riders' victory and helped them lift their second Indian Premier League trophy in three years.\nEarlier, the Knight Riders won the toss and elected to field. The Kings XI start was not encouraging with Virender Sehwag falling to the extra pace of Umesh Yadav and the promotion of George Bailey to No.3 lasting just two balls. Kings XI made only 32 runs in Powerplay, their lowest in the entire season and also scored only 58 off ten overs. But their innings took a dramatic turn with Wriddhiman Saha and Manan Vohra orchestrating a jaw-dropping turnaround in tempo. Both reached their fifties with Saha needing only 29 balls; they added 129 runs in twelve overs. Though Vohra got out in the 17th over off Piyush Chawla, Saha continued his onslaught to reach his century off 49 balls with a six off Narine and hence finishing the innings with an unbeaten knock of 115 off 55 balls. Saha's century was the first ever century in an IPL final. This helped the Kings XI reach 199/4 in 20 overs with 141 runs coming off last ten overs.\nThe Knight Riders lost Uthappa early to Mitchell Johnson but Pandey lead the way for the Knight Riders",
+          "chunk_id": "2014_indian_premier_league_final::s005::00",
+          "relevant": false,
+          "pick": "C",
+          "confidence": 0.2877,
+          "ms": 448.78187496215105
+        },
+        {
+          "id": "which-05",
+          "question": "In the Gabba Test of India's 2020–21 tour of Australia, how many did Washington Sundar and Shardul Thakur add together in India's first innings?",
+          "passage": "Indian cricket team in Australia in 2020–21 › Test series › 4th Test › Day Three\n15–19 January 2021 | Australia v India | The Gabba, Brisbane\nDay three started with Pujara and Rahane leading India's reply. However, Pujara was dismissed by Hazlewood. Rahane fell soon after and with Mayank Agarwal, playing in middle order and Pant falling in the second session India were in trouble at 6/186. This was followed by the most enterprising partnership of the match with debutant Washington Sundar and Shardul Thakur, playing only his second Test, counter punching. They both scored sixties and with their 123 run partnership made sure India got as close to Australia's total as possible. Australia ended the day on 0/21.",
+          "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s028::00",
+          "relevant": true,
+          "pick": "B",
+          "confidence": 0.1479,
+          "ms": 298.3525420422666
+        },
+        {
+          "id": "which-05",
+          "question": "In the Gabba Test of India's 2020–21 tour of Australia, how many did Washington Sundar and Shardul Thakur add together in India's first innings?",
+          "passage": "Steve Smith (cricketer) › International career › 2021–2023: Return to Australia captaincy and form › Tour of Sri Lanka 2022\n113, and had a target of 5 runs, winning the match by 10 wickets. During the second test, Smith scored 145 runs from 272 balls and remained not out. This was his first century since January 2021; a time span of 547 days, as well as being his 28th Test century. During the second innings however, Smith was dismissed for 0 and Australia collapsed, as Sri Lanka beat Australia by an innings and 39 runs. During the second innings, Smith had reviewed the original \"out\" decision by the umpire, only to confirm the umpire's decision. This review was called \"comical\" and \"appalling\" by multiple news sources. Smith finished the test series with 151 runs from 3 innings, an average of 75.50 and with a high score of 145*. He was the second highest run scorer during the series, behind Sri Lankan Dinesh Chandimal.",
+          "chunk_id": "steve_smith_cricketer::s037::01",
+          "relevant": false,
+          "pick": "C",
+          "confidence": 0.1487,
+          "ms": 362.4848329927772
+        },
+        {
+          "id": "twin-03",
+          "question": "In the 2017 IPL final, who bowled Mumbai Indians' last over, and how many did Rising Pune Supergiant need from it?",
+          "passage": "2017 Indian Premier League final › Final › Report\n-run partnership with Smith which ended with Rahane's dismissal in the 12th over. Economical bowling from Mumbai bowlers restricted Pune to 83 for 2 after 15 overs, leaving them 47 to get from the last 5 overs. Pune struck 14 runs in the 16th over to tilt the match in their favour, before Jasprit Bumrah dismissed MS Dhoni in the next over in which he conceded only 3 runs. Pune reached 119 for 3 at the end of 19 overs with a six from Smith off the penultimate ball of the penultimate over, and the equation read 11 runs to get in the final over to be bowled by Johnson. Manoj Tiwary struck a four off the first ball, before he and Smith were dismissed caught in the deep in the next two deliveries. A drop catch off the penultimate ball allowed Pune to get two runs and come within four runs of the target with one ball to go. On the final ball of the innings, Dan Christian ran two and Washington Sundar was run out attempting a third run, resulting in a thrilling one-run victory for Mumbai Indians.",
+          "chunk_id": "2017_indian_premier_league_final::s005::01",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.2154,
+          "ms": 369.67208300484344
+        },
+        {
+          "id": "twin-03",
+          "question": "In the 2017 IPL final, who bowled Mumbai Indians' last over, and how many did Rising Pune Supergiant need from it?",
+          "passage": "2019 Ashes series › Matches › First Test › Aftermath\n1–5 August 2019 | Australia v England | Edgbaston, Birmingham\nwith Australia's performance in preceding tours against India, South Africa and Pakistan, where they \"[jumped] the gun with an emphatic win only to surrender a high-profile series\". In the meantime, Australia played a three-day tour match against Worcestershire, which, as a result of rain washing out most of the final day, was drawn.\nCriticism was directed at umpires Aleem Dar and Joel Wilson, who had 10 of their decisions overturned over the course of the game, with former Australia captain Ricky Ponting suggesting that the ICC's requirements of neutral umpires should be waived in the future, to reduce umpire workload and fatigue. Root, however, noted that players and umpires, both under pressure to perform, make mistakes, and that over-criticism and blame games should be avoided. The idea, which had already surfaced before, had also been opposed by the umpires themselves, who \"[were] happier to accept criticism of their decision-making on a basis of skills, conditions, eyesight – just about anything so long as they are not regarded as biased towards one side\".",
+          "chunk_id": "2019_ashes_series::s009::01",
+          "relevant": false,
+          "pick": "C",
+          "confidence": 0.357,
+          "ms": 366.54558399459347
+        },
+        {
+          "id": "pron-02",
+          "question": "In the fifth Test of India's 2014 tour of England at The Oval, who put on a last-wicket partnership in India's first innings, and worth how many?",
+          "passage": "Indian cricket team in England in 2014 › Test series › 5th Test\n15–19 August 2014 | India v England | The Oval, London\nMatch: 15–19 August 2014 | India v England\nIndia: 148 (61.1 overs); MS Dhoni 82 (140); Chris Woakes 3/30 (14 overs)\nEngland: 486 (116.3 overs); Joe Root 149* (165); Ishant Sharma 4/96 (30 overs)\nIndia: 94 (29.2 overs); Stuart Binny 25* (28); Chris Jordan 4/18 (4.2 overs)\nResult: England won by an innings and 244 runs\nVenue: The Oval, London\nUmpires: Kumar Dharmasena (SL) and Paul Reiffel (Aus)\nPlayer of the match: Joe Root (Eng)\n- England won the toss and elected to field.\n- The start of day 1 was delayed by 30 minutes due to a wet outfield.\n- Rain on day 3 at 12:50 prompted an early lunch and the start of the afternoon session was delayed until 14:30.\nEngland won the toss and elected to field first, and reduced India to 36/5 before lunch. The visitors were 90/9 by the end of the 45th over, but a 58-run partnership for the 10th wicket from Dhoni and Ishant Sharma brought India to 148 by the end of their innings. Dhoni made more than half of India's runs, scoring 82 before he was caught at long leg off Stuart Broad. England achieved 62 runs for no wicket in the 19 overs that remained of",
+          "chunk_id": "indian_cricket_team_in_england_in_2014::s009::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.1303,
+          "ms": 509.2704579583369
+        },
+        {
+          "id": "pron-02",
+          "question": "In the fifth Test of India's 2014 tour of England at The Oval, who put on a last-wicket partnership in India's first innings, and worth how many?",
+          "passage": "2010 Indian Premier League › League stage\n19 April 2010 | Mumbai Indians v Kolkata Knight Riders (H) | Eden Gardens, Kolkata\nRiders (H)\nMumbai Indians: 133/8 (20 overs)\nKolkata Knight Riders (H): 135/1 (17.3 overs)\nMumbai Indians: Saurabh Tiwary 46 (37); Murali Kartik 2/20 (4 overs)\nKolkata Knight Riders (H): Brendon McCullum 57* (56); Rajagopal Sathish 1/11 (2 overs)\nResult: Kolkata won by 9 wickets\nVenue: Eden Gardens, Kolkata\nUmpires: Brian Jerling and Rudi Koertzen\nPlayer of the match: Murali Kartik\n- Mumbai Indians won the toss and elected to bat\n- Royal Challengers Bangalore qualified for playoffs, and Kolkata Knight Riders were eliminated as a result of the match.",
+          "chunk_id": "2010_indian_premier_league::s007::32",
+          "relevant": false,
+          "pick": "C",
+          "confidence": 0.2309,
+          "ms": 320.9823750075884
+        },
+        {
+          "id": "num-01",
+          "question": "What were Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020?",
+          "passage": "Indian cricket team in Australia in 2020–21 › Test series › 1st Test\n17–21 December 2020 (D/N) | India v Australia | Adelaide Oval, Adelaide\nMatch: 17–21 December 2020 (D/N) | India v Australia\nIndia: 244 (93.1 overs); Virat Kohli 74 (180); Mitchell Starc 4/53 (21 overs)\nAustralia: 191 (72.1 overs); Tim Paine 73* (99); Ravichandran Ashwin 4/55 (18 overs)\nIndia: 36 (21.2 overs); Mayank Agarwal 9 (40); Josh Hazlewood 5/8 (5 overs)\nAustralia: 2/93 (21 overs); Joe Burns 51* (63); Ravichandran Ashwin 1/16 (6 overs)\nResult: Australia won by 8 wickets\nVenue: Adelaide Oval, Adelaide\nUmpires: Bruce Oxenford (Aus) and Paul Reiffel (Aus)\nPlayer of the match: Tim Paine (Aus)\n- India won the toss and elected to bat.\n- Cameron Green (Aus) made his Test debut.\n- Mayank Agarwal (Ind) scored his 1,000th run in Tests.\n- Pat Cummins (Aus) took his 150th wicket in Tests.\n- Josh Hazlewood (Aus) took his 200th wicket in Tests.\n- India recorded their lowest team total in Tests and the joint-fourth lowest overall. It was the first instance in Tests when all 11 batsmen, and extras, did not cross single-figures in an innings.\n- World Test Championship points: Australia",
+          "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s010::00",
+          "relevant": true,
+          "pick": "B",
+          "confidence": 0.2472,
+          "ms": 468.9316659932956
+        },
+        {
+          "id": "num-01",
+          "question": "What were Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020?",
+          "passage": "Melbourne Cricket Ground › Cricket › Early years\nThe first cricket match at the venue was played on 30 September 1854, while the first inter-colonial cricket match to be played at the MCG was between Victoria and New South Wales in March 1856. Victoria had played Tasmania (then known as Van Diemen's Land) as early as 1851 but the Victorians had included two professionals in the 1853 team upsetting the Tasmanians and causing a cooling of relations between the two colonies. To replace the disgruntled Tasmanians the Melbourne Cricket Club issued a challenge to play any team in the colonies for £1000. Sydney publican William Tunks accepted the challenge on behalf of New South Wales although the Victorians were criticised for playing for money. Ethics aside, New South Wales could not afford the £1000 and only managed to travel to Melbourne after half the team's travel cost of £181 was put up by Sydney barrister Richard Driver.\nThe game eventually got under way on 26 March 1856. The Victorians, stung by criticism over the £1000 stake, argued over just about everything; the toss, who should bat first, whether different pitches should be used for the different innings and even what the umpires should wear.\nVictoria won the toss but New South Wales captain George Gilbert successfully argued that the visiting team should decide who bats first. The MCG was a grassless desert and Gilbert, considering players fielded without boots, promptly sent Victoria into bat. Needing only 16 to win in the final innings, New South Wales collapsed to be 5",
+          "chunk_id": "melbourne_cricket_ground::s003::00",
+          "relevant": false,
+          "pick": "C",
+          "confidence": 0.271,
+          "ms": 721.091458981391
+        },
+        {
+          "id": "num-05",
+          "question": "What total did Sunrisers Hyderabad make batting first in the 2016 IPL final?",
+          "passage": "2016 Indian Premier League › Playoffs › Final\n29 May 2016; 20:00 (D/N) | Sunrisers Hyderabad v Royal Challengers Bangalore | M. Chinnaswamy Stadium, Bangalore\nMatch: 29 May; 20:00 (D/N) | Sunrisers Hyderabad v Royal Challengers Bangalore\nSunrisers Hyderabad: 208/7 (20 overs)\nRoyal Challengers Bangalore: 200/7 (20 overs)\nSunrisers Hyderabad: David Warner 69 (38); Chris Jordan 3/45 (4 overs)\nRoyal Challengers Bangalore: Chris Gayle 76 (38); Ben Cutting 2/35 (4 overs)\nResult: Sunrisers Hyderabad won by 8 runs\nVenue: M. Chinnaswamy Stadium, Bangalore\nAttendance: 31,468\nUmpires: Kumar Dharmasena (Sri Lanka) and Bruce Oxenford (Australia)\nPlayer of the match: Ben Cutting (Sunrisers Hyderabad)\n- Sunrisers Hyderabad won the toss and elected to bat.\n- This was the maiden IPL title for Sunrisers Hyderabad and the 2nd IPL Title for an Hyderabadi Franchise.",
+          "chunk_id": "2016_indian_premier_league::s014::00",
+          "relevant": true,
+          "pick": "B",
+          "confidence": 0.1391,
+          "ms": 364.6496669971384
+        },
+        {
+          "id": "num-05",
+          "question": "What total did Sunrisers Hyderabad make batting first in the 2016 IPL final?",
+          "passage": "Shubman Gill › International career\nIn December 2016, Gill was part of the Indian U-19 team for the 2016 ACC Under-19 Asia Cup, where he emerged as the second-highest run-scorer of the tournament, behind teammate Himanshu Rana. India won the tournament by defeating Sri Lanka U-19 in the final, with Gill scoring 70 runs off 92 balls. In February 2017, he played a key role in the team's series win against England U-19. In December 2017, he was named vice captain of India's squad for the 2018 Under-19 Cricket World Cup. In the semifinal against Pakistan U-19, Gill scored 102* runs off 94 balls, earning him the title of Player of the Match. India defeated Australia U-19 in the final, securing their 4th title. He had a successful tournament, leading the team in runs scored with 372 runs and was also named the player of the tournament. Following India's matches in the tournament, the International Cricket Council (ICC) named Gill as the rising star of the squad.\nIn January 2019, Gill was selected for India's squad for the limited-overs series against New Zealand. On 31 January 2019, he made his One Day International (ODI) debut for India, playing in the fourth ODI match of the series against New Zealand at Seddon Park in Hamilton. In August 2019, Gill set a record as the youngest Indian batsman to score a double century in a first-class match. At the age of",
+          "chunk_id": "shubman_gill::s003::00",
+          "relevant": false,
+          "pick": "C",
+          "confidence": 0.3623,
+          "ms": 442.1907089999877
+        },
+        {
+          "id": "multi-04",
+          "question": "In the 2017 Champions Trophy final, on what score was Fakhar Zaman reprieved by a no-ball, and how many did he go on to make?",
+          "passage": "2017 Champions Trophy › Knockout stage › Final\n18 June 2017; 10:30 | Pakistan v India | The Oval, London\nMatch: 18 June 2017; 10:30 | Pakistan v India\nPakistan: 338/4 (50 overs)\nIndia: 158 (30.3 overs)\nPakistan: Fakhar Zaman 114 (106); Kedar Jadhav 1/27 (3 overs)\nIndia: Hardik Pandya 76 (43); Mohammad Amir 3/16 (6 overs)\nResult: Pakistan won by 180 runs\nVenue: The Oval, London\nUmpires: Marais Erasmus (SA) and Richard Kettleborough (Eng)\nPlayer of the match: Fakhar Zaman (Pak)\n- India won the toss and elected to field.\n- Fakhar Zaman (Pak) scored his first century in ODIs.\n- Pakistan won the ICC Champions Trophy for the first time.\n- Pakistan's total was their highest in any ICC tournament final.\n- The margin of victory was the largest in any ICC ODI tournament final in terms of runs.",
+          "chunk_id": "2017_champions_trophy::s013::00",
+          "relevant": true,
+          "pick": "B",
+          "confidence": 0.1793,
+          "ms": 394.203917006962
+        },
+        {
+          "id": "multi-04",
+          "question": "In the 2017 Champions Trophy final, on what score was Fakhar Zaman reprieved by a no-ball, and how many did he go on to make?",
+          "passage": "2024 Indian Premier League final › Match › Match officials\nFinal; 26 May 2024; 19:30 (N) | Sunrisers Hyderabad v Kolkata Knight Riders | M. A. Chidambaram Stadium, Chennai\n- On-field umpires: Jayaraman Madanagopal (Ind) and Nitin Menon (Ind)\n- Third umpire: Michael Gough (Eng)\n- Reserve umpire: Virender Sharma (Ind)\n- Match referee: Manu Nayyar (Ind)\n- Toss: Sunrisers Hyderabad won the toss and elected to bat.",
+          "chunk_id": "2024_indian_premier_league_final::s003::00",
+          "relevant": false,
+          "pick": "C",
+          "confidence": 0.3858,
+          "ms": 264.2154999775812
+        },
+        {
+          "id": "rule-01",
+          "question": "In a Twenty20 match, how is the winner decided if both teams finish with the same score?",
+          "passage": "2009 World Twenty20 › Rules and regulations\nDuring the group stage and Super Eight, points are awarded to the teams as follows:\nResult | Points\nWin | 2 points\nNo result | 1 point\nLoss | 0 points\nIn case of a tie (i.e. both teams score the same number of runs at the end of their respective innings), a Super Over decides the winner. This applies in all stages of the tournament.\nWithin each group (both group stage and Super Eight stage), teams are ranked against each other based on the following criteria:\n- Higher number of points\n- If equal, higher number of wins\n- If still equal, higher net run rate\n- If still equal, lower bowling strike rate\n- If still equal, result of head-to-head meeting.",
+          "chunk_id": "2009_world_twenty20::s004::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.5094,
+          "ms": 281.15508396876976
+        },
+        {
+          "id": "rule-01",
+          "question": "In a Twenty20 match, how is the winner decided if both teams finish with the same score?",
+          "passage": "2017 Indian Premier League › League stage › Match results\n10 April (D/N) 2017 | Royal Challengers Bangalore v Kings XI Punjab (H) | Holkar Stadium, Indore\n11 April (D/N) 2017 | Delhi Daredevils v Rising Pune Supergiant (H) | Maharashtra Cricket Association Stadium, Pune\n); Varun Aaron 2/21 (4 overs)\nKings XI Punjab (H): Hashim Amla 58* (38); Tymal Mills 1/22 (2 overs)\nResult: Kings XI Punjab won by 8 wickets\nVenue: Holkar Stadium, Indore\nUmpires: Anil Chaudhary (India) and Chettithody Shamshuddin (India)\nPlayer of the match: Axar Patel (Kings XI Punjab)\n- Royal Challengers Bangalore won the toss and elected to bat.\nMatch: 11 April (D/N) | Delhi Daredevils v Rising Pune Supergiant (H)\nDelhi Daredevils: 205/4 (20 overs)\nRising Pune Supergiant (H): 108 (16.1 overs)\nDelhi Daredevils: Sanju Samson 102 (63); Imran Tahir 1/24 (4 overs)\nRising Pune Supergiant (H): Mayank Agarwal 20 (18); Amit Mishra 3/11 (3 overs)\nResult: Delhi Daredevils won by 97 runs\nVenue: Maharashtra Cricket Association Stadium, Pune\nUmpires: Anil Dandekar (India) and Sundaram Ravi (India)\nPlayer of the match: Sanju Samson (Delhi Daredevils)\n- Rising Pune Supergiant won the toss and elected to field.\n- All 10 RPS batsmen were out caught, the first time this occurred in the IPL\nMatch: 12",
+          "chunk_id": "2017_indian_premier_league::s007::05",
+          "relevant": false,
+          "pick": "C",
+          "confidence": 0.1933,
+          "ms": 686.5104589960538
+        },
+        {
+          "id": "fame-02",
+          "question": "Which team won the first IPL season in 2008?",
+          "passage": "2008 Indian Premier League\nDates: 18 April 2008 (2008-04-18) – 1 June 2008 (2008-06-01)\nAdministrator: Board of Control for Cricket in India\nCricket format: Twenty20\nTournament format(s): Double round-robin and knockout\nChampions: Rajasthan Royals (1st title)\nRunners-up: Chennai Super Kings\nParticipants: 8\nMatches: 59\nPlayer of the series: Shane Watson (RR)\nMost runs: Shaun Marsh (KXIP) (616)\nMost wickets: Sohail Tanvir (RR) (22)\nOfficial website: www.iplt20.com\nThe 2008 Indian Premier League season was the inaugural season of the Indian Premier League, established by the BCCI in 2007. The season commenced on 18 April 2008 with the final match was held on 1 June 2008. The competition started with a double round robin league stage, in which each of the 8 teams played a home match and an away match against every other team. These matches were followed by two semi-finals and a final.\nIn a match which went down to the last ball, Rajasthan Royals defeated Chennai Super Kings in the final to win the title, with Yusuf Pathan named the player of the match in the Finals and Shane Watson adjudged the player of the tournament. Sohail Tanvir won the purple cap for being the top wicket-taking bowler while Shaun Marsh won the orange cap for leading run-scorer in the tournament. Shreevats Goswami was awarded the best under-",
+          "chunk_id": "2008_indian_premier_league::s000::00",
+          "relevant": true,
+          "pick": "A",
+          "confidence": 0.2538,
+          "ms": 433.54687496321276
+        },
+        {
+          "id": "fame-02",
+          "question": "Which team won the first IPL season in 2008?",
+          "passage": "Stuart Broad › International career › 2009–10: South Africa, Bangladesh, T20 World Cup, Australia and Pakistan\nwith Graham Onions batting out the final over to save the test.\nIn the second test Broad showed good form with the ball with 2–44 in the first innings but then taking 4–43 in the second dismissing Jacques Kallis, AB de Villiers and JP Duminy all within 3 overs. He took the wicket of Mark Boucher the next day to leave Graeme Swann to dismiss the rest of the South African line up. This gave England an innings and 98 run victory. After this test Broad went up to 7th in the ICC Test bowling rankings, the highest in his career. During this tour he declined to play in the IPL with James Anderson on the grounds he wanted to focus on his Test cricket first, and feared injury in the IPL.\nAfter South Africa, England toured Bangladesh, playing three ODIs and two Test matches. Injuries to Anderson, Onions and Sidebottom meant that Broad was the leader of a relatively inexperienced pace attack. However, an injury before the Test series meant that he wasn't fully fit and was outbowled by Tim Bresnan and debutant Steven Finn.\nEngland then travelled to the West Indies for the 2010 ICC World Twenty20. England won the tournament, beating Australia in the final. Broad won the man of the match award against Sri Lanka in the semi-final, and overall took 8 wickets at an average of 17.50.\nBack in England, Broad was rested for the home series against Bangladesh before returning to the side for a 5-",
+          "chunk_id": "stuart_broad::s008::01",
+          "relevant": false,
+          "pick": "C",
+          "confidence": 0.361,
+          "ms": 417.30687499511987
+        },
+        {
+          "id": "chain-01",
+          "question": "What are the two ends of the ground that hosted the 2023 World Test Championship final called?",
+          "passage": "2023 World Test Championship final\n7–11 June 2023 | Australia v India | The Oval, London\nEvent: 2021–2023 ICC World Test Championship\nAustralia: Australia India 469 296 & & 270/8d 234\nAustralia\n469\n&\n270/8d\nAustralia won by 209 runs\nDate: 7–11 June 2023\nVenue: The Oval, London\nPlayer of the match: Travis Head (Aus)\nUmpires: Chris Gaffaney (NZ) Richard Illingworth (Eng)\n← 2021 2025 →\nThe final of the 2021–2023 ICC World Test Championship, a Test cricket match, was played from 7 to 11 June 2023 at The Oval, London, between Australia and India. Australia won the match by 209 runs to win the second edition of the ICC World Test Championship. This marked Australia's maiden win of the Championship. As winners, they received a cash prize of US$1.6 million, while the Indian team received a cash prize of US$800,000. The victory in the final established Australia as the first team to have won all ICC tournaments across all three cricket formats.",
+          "chunk_id": "2023_world_test_championship_final::s000::00",
+          "relevant": true,
+          "pick": "B",
+          "confidence": 0.3106,
+          "ms": 397.61666604317725
+        },
+        {
+          "id": "chain-01",
+          "question": "What are the two ends of the ground that hosted the 2023 World Test Championship final called?",
+          "passage": "2024 Indian Premier League › Opening ceremony\nExternal videos\nIPL 2024 – Opening ceremony on JioCinema (subscription required).\nIn January 2024, the BCCI invited bids for staging the opening ceremony. The following month, Kasi Viswanathan, the CEO of Chennai Super Kings stated that the opening ceremony would be held in Chennai by virtue of being the home of the defending champions. The opening ceremony took place on 22 March at the M. A. Chidambaram Stadium in Chennai and was followed by the opening match between Chennai Super Kings and Royal Challengers Bengaluru.\nActors Tiger Shroff and Akshay Kumar promoted and performed for a song sequence from their film Bade Miyan Chote Miyan. Singer Sonu Nigam delivered a rendition of \"Vande Mataram\", followed by A. R. Rahman and Mohit Chauhan's joint-performance of \"Maa Tujhe Salaam\", and solo performances of \"Jai Ho\" and \"Masakali\" respectively. Singer Neeti Mohan also performed at the event.",
+          "chunk_id": "2024_indian_premier_league::s009::00",
+          "relevant": false,
+          "pick": "B",
+          "confidence": 0.1648,
+          "ms": 349.3517499882728
+        }
+      ],
+      "ms_p50": 381.9380000059027,
+      "ms_max": 721.091458981391,
+      "smoke_hits": 13,
+      "pairs": 20,
+      "picks": {
+        "A": 4,
+        "B": 7,
+        "C": 9
+      },
+      "footprint_gb": 3.1,
+      "footprint_peak_gb": 4.4,
+      "backend": "mlx bf16 on mps",
+      "download_gb": 3.4
+    },
+    "jev": {
+      "used": false,
+      "why": "hosted API only; no API key"
+    }
+  }
+}
