@@ -1,0 +1,11 @@
+{
+  "sample": "30 top-5 pairs from chunk_labels.py --sample (seed 0): 8 relevant, 8 partial, 14 irrelevant; gap and none questions excluded",
+  "agree": 28,
+  "disagree": [
+    {"id": "trap-04", "rank": 2, "rule": "irrelevant", "by_hand": "partial",
+     "why": "the semi-finals chunk gives Australia: 328/7 in the scorecard but not the record sentence; it also holds a look-alike record (NZ's highest successful chase in a World Cup knockout)"},
+    {"id": "chain-02", "rank": 4, "rule": "irrelevant", "by_hand": "partial",
+     "why": "the final's match label names Wankhede Stadium (step one), but not in the evidence's wording"}
+  ],
+  "lesson": "both misses go the same way: the exact-wording rule misses facts stated in other words, so it under-counts relevant and partial passages; grader 'errors' that call such passages useful need a look by hand"
+}
