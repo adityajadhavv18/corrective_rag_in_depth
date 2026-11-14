@@ -1,0 +1,4350 @@
+{
+  "bars_picked": [
+    6,
+    6
+  ],
+  "labels_as_is": {
+    "bars": [
+      6,
+      6
+    ],
+    "action_match": 0.7931034482758621,
+    "action_by_kind": {
+      "chain": "0/8",
+      "gap": "6/6",
+      "none": "2/2",
+      "old": "32/36",
+      "trap": "6/6"
+    },
+    "action_confusion": {
+      "CORRECT -> CORRECT": 37,
+      "INCORRECT -> INCORRECT": 9,
+      "INCORRECT -> CORRECT": 3,
+      "AMBIGUOUS -> CORRECT": 4,
+      "CORRECT -> INCORRECT": 1,
+      "AMBIGUOUS -> INCORRECT": 4
+    },
+    "passage_match": 0.8103448275862069,
+    "passage_confusion": {
+      "relevant": {
+        "relevant": 47,
+        "partial": 0,
+        "irrelevant": 3
+      },
+      "partial": {
+        "relevant": 3,
+        "partial": 0,
+        "irrelevant": 10
+      },
+      "irrelevant": {
+        "relevant": 39,
+        "partial": 0,
+        "irrelevant": 188
+      }
+    },
+    "catch_rate": 0.7936507936507936,
+    "false_alarms": 0.17180616740088106,
+    "actions": {
+      "which-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-06": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-03": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "twin-04": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "multi-01": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "multi-02": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "multi-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "multi-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "none-01": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "none-02": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "rule-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-03": {
+        "key": "CORRECT",
+        "grader": "INCORRECT"
+      },
+      "fame-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "recent-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "recent-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-01": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-02": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-03": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-04": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-05": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-06": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-07": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-08": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "gap-01": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-02": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-03": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-04": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-05": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-06": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "trap-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-06": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      }
+    }
+  },
+  "after_hand_check": {
+    "bars": [
+      6,
+      6
+    ],
+    "action_match": 0.8103448275862069,
+    "action_by_kind": {
+      "chain": "1/8",
+      "gap": "6/6",
+      "none": "2/2",
+      "old": "32/36",
+      "trap": "6/6"
+    },
+    "action_confusion": {
+      "CORRECT -> CORRECT": 38,
+      "INCORRECT -> INCORRECT": 9,
+      "AMBIGUOUS -> CORRECT": 5,
+      "CORRECT -> INCORRECT": 1,
+      "AMBIGUOUS -> INCORRECT": 4,
+      "INCORRECT -> CORRECT": 1
+    },
+    "passage_match": 0.8758620689655172,
+    "passage_confusion": {
+      "relevant": {
+        "relevant": 66,
+        "partial": 0,
+        "irrelevant": 3
+      },
+      "partial": {
+        "relevant": 12,
+        "partial": 0,
+        "irrelevant": 10
+      },
+      "irrelevant": {
+        "relevant": 11,
+        "partial": 0,
+        "irrelevant": 188
+      }
+    },
+    "catch_rate": 0.8571428571428571,
+    "false_alarms": 0.05527638190954774,
+    "actions": {
+      "which-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-06": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-03": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "twin-04": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "twin-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "multi-01": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "multi-02": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "multi-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "multi-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "none-01": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "none-02": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "rule-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-03": {
+        "key": "CORRECT",
+        "grader": "INCORRECT"
+      },
+      "fame-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "recent-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "recent-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-01": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-02": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-03": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-04": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-05": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-06": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-07": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-08": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "gap-01": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-02": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-03": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-04": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-05": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-06": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "trap-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-06": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      }
+    }
+  },
+  "hand_checked": 42,
+  "paper_style_7_3": {
+    "bars": [
+      7,
+      3
+    ],
+    "action_match": 0.8103448275862069,
+    "action_by_kind": {
+      "chain": "2/8",
+      "gap": "5/6",
+      "none": "2/2",
+      "old": "32/36",
+      "trap": "6/6"
+    },
+    "action_confusion": {
+      "CORRECT -> CORRECT": 38,
+      "INCORRECT -> INCORRECT": 8,
+      "AMBIGUOUS -> CORRECT": 5,
+      "CORRECT -> AMBIGUOUS": 1,
+      "AMBIGUOUS -> INCORRECT": 3,
+      "AMBIGUOUS -> AMBIGUOUS": 1,
+      "INCORRECT -> CORRECT": 1,
+      "INCORRECT -> AMBIGUOUS": 1
+    },
+    "passage_match": 0.7862068965517242,
+    "passage_confusion": {
+      "relevant": {
+        "relevant": 66,
+        "partial": 3,
+        "irrelevant": 0
+      },
+      "partial": {
+        "relevant": 12,
+        "partial": 3,
+        "irrelevant": 7
+      },
+      "irrelevant": {
+        "relevant": 11,
+        "partial": 29,
+        "irrelevant": 159
+      }
+    },
+    "catch_rate": 0.9230769230769231,
+    "false_alarms": 0.20100502512562815,
+    "actions": {
+      "which-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-06": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-03": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "twin-04": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "twin-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "multi-01": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "multi-02": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "multi-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "multi-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "none-01": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "none-02": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "rule-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-03": {
+        "key": "CORRECT",
+        "grader": "AMBIGUOUS"
+      },
+      "fame-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "recent-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "recent-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-01": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-02": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-03": {
+        "key": "AMBIGUOUS",
+        "grader": "AMBIGUOUS"
+      },
+      "chain-04": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-05": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-06": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-07": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-08": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "gap-01": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-02": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-03": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-04": {
+        "key": "INCORRECT",
+        "grader": "AMBIGUOUS"
+      },
+      "gap-05": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-06": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "trap-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-06": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      }
+    }
+  },
+  "score_by_label": {
+    "relevant": {
+      "10": 66,
+      "5": 3
+    },
+    "partial": {
+      "10": 12,
+      "5": 3,
+      "0": 7
+    },
+    "irrelevant": {
+      "10": 11,
+      "0": 159,
+      "5": 29
+    }
+  },
+  "decoys": [
+    {
+      "id": "trap-03",
+      "rank": 5,
+      "score": 0
+    },
+    {
+      "id": "trap-05",
+      "rank": 3,
+      "score": 10
+    }
+  ],
+  "cost_per_decision": 5.7916034482758614e-05,
+  "cost_per_question": 0.0002895801724137931,
+  "p50_ms_per_decision": 826.7778959707357,
+  "passages": [
+    {
+      "id": "which-01",
+      "kind": "old",
+      "question": "In the first Test of India's 2014–15 tour of Australia at Adelaide, how was Murali Vijay out in India's second innings, and for how many?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::04",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-01",
+      "kind": "old",
+      "question": "In the first Test of India's 2014–15 tour of Australia at Adelaide, how was Murali Vijay out in India's second innings, and for how many?",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-01",
+      "kind": "old",
+      "question": "In the first Test of India's 2014–15 tour of Australia at Adelaide, how was Murali Vijay out in India's second innings, and for how many?",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::05",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-01",
+      "kind": "old",
+      "question": "In the first Test of India's 2014–15 tour of Australia at Adelaide, how was Murali Vijay out in India's second innings, and for how many?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-01",
+      "kind": "old",
+      "question": "In the first Test of India's 2014–15 tour of Australia at Adelaide, how was Murali Vijay out in India's second innings, and for how many?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s007::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-02",
+      "kind": "old",
+      "question": "Who top-scored for England in their second innings of the fifth Test of the 2013–14 Ashes in Sydney, and how many did England make?",
+      "rank": 1,
+      "chunk_id": "2013-14_ashes_series::s006::01",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-02",
+      "kind": "old",
+      "question": "Who top-scored for England in their second innings of the fifth Test of the 2013–14 Ashes in Sydney, and how many did England make?",
+      "rank": 2,
+      "chunk_id": "2013-14_ashes_series::s006::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "which-02",
+      "kind": "old",
+      "question": "Who top-scored for England in their second innings of the fifth Test of the 2013–14 Ashes in Sydney, and how many did England make?",
+      "rank": 3,
+      "chunk_id": "ben_stokes::s005::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "which-02",
+      "kind": "old",
+      "question": "Who top-scored for England in their second innings of the fifth Test of the 2013–14 Ashes in Sydney, and how many did England make?",
+      "rank": 4,
+      "chunk_id": "2013-14_ashes_series::s006::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-02",
+      "kind": "old",
+      "question": "Who top-scored for England in their second innings of the fifth Test of the 2013–14 Ashes in Sydney, and how many did England make?",
+      "rank": 5,
+      "chunk_id": "2013_ashes_series::s007::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-03",
+      "kind": "old",
+      "question": "In England's second innings of the first Test of the 2023 Ashes at Edgbaston, how was Joe Root dismissed and for what score?",
+      "rank": 1,
+      "chunk_id": "2023_ashes_series::s006::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-03",
+      "kind": "old",
+      "question": "In England's second innings of the first Test of the 2023 Ashes at Edgbaston, how was Joe Root dismissed and for what score?",
+      "rank": 2,
+      "chunk_id": "2023_ashes_series::s002::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-03",
+      "kind": "old",
+      "question": "In England's second innings of the first Test of the 2023 Ashes at Edgbaston, how was Joe Root dismissed and for what score?",
+      "rank": 3,
+      "chunk_id": "2023_ashes_series::s003::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-03",
+      "kind": "old",
+      "question": "In England's second innings of the first Test of the 2023 Ashes at Edgbaston, how was Joe Root dismissed and for what score?",
+      "rank": 4,
+      "chunk_id": "joe_root::s019::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "which-03",
+      "kind": "old",
+      "question": "In England's second innings of the first Test of the 2023 Ashes at Edgbaston, how was Joe Root dismissed and for what score?",
+      "rank": 5,
+      "chunk_id": "2019_ashes_series::s005::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-04",
+      "kind": "old",
+      "question": "In the 2023 World Test Championship final at The Oval, what score was Ajinkya Rahane on when he was out, and who caught him?",
+      "rank": 1,
+      "chunk_id": "2023_world_test_championship_final::s010::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-04",
+      "kind": "old",
+      "question": "In the 2023 World Test Championship final at The Oval, what score was Ajinkya Rahane on when he was out, and who caught him?",
+      "rank": 2,
+      "chunk_id": "2023_world_test_championship_final::s012::03",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-04",
+      "kind": "old",
+      "question": "In the 2023 World Test Championship final at The Oval, what score was Ajinkya Rahane on when he was out, and who caught him?",
+      "rank": 3,
+      "chunk_id": "2023_world_test_championship_final::s007::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-04",
+      "kind": "old",
+      "question": "In the 2023 World Test Championship final at The Oval, what score was Ajinkya Rahane on when he was out, and who caught him?",
+      "rank": 4,
+      "chunk_id": "2023_world_test_championship_final::s009::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "which-04",
+      "kind": "old",
+      "question": "In the 2023 World Test Championship final at The Oval, what score was Ajinkya Rahane on when he was out, and who caught him?",
+      "rank": 5,
+      "chunk_id": "2023_world_test_championship_final::s011::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-05",
+      "kind": "old",
+      "question": "In the Gabba Test of India's 2020–21 tour of Australia, how many did Washington Sundar and Shardul Thakur add together in India's first innings?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s028::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-05",
+      "kind": "old",
+      "question": "In the Gabba Test of India's 2020–21 tour of Australia, how many did Washington Sundar and Shardul Thakur add together in India's first innings?",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s025::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "which-05",
+      "kind": "old",
+      "question": "In the Gabba Test of India's 2020–21 tour of Australia, how many did Washington Sundar and Shardul Thakur add together in India's first innings?",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s026::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-05",
+      "kind": "old",
+      "question": "In the Gabba Test of India's 2020–21 tour of Australia, how many did Washington Sundar and Shardul Thakur add together in India's first innings?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s029::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-05",
+      "kind": "old",
+      "question": "In the Gabba Test of India's 2020–21 tour of Australia, how many did Washington Sundar and Shardul Thakur add together in India's first innings?",
+      "rank": 5,
+      "chunk_id": "english_cricket_team_in_india_in_2020-21::s002::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "which-06",
+      "kind": "old",
+      "question": "In the 2011 Cricket World Cup final, how many runs did MS Dhoni and Gautam Gambhir add together?",
+      "rank": 1,
+      "chunk_id": "wankhede_stadium::s012::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "which-06",
+      "kind": "old",
+      "question": "In the 2011 Cricket World Cup final, how many runs did MS Dhoni and Gautam Gambhir add together?",
+      "rank": 2,
+      "chunk_id": "2011_cricket_world_cup_final::s007::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-06",
+      "kind": "old",
+      "question": "In the 2011 Cricket World Cup final, how many runs did MS Dhoni and Gautam Gambhir add together?",
+      "rank": 3,
+      "chunk_id": "2011_cricket_world_cup_final::s000::01",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-06",
+      "kind": "old",
+      "question": "In the 2011 Cricket World Cup final, how many runs did MS Dhoni and Gautam Gambhir add together?",
+      "rank": 4,
+      "chunk_id": "2011_cricket_world_cup_final::s008::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "which-06",
+      "kind": "old",
+      "question": "In the 2011 Cricket World Cup final, how many runs did MS Dhoni and Gautam Gambhir add together?",
+      "rank": 5,
+      "chunk_id": "2011_cricket_world_cup_final::s008::03",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-01",
+      "kind": "old",
+      "question": "How was Virat Kohli dismissed in India's first innings of the day-night Adelaide Test in December 2020?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s011::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "twin-01",
+      "kind": "old",
+      "question": "How was Virat Kohli dismissed in India's first innings of the day-night Adelaide Test in December 2020?",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s010::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-01",
+      "kind": "old",
+      "question": "How was Virat Kohli dismissed in India's first innings of the day-night Adelaide Test in December 2020?",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s013::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "twin-01",
+      "kind": "old",
+      "question": "How was Virat Kohli dismissed in India's first innings of the day-night Adelaide Test in December 2020?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-01",
+      "kind": "old",
+      "question": "How was Virat Kohli dismissed in India's first innings of the day-night Adelaide Test in December 2020?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-02",
+      "kind": "old",
+      "question": "Who top-scored for India in their first innings of the Adelaide Test of the 2018–19 series, and with what score?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "twin-02",
+      "kind": "old",
+      "question": "Who top-scored for India in their first innings of the Adelaide Test of the 2018–19 series, and with what score?",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-02",
+      "kind": "old",
+      "question": "Who top-scored for India in their first innings of the Adelaide Test of the 2018–19 series, and with what score?",
+      "rank": 3,
+      "chunk_id": "adelaide_oval::s014::03",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-02",
+      "kind": "old",
+      "question": "Who top-scored for India in their first innings of the Adelaide Test of the 2018–19 series, and with what score?",
+      "rank": 4,
+      "chunk_id": "rohit_sharma::s004::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "twin-02",
+      "kind": "old",
+      "question": "Who top-scored for India in their first innings of the Adelaide Test of the 2018–19 series, and with what score?",
+      "rank": 5,
+      "chunk_id": "2025_champions_trophy::s029::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-03",
+      "kind": "old",
+      "question": "In the 2017 IPL final, who bowled Mumbai Indians' last over, and how many did Rising Pune Supergiant need from it?",
+      "rank": 1,
+      "chunk_id": "2017_indian_premier_league_final::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-03",
+      "kind": "old",
+      "question": "In the 2017 IPL final, who bowled Mumbai Indians' last over, and how many did Rising Pune Supergiant need from it?",
+      "rank": 2,
+      "chunk_id": "2017_indian_premier_league::s012::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-03",
+      "kind": "old",
+      "question": "In the 2017 IPL final, who bowled Mumbai Indians' last over, and how many did Rising Pune Supergiant need from it?",
+      "rank": 3,
+      "chunk_id": "2017_indian_premier_league_final::s006::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-03",
+      "kind": "old",
+      "question": "In the 2017 IPL final, who bowled Mumbai Indians' last over, and how many did Rising Pune Supergiant need from it?",
+      "rank": 4,
+      "chunk_id": "2017_indian_premier_league_final::s006::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-03",
+      "kind": "old",
+      "question": "In the 2017 IPL final, who bowled Mumbai Indians' last over, and how many did Rising Pune Supergiant need from it?",
+      "rank": 5,
+      "chunk_id": "2017_indian_premier_league::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-04",
+      "kind": "old",
+      "question": "Who scored a century for India in the Boxing Day Test at the MCG in December 2020, and how did his innings end?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s014::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "twin-04",
+      "kind": "old",
+      "question": "Who scored a century for India in the Boxing Day Test at the MCG in December 2020, and how did his innings end?",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s016::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "twin-04",
+      "kind": "old",
+      "question": "Who scored a century for India in the Boxing Day Test at the MCG in December 2020, and how did his innings end?",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s018::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-04",
+      "kind": "old",
+      "question": "Who scored a century for India in the Boxing Day Test at the MCG in December 2020, and how did his innings end?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s003::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-04",
+      "kind": "old",
+      "question": "Who scored a century for India in the Boxing Day Test at the MCG in December 2020, and how did his innings end?",
+      "rank": 5,
+      "chunk_id": "narendra_modi_stadium::s003::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-05",
+      "kind": "old",
+      "question": "How many did Carlos Brathwaite score for the West Indies against New Zealand at the 2019 Cricket World Cup?",
+      "rank": 1,
+      "chunk_id": "2019_cricket_world_cup_group_stage::s031::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "twin-05",
+      "kind": "old",
+      "question": "How many did Carlos Brathwaite score for the West Indies against New Zealand at the 2019 Cricket World Cup?",
+      "rank": 2,
+      "chunk_id": "2019_cricket_world_cup::s014::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "twin-05",
+      "kind": "old",
+      "question": "How many did Carlos Brathwaite score for the West Indies against New Zealand at the 2019 Cricket World Cup?",
+      "rank": 3,
+      "chunk_id": "2019_cricket_world_cup::s014::01",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "twin-05",
+      "kind": "old",
+      "question": "How many did Carlos Brathwaite score for the West Indies against New Zealand at the 2019 Cricket World Cup?",
+      "rank": 4,
+      "chunk_id": "2019_cricket_world_cup_group_stage::s044::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "twin-05",
+      "kind": "old",
+      "question": "How many did Carlos Brathwaite score for the West Indies against New Zealand at the 2019 Cricket World Cup?",
+      "rank": 5,
+      "chunk_id": "2019_cricket_world_cup_group_stage::s012::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-01",
+      "kind": "old",
+      "question": "Who took five wickets when England were bowled out for 67 in the Headingley Test of the 2019 Ashes?",
+      "rank": 1,
+      "chunk_id": "2019_ashes_series::s016::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "pron-01",
+      "kind": "old",
+      "question": "Who took five wickets when England were bowled out for 67 in the Headingley Test of the 2019 Ashes?",
+      "rank": 2,
+      "chunk_id": "2019_ashes_series::s018::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "pron-01",
+      "kind": "old",
+      "question": "Who took five wickets when England were bowled out for 67 in the Headingley Test of the 2019 Ashes?",
+      "rank": 3,
+      "chunk_id": "ben_stokes::s011::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-01",
+      "kind": "old",
+      "question": "Who took five wickets when England were bowled out for 67 in the Headingley Test of the 2019 Ashes?",
+      "rank": 4,
+      "chunk_id": "headingley_cricket_ground::s002::04",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-01",
+      "kind": "old",
+      "question": "Who took five wickets when England were bowled out for 67 in the Headingley Test of the 2019 Ashes?",
+      "rank": 5,
+      "chunk_id": "headingley_cricket_ground::s002::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-02",
+      "kind": "old",
+      "question": "In the fifth Test of India's 2014 tour of England at The Oval, who put on a last-wicket partnership in India's first innings, and worth how many?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_england_in_2014::s009::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "pron-02",
+      "kind": "old",
+      "question": "In the fifth Test of India's 2014 tour of England at The Oval, who put on a last-wicket partnership in India's first innings, and worth how many?",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_england_in_2014::s009::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-02",
+      "kind": "old",
+      "question": "In the fifth Test of India's 2014 tour of England at The Oval, who put on a last-wicket partnership in India's first innings, and worth how many?",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_england_in_2014::s005::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "pron-02",
+      "kind": "old",
+      "question": "In the fifth Test of India's 2014 tour of England at The Oval, who put on a last-wicket partnership in India's first innings, and worth how many?",
+      "rank": 4,
+      "chunk_id": "adelaide_oval::s014::03",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-02",
+      "kind": "old",
+      "question": "In the fifth Test of India's 2014 tour of England at The Oval, who put on a last-wicket partnership in India's first innings, and worth how many?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_england_in_2025::s010::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-03",
+      "kind": "old",
+      "question": "What was England's score at stumps on day two of the second Test of the 2013–14 Ashes in Adelaide, and who had taken the wicket?",
+      "rank": 1,
+      "chunk_id": "2013-14_ashes_series::s003::01",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "pron-03",
+      "kind": "old",
+      "question": "What was England's score at stumps on day two of the second Test of the 2013–14 Ashes in Adelaide, and who had taken the wicket?",
+      "rank": 2,
+      "chunk_id": "2013-14_ashes_series::s003::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-03",
+      "kind": "old",
+      "question": "What was England's score at stumps on day two of the second Test of the 2013–14 Ashes in Adelaide, and who had taken the wicket?",
+      "rank": 3,
+      "chunk_id": "2013-14_ashes_series::s003::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "pron-03",
+      "kind": "old",
+      "question": "What was England's score at stumps on day two of the second Test of the 2013–14 Ashes in Adelaide, and who had taken the wicket?",
+      "rank": 4,
+      "chunk_id": "2013_ashes_series::s004::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-03",
+      "kind": "old",
+      "question": "What was England's score at stumps on day two of the second Test of the 2013–14 Ashes in Adelaide, and who had taken the wicket?",
+      "rank": 5,
+      "chunk_id": "2013_ashes_series::s004::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-04",
+      "kind": "old",
+      "question": "On the third morning of the December 2020 Adelaide Test, how was Jasprit Bumrah dismissed?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s013::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "pron-04",
+      "kind": "old",
+      "question": "On the third morning of the December 2020 Adelaide Test, how was Jasprit Bumrah dismissed?",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s012::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-04",
+      "kind": "old",
+      "question": "On the third morning of the December 2020 Adelaide Test, how was Jasprit Bumrah dismissed?",
+      "rank": 3,
+      "chunk_id": "jasprit_bumrah::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-04",
+      "kind": "old",
+      "question": "On the third morning of the December 2020 Adelaide Test, how was Jasprit Bumrah dismissed?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-04",
+      "kind": "old",
+      "question": "On the third morning of the December 2020 Adelaide Test, how was Jasprit Bumrah dismissed?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s012::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-05",
+      "kind": "old",
+      "question": "What target did Australia set England in the Lord's Test of the 2015 Ashes?",
+      "rank": 1,
+      "chunk_id": "2015_ashes_series::s004::02",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "pron-05",
+      "kind": "old",
+      "question": "What target did Australia set England in the Lord's Test of the 2015 Ashes?",
+      "rank": 2,
+      "chunk_id": "2015_ashes_series::s004::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "pron-05",
+      "kind": "old",
+      "question": "What target did Australia set England in the Lord's Test of the 2015 Ashes?",
+      "rank": 3,
+      "chunk_id": "2015_ashes_series::s004::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "pron-05",
+      "kind": "old",
+      "question": "What target did Australia set England in the Lord's Test of the 2015 Ashes?",
+      "rank": 4,
+      "chunk_id": "2019_ashes_series::s010::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "pron-05",
+      "kind": "old",
+      "question": "What target did Australia set England in the Lord's Test of the 2015 Ashes?",
+      "rank": 5,
+      "chunk_id": "2015_ashes_series::s005::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-01",
+      "kind": "old",
+      "question": "What were Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s010::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "num-01",
+      "kind": "old",
+      "question": "What were Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020?",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s013::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "num-01",
+      "kind": "old",
+      "question": "What were Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020?",
+      "rank": 3,
+      "chunk_id": "josh_hazlewood::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-01",
+      "kind": "old",
+      "question": "What were Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s011::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-01",
+      "kind": "old",
+      "question": "What were Josh Hazlewood's bowling figures when India were bowled out for 36 at Adelaide in December 2020?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-02",
+      "kind": "old",
+      "question": "How many balls did Ben Stokes face for his unbeaten 135 in the Headingley Test of the 2019 Ashes?",
+      "rank": 1,
+      "chunk_id": "2019_ashes_series::s016::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "num-02",
+      "kind": "old",
+      "question": "How many balls did Ben Stokes face for his unbeaten 135 in the Headingley Test of the 2019 Ashes?",
+      "rank": 2,
+      "chunk_id": "ben_stokes::s011::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-02",
+      "kind": "old",
+      "question": "How many balls did Ben Stokes face for his unbeaten 135 in the Headingley Test of the 2019 Ashes?",
+      "rank": 3,
+      "chunk_id": "2019_ashes_series::s020::03",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-02",
+      "kind": "old",
+      "question": "How many balls did Ben Stokes face for his unbeaten 135 in the Headingley Test of the 2019 Ashes?",
+      "rank": 4,
+      "chunk_id": "2019_ashes_series::s020::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-02",
+      "kind": "old",
+      "question": "How many balls did Ben Stokes face for his unbeaten 135 in the Headingley Test of the 2019 Ashes?",
+      "rank": 5,
+      "chunk_id": "2019_ashes_series::s020::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-03",
+      "kind": "old",
+      "question": "What were Jasprit Bumrah's bowling figures in Australia's first innings of the Boxing Day Test at the MCG in December 2018?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s009::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "num-03",
+      "kind": "old",
+      "question": "What were Jasprit Bumrah's bowling figures in Australia's first innings of the Boxing Day Test at the MCG in December 2018?",
+      "rank": 2,
+      "chunk_id": "jasprit_bumrah::s005::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "num-03",
+      "kind": "old",
+      "question": "What were Jasprit Bumrah's bowling figures in Australia's first innings of the Boxing Day Test at the MCG in December 2018?",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s012::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-03",
+      "kind": "old",
+      "question": "What were Jasprit Bumrah's bowling figures in Australia's first innings of the Boxing Day Test at the MCG in December 2018?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-03",
+      "kind": "old",
+      "question": "What were Jasprit Bumrah's bowling figures in Australia's first innings of the Boxing Day Test at the MCG in December 2018?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s011::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-04",
+      "kind": "old",
+      "question": "What were Mitchell Santner's bowling figures against the Netherlands at the 2023 Cricket World Cup in Hyderabad?",
+      "rank": 1,
+      "chunk_id": "2023_cricket_world_cup_group_stage::s009::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "num-04",
+      "kind": "old",
+      "question": "What were Mitchell Santner's bowling figures against the Netherlands at the 2023 Cricket World Cup in Hyderabad?",
+      "rank": 2,
+      "chunk_id": "2023_cricket_world_cup_group_stage::s009::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "num-04",
+      "kind": "old",
+      "question": "What were Mitchell Santner's bowling figures against the Netherlands at the 2023 Cricket World Cup in Hyderabad?",
+      "rank": 3,
+      "chunk_id": "2023_cricket_world_cup::s011::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-04",
+      "kind": "old",
+      "question": "What were Mitchell Santner's bowling figures against the Netherlands at the 2023 Cricket World Cup in Hyderabad?",
+      "rank": 4,
+      "chunk_id": "2023_cricket_world_cup_group_stage::s005::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-04",
+      "kind": "old",
+      "question": "What were Mitchell Santner's bowling figures against the Netherlands at the 2023 Cricket World Cup in Hyderabad?",
+      "rank": 5,
+      "chunk_id": "2023_cricket_world_cup_group_stage::s005::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-05",
+      "kind": "old",
+      "question": "What total did Sunrisers Hyderabad make batting first in the 2016 IPL final?",
+      "rank": 1,
+      "chunk_id": "2016_indian_premier_league::s014::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "num-05",
+      "kind": "old",
+      "question": "What total did Sunrisers Hyderabad make batting first in the 2016 IPL final?",
+      "rank": 2,
+      "chunk_id": "2016_indian_premier_league_final::s000::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "num-05",
+      "kind": "old",
+      "question": "What total did Sunrisers Hyderabad make batting first in the 2016 IPL final?",
+      "rank": 3,
+      "chunk_id": "2016_indian_premier_league_final::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "num-05",
+      "kind": "old",
+      "question": "What total did Sunrisers Hyderabad make batting first in the 2016 IPL final?",
+      "rank": 4,
+      "chunk_id": "2016_indian_premier_league_final::s003::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "num-05",
+      "kind": "old",
+      "question": "What total did Sunrisers Hyderabad make batting first in the 2016 IPL final?",
+      "rank": 5,
+      "chunk_id": "2016_indian_premier_league::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "multi-01",
+      "kind": "old",
+      "question": "In the 2023 Cricket World Cup final, how many did Rohit Sharma score for India, and what did Travis Head make in Australia's chase?",
+      "rank": 1,
+      "chunk_id": "2023_cricket_world_cup_final::s007::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "multi-01",
+      "kind": "old",
+      "question": "In the 2023 Cricket World Cup final, how many did Rohit Sharma score for India, and what did Travis Head make in Australia's chase?",
+      "rank": 2,
+      "chunk_id": "2023_cricket_world_cup_final::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "multi-01",
+      "kind": "old",
+      "question": "In the 2023 Cricket World Cup final, how many did Rohit Sharma score for India, and what did Travis Head make in Australia's chase?",
+      "rank": 3,
+      "chunk_id": "2023_cricket_world_cup_final::s005::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "multi-01",
+      "kind": "old",
+      "question": "In the 2023 Cricket World Cup final, how many did Rohit Sharma score for India, and what did Travis Head make in Australia's chase?",
+      "rank": 4,
+      "chunk_id": "2023_cricket_world_cup_final::s006::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "multi-01",
+      "kind": "old",
+      "question": "In the 2023 Cricket World Cup final, how many did Rohit Sharma score for India, and what did Travis Head make in Australia's chase?",
+      "rank": 5,
+      "chunk_id": "narendra_modi_stadium::s013::03",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "multi-02",
+      "kind": "old",
+      "question": "In the Gabba Test of January 2021, what target did India chase on the last day, and what did Shubman Gill score in the chase?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s030::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "multi-02",
+      "kind": "old",
+      "question": "In the Gabba Test of January 2021, what target did India chase on the last day, and what did Shubman Gill score in the chase?",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s025::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "multi-02",
+      "kind": "old",
+      "question": "In the Gabba Test of January 2021, what target did India chase on the last day, and what did Shubman Gill score in the chase?",
+      "rank": 3,
+      "chunk_id": "shubman_gill::s003::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "multi-02",
+      "kind": "old",
+      "question": "In the Gabba Test of January 2021, what target did India chase on the last day, and what did Shubman Gill score in the chase?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s027::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "multi-02",
+      "kind": "old",
+      "question": "In the Gabba Test of January 2021, what target did India chase on the last day, and what did Shubman Gill score in the chase?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s023::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "multi-03",
+      "kind": "old",
+      "question": "On the fourth day of the Headingley Test in the 2019 Ashes, how many did Joe Root and Jonny Bairstow each make before they were out?",
+      "rank": 1,
+      "chunk_id": "2019_ashes_series::s020::00",
+      "label": "relevant",
+      "parts_held": 2,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "multi-03",
+      "kind": "old",
+      "question": "On the fourth day of the Headingley Test in the 2019 Ashes, how many did Joe Root and Jonny Bairstow each make before they were out?",
+      "rank": 2,
+      "chunk_id": "2019_ashes_series::s019::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "multi-03",
+      "kind": "old",
+      "question": "On the fourth day of the Headingley Test in the 2019 Ashes, how many did Joe Root and Jonny Bairstow each make before they were out?",
+      "rank": 3,
+      "chunk_id": "joe_root::s014::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "multi-03",
+      "kind": "old",
+      "question": "On the fourth day of the Headingley Test in the 2019 Ashes, how many did Joe Root and Jonny Bairstow each make before they were out?",
+      "rank": 4,
+      "chunk_id": "headingley_cricket_ground::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "multi-03",
+      "kind": "old",
+      "question": "On the fourth day of the Headingley Test in the 2019 Ashes, how many did Joe Root and Jonny Bairstow each make before they were out?",
+      "rank": 5,
+      "chunk_id": "2015_ashes_series::s006::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "multi-04",
+      "kind": "old",
+      "question": "In the 2017 Champions Trophy final, on what score was Fakhar Zaman reprieved by a no-ball, and how many did he go on to make?",
+      "rank": 1,
+      "chunk_id": "2017_champions_trophy_final::s006::00",
+      "label": "relevant",
+      "parts_held": 2,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "multi-04",
+      "kind": "old",
+      "question": "In the 2017 Champions Trophy final, on what score was Fakhar Zaman reprieved by a no-ball, and how many did he go on to make?",
+      "rank": 2,
+      "chunk_id": "2017_champions_trophy_final::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "multi-04",
+      "kind": "old",
+      "question": "In the 2017 Champions Trophy final, on what score was Fakhar Zaman reprieved by a no-ball, and how many did he go on to make?",
+      "rank": 3,
+      "chunk_id": "2017_champions_trophy::s013::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "multi-04",
+      "kind": "old",
+      "question": "In the 2017 Champions Trophy final, on what score was Fakhar Zaman reprieved by a no-ball, and how many did he go on to make?",
+      "rank": 4,
+      "chunk_id": "2017_champions_trophy_final::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "multi-04",
+      "kind": "old",
+      "question": "In the 2017 Champions Trophy final, on what score was Fakhar Zaman reprieved by a no-ball, and how many did he go on to make?",
+      "rank": 5,
+      "chunk_id": "2017_champions_trophy_final::s008::04",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "bio-01",
+      "kind": "old",
+      "question": "Who was Jasprit Bumrah's first Test wicket, and where did he make his Test debut?",
+      "rank": 1,
+      "chunk_id": "jasprit_bumrah::s005::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "bio-01",
+      "kind": "old",
+      "question": "Who was Jasprit Bumrah's first Test wicket, and where did he make his Test debut?",
+      "rank": 2,
+      "chunk_id": "jasprit_bumrah::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "bio-01",
+      "kind": "old",
+      "question": "Who was Jasprit Bumrah's first Test wicket, and where did he make his Test debut?",
+      "rank": 3,
+      "chunk_id": "jasprit_bumrah::s005::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "bio-01",
+      "kind": "old",
+      "question": "Who was Jasprit Bumrah's first Test wicket, and where did he make his Test debut?",
+      "rank": 4,
+      "chunk_id": "jasprit_bumrah::s000::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "bio-01",
+      "kind": "old",
+      "question": "Who was Jasprit Bumrah's first Test wicket, and where did he make his Test debut?",
+      "rank": 5,
+      "chunk_id": "jasprit_bumrah::s005::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "bio-02",
+      "kind": "old",
+      "question": "Who was Nathan Lyon's first Test wicket?",
+      "rank": 1,
+      "chunk_id": "nathan_lyon::s003::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "bio-02",
+      "kind": "old",
+      "question": "Who was Nathan Lyon's first Test wicket?",
+      "rank": 2,
+      "chunk_id": "nathan_lyon::s003::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "bio-02",
+      "kind": "old",
+      "question": "Who was Nathan Lyon's first Test wicket?",
+      "rank": 3,
+      "chunk_id": "nathan_lyon::s003::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "bio-02",
+      "kind": "old",
+      "question": "Who was Nathan Lyon's first Test wicket?",
+      "rank": 4,
+      "chunk_id": "nathan_lyon::s003::07",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "bio-02",
+      "kind": "old",
+      "question": "Who was Nathan Lyon's first Test wicket?",
+      "rank": 5,
+      "chunk_id": "nathan_lyon::s000::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "bio-03",
+      "kind": "old",
+      "question": "Which Ashes Test was Perth Stadium announced to host in October 2024?",
+      "rank": 1,
+      "chunk_id": "perth_stadium::s011::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "bio-03",
+      "kind": "old",
+      "question": "Which Ashes Test was Perth Stadium announced to host in October 2024?",
+      "rank": 2,
+      "chunk_id": "2025-26_ashes_series::s002::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "bio-03",
+      "kind": "old",
+      "question": "Which Ashes Test was Perth Stadium announced to host in October 2024?",
+      "rank": 3,
+      "chunk_id": "2025-26_ashes_series::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "bio-03",
+      "kind": "old",
+      "question": "Which Ashes Test was Perth Stadium announced to host in October 2024?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s001::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "bio-03",
+      "kind": "old",
+      "question": "Which Ashes Test was Perth Stadium announced to host in October 2024?",
+      "rank": 5,
+      "chunk_id": "2021-22_ashes_series::s003::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "none-01",
+      "kind": "none",
+      "question": "Who won the fifth Test of India's 2014–15 tour of Australia?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s009::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 0,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "none-01",
+      "kind": "none",
+      "question": "Who won the fifth Test of India's 2014–15 tour of Australia?",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s009::04",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 0,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "none-01",
+      "kind": "none",
+      "question": "Who won the fifth Test of India's 2014–15 tour of Australia?",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 0,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "none-01",
+      "kind": "none",
+      "question": "Who won the fifth Test of India's 2014–15 tour of Australia?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 0,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "none-01",
+      "kind": "none",
+      "question": "Who won the fifth Test of India's 2014–15 tour of Australia?",
+      "rank": 5,
+      "chunk_id": "2019_cricket_world_cup::s017::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 0,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "none-02",
+      "kind": "none",
+      "question": "Who was player of the series in the 2016 Ashes?",
+      "rank": 1,
+      "chunk_id": "2019_ashes_series::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 0,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "none-02",
+      "kind": "none",
+      "question": "Who was player of the series in the 2016 Ashes?",
+      "rank": 2,
+      "chunk_id": "2019_ashes_series::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 0,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "none-02",
+      "kind": "none",
+      "question": "Who was player of the series in the 2016 Ashes?",
+      "rank": 3,
+      "chunk_id": "2017-18_ashes_series::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 0,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "none-02",
+      "kind": "none",
+      "question": "Who was player of the series in the 2016 Ashes?",
+      "rank": 4,
+      "chunk_id": "2017-18_ashes_series::s002::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 0,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "none-02",
+      "kind": "none",
+      "question": "Who was player of the series in the 2016 Ashes?",
+      "rank": 5,
+      "chunk_id": "2017-18_ashes_series::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 0,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "rule-01",
+      "kind": "old",
+      "question": "In a Twenty20 match, how is the winner decided if both teams finish with the same score?",
+      "rank": 1,
+      "chunk_id": "2010_world_twenty20::s003::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "rule-01",
+      "kind": "old",
+      "question": "In a Twenty20 match, how is the winner decided if both teams finish with the same score?",
+      "rank": 2,
+      "chunk_id": "2009_world_twenty20::s004::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "rule-01",
+      "kind": "old",
+      "question": "In a Twenty20 match, how is the winner decided if both teams finish with the same score?",
+      "rank": 3,
+      "chunk_id": "2012_world_twenty20::s002::01",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "rule-01",
+      "kind": "old",
+      "question": "In a Twenty20 match, how is the winner decided if both teams finish with the same score?",
+      "rank": 4,
+      "chunk_id": "2010_indian_premier_league::s004::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "rule-01",
+      "kind": "old",
+      "question": "In a Twenty20 match, how is the winner decided if both teams finish with the same score?",
+      "rank": 5,
+      "chunk_id": "2007_world_twenty20::s001::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "rule-02",
+      "kind": "old",
+      "question": "Which two countries contest the Ashes?",
+      "rank": 1,
+      "chunk_id": "2023_ashes_series::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "rule-02",
+      "kind": "old",
+      "question": "Which two countries contest the Ashes?",
+      "rank": 2,
+      "chunk_id": "2010-11_ashes_series::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "rule-02",
+      "kind": "old",
+      "question": "Which two countries contest the Ashes?",
+      "rank": 3,
+      "chunk_id": "2017-18_ashes_series::s000::01",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "rule-02",
+      "kind": "old",
+      "question": "Which two countries contest the Ashes?",
+      "rank": 4,
+      "chunk_id": "2013_ashes_series::s000::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "rule-02",
+      "kind": "old",
+      "question": "Which two countries contest the Ashes?",
+      "rank": 5,
+      "chunk_id": "2021-22_ashes_series::s000::01",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "rule-03",
+      "kind": "old",
+      "question": "What is the Duckworth–Lewis method used for in cricket?",
+      "rank": 1,
+      "chunk_id": "james_anderson_cricketer::s009::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "rule-03",
+      "kind": "old",
+      "question": "What is the Duckworth–Lewis method used for in cricket?",
+      "rank": 2,
+      "chunk_id": "2017_champions_trophy_final::s002::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "rule-03",
+      "kind": "old",
+      "question": "What is the Duckworth–Lewis method used for in cricket?",
+      "rank": 3,
+      "chunk_id": "2010_world_twenty20::s009::02",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "rule-03",
+      "kind": "old",
+      "question": "What is the Duckworth–Lewis method used for in cricket?",
+      "rank": 4,
+      "chunk_id": "2019_cricket_world_cup::s013::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "rule-03",
+      "kind": "old",
+      "question": "What is the Duckworth–Lewis method used for in cricket?",
+      "rank": 5,
+      "chunk_id": "2019_cricket_world_cup::s017::03",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "fame-01",
+      "kind": "old",
+      "question": "Who won the 2011 Cricket World Cup?",
+      "rank": 1,
+      "chunk_id": "2011_cricket_world_cup::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "fame-01",
+      "kind": "old",
+      "question": "Who won the 2011 Cricket World Cup?",
+      "rank": 2,
+      "chunk_id": "2011_cricket_world_cup_final::s000::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "fame-01",
+      "kind": "old",
+      "question": "Who won the 2011 Cricket World Cup?",
+      "rank": 3,
+      "chunk_id": "2011_cricket_world_cup::s024::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "fame-01",
+      "kind": "old",
+      "question": "Who won the 2011 Cricket World Cup?",
+      "rank": 4,
+      "chunk_id": "2011_cricket_world_cup_final::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "fame-01",
+      "kind": "old",
+      "question": "Who won the 2011 Cricket World Cup?",
+      "rank": 5,
+      "chunk_id": "wankhede_stadium::s012::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "fame-02",
+      "kind": "old",
+      "question": "Which team won the first IPL season in 2008?",
+      "rank": 1,
+      "chunk_id": "2008_indian_premier_league::s000::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "fame-02",
+      "kind": "old",
+      "question": "Which team won the first IPL season in 2008?",
+      "rank": 2,
+      "chunk_id": "2008_indian_premier_league_final::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "fame-02",
+      "kind": "old",
+      "question": "Which team won the first IPL season in 2008?",
+      "rank": 3,
+      "chunk_id": "2008_indian_premier_league_final::s005::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "fame-02",
+      "kind": "old",
+      "question": "Which team won the first IPL season in 2008?",
+      "rank": 4,
+      "chunk_id": "2008_indian_premier_league::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "fame-02",
+      "kind": "old",
+      "question": "Which team won the first IPL season in 2008?",
+      "rank": 5,
+      "chunk_id": "2013_indian_premier_league_final::s005::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "fame-03",
+      "kind": "old",
+      "question": "Who took the first hat-trick in a T20 international?",
+      "rank": 1,
+      "chunk_id": "2007_world_twenty20::s014::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "fame-03",
+      "kind": "old",
+      "question": "Who took the first hat-trick in a T20 international?",
+      "rank": 2,
+      "chunk_id": "2024_mens_t20_world_cup::s019::03",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "fame-03",
+      "kind": "old",
+      "question": "Who took the first hat-trick in a T20 international?",
+      "rank": 3,
+      "chunk_id": "2024_mens_t20_world_cup::s018::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "fame-03",
+      "kind": "old",
+      "question": "Who took the first hat-trick in a T20 international?",
+      "rank": 4,
+      "chunk_id": "2024_mens_t20_world_cup::s018::03",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "fame-03",
+      "kind": "old",
+      "question": "Who took the first hat-trick in a T20 international?",
+      "rank": 5,
+      "chunk_id": "stuart_broad::s014::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "recent-01",
+      "kind": "old",
+      "question": "Who won the 2024 Men's T20 World Cup?",
+      "rank": 1,
+      "chunk_id": "2024_mens_t20_world_cup_final::s000::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "recent-01",
+      "kind": "old",
+      "question": "Who won the 2024 Men's T20 World Cup?",
+      "rank": 2,
+      "chunk_id": "2024_mens_t20_world_cup::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "recent-01",
+      "kind": "old",
+      "question": "Who won the 2024 Men's T20 World Cup?",
+      "rank": 3,
+      "chunk_id": "2024_mens_t20_world_cup::s024::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "recent-01",
+      "kind": "old",
+      "question": "Who won the 2024 Men's T20 World Cup?",
+      "rank": 4,
+      "chunk_id": "2024_mens_t20_world_cup_final::s001::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "recent-01",
+      "kind": "old",
+      "question": "Who won the 2024 Men's T20 World Cup?",
+      "rank": 5,
+      "chunk_id": "2024_mens_t20_world_cup_final::s009::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "recent-02",
+      "kind": "old",
+      "question": "Which team won the 2025 IPL?",
+      "rank": 1,
+      "chunk_id": "2025_indian_premier_league::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "recent-02",
+      "kind": "old",
+      "question": "Which team won the 2025 IPL?",
+      "rank": 2,
+      "chunk_id": "2025_indian_premier_league_final::s000::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "recent-02",
+      "kind": "old",
+      "question": "Which team won the 2025 IPL?",
+      "rank": 3,
+      "chunk_id": "2025_indian_premier_league_final::s011::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "recent-02",
+      "kind": "old",
+      "question": "Which team won the 2025 IPL?",
+      "rank": 4,
+      "chunk_id": "2025_indian_premier_league::s017::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "recent-02",
+      "kind": "old",
+      "question": "Which team won the 2025 IPL?",
+      "rank": 5,
+      "chunk_id": "2025_indian_premier_league_final::s001::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-01",
+      "kind": "chain",
+      "question": "What are the two ends of the ground that hosted the 2023 World Test Championship final called?",
+      "rank": 1,
+      "chunk_id": "2023_world_test_championship_final::s001::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 3,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-01",
+      "kind": "chain",
+      "question": "What are the two ends of the ground that hosted the 2023 World Test Championship final called?",
+      "rank": 2,
+      "chunk_id": "2023_world_test_championship_final::s000::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 3,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-01",
+      "kind": "chain",
+      "question": "What are the two ends of the ground that hosted the 2023 World Test Championship final called?",
+      "rank": 3,
+      "chunk_id": "2023_world_test_championship_final::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 3,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-01",
+      "kind": "chain",
+      "question": "What are the two ends of the ground that hosted the 2023 World Test Championship final called?",
+      "rank": 4,
+      "chunk_id": "2023_world_test_championship_final::s009::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 3,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-01",
+      "kind": "chain",
+      "question": "What are the two ends of the ground that hosted the 2023 World Test Championship final called?",
+      "rank": 5,
+      "chunk_id": "2023_world_test_championship_final::s001::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 3,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-02",
+      "kind": "chain",
+      "question": "How long did it take to build the stadium that hosted the 2011 Cricket World Cup final, and when did it open?",
+      "rank": 1,
+      "chunk_id": "narendra_modi_stadium::s000::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "chain-02",
+      "kind": "chain",
+      "question": "How long did it take to build the stadium that hosted the 2011 Cricket World Cup final, and when did it open?",
+      "rank": 2,
+      "chunk_id": "2011_cricket_world_cup::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-02",
+      "kind": "chain",
+      "question": "How long did it take to build the stadium that hosted the 2011 Cricket World Cup final, and when did it open?",
+      "rank": 3,
+      "chunk_id": "2011_cricket_world_cup_final::s000::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-02",
+      "kind": "chain",
+      "question": "How long did it take to build the stadium that hosted the 2011 Cricket World Cup final, and when did it open?",
+      "rank": 4,
+      "chunk_id": "2011_cricket_world_cup_final::s000::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-02",
+      "kind": "chain",
+      "question": "How long did it take to build the stadium that hosted the 2011 Cricket World Cup final, and when did it open?",
+      "rank": 5,
+      "chunk_id": "2011_cricket_world_cup::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-03",
+      "kind": "chain",
+      "question": "Who opened the stadium that hosted the 2025 IPL final, and on what date?",
+      "rank": 1,
+      "chunk_id": "2025_indian_premier_league_final::s001::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-03",
+      "kind": "chain",
+      "question": "Who opened the stadium that hosted the 2025 IPL final, and on what date?",
+      "rank": 2,
+      "chunk_id": "2025_indian_premier_league_final::s000::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-03",
+      "kind": "chain",
+      "question": "Who opened the stadium that hosted the 2025 IPL final, and on what date?",
+      "rank": 3,
+      "chunk_id": "narendra_modi_stadium::s004::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "chain-03",
+      "kind": "chain",
+      "question": "Who opened the stadium that hosted the 2025 IPL final, and on what date?",
+      "rank": 4,
+      "chunk_id": "2025_indian_premier_league::s004::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "chain-03",
+      "kind": "chain",
+      "question": "Who opened the stadium that hosted the 2025 IPL final, and on what date?",
+      "rank": 5,
+      "chunk_id": "2024_indian_premier_league::s004::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-04",
+      "kind": "chain",
+      "question": "What is the spectator capacity of the ground that hosted the first Test of India's 2025 tour of England?",
+      "rank": 1,
+      "chunk_id": "edgbaston_cricket_ground::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "chain-04",
+      "kind": "chain",
+      "question": "What is the spectator capacity of the ground that hosted the first Test of India's 2025 tour of England?",
+      "rank": 2,
+      "chunk_id": "edgbaston_cricket_ground::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "chain-04",
+      "kind": "chain",
+      "question": "What is the spectator capacity of the ground that hosted the first Test of India's 2025 tour of England?",
+      "rank": 3,
+      "chunk_id": "edgbaston_cricket_ground::s004::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-04",
+      "kind": "chain",
+      "question": "What is the spectator capacity of the ground that hosted the first Test of India's 2025 tour of England?",
+      "rank": 4,
+      "chunk_id": "edgbaston_cricket_ground::s002::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "chain-04",
+      "kind": "chain",
+      "question": "What is the spectator capacity of the ground that hosted the first Test of India's 2025 tour of England?",
+      "rank": 5,
+      "chunk_id": "edgbaston_cricket_ground::s007::05",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-05",
+      "kind": "chain",
+      "question": "On what date was the stadium that hosted the first Test of the 2025–26 Ashes officially opened?",
+      "rank": 1,
+      "chunk_id": "perth_stadium::s011::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-05",
+      "kind": "chain",
+      "question": "On what date was the stadium that hosted the first Test of the 2025–26 Ashes officially opened?",
+      "rank": 2,
+      "chunk_id": "2025-26_ashes_series::s002::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-05",
+      "kind": "chain",
+      "question": "On what date was the stadium that hosted the first Test of the 2025–26 Ashes officially opened?",
+      "rank": 3,
+      "chunk_id": "2025-26_ashes_series::s006::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-05",
+      "kind": "chain",
+      "question": "On what date was the stadium that hosted the first Test of the 2025–26 Ashes officially opened?",
+      "rank": 4,
+      "chunk_id": "2025-26_ashes_series::s000::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-05",
+      "kind": "chain",
+      "question": "On what date was the stadium that hosted the first Test of the 2025–26 Ashes officially opened?",
+      "rank": 5,
+      "chunk_id": "2017-18_ashes_series::s002::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-06",
+      "kind": "chain",
+      "question": "In what year was the first Test played at the ground that hosted the second Test of India's 2024–25 tour of Australia?",
+      "rank": 1,
+      "chunk_id": "adelaide_oval::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "chain-06",
+      "kind": "chain",
+      "question": "In what year was the first Test played at the ground that hosted the second Test of India's 2024–25 tour of Australia?",
+      "rank": 2,
+      "chunk_id": "adelaide_oval::s014::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "chain-06",
+      "kind": "chain",
+      "question": "In what year was the first Test played at the ground that hosted the second Test of India's 2024–25 tour of Australia?",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s004::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-06",
+      "kind": "chain",
+      "question": "In what year was the first Test played at the ground that hosted the second Test of India's 2024–25 tour of Australia?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-06",
+      "kind": "chain",
+      "question": "In what year was the first Test played at the ground that hosted the second Test of India's 2024–25 tour of Australia?",
+      "rank": 5,
+      "chunk_id": "adelaide_oval::s001::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-07",
+      "kind": "chain",
+      "question": "Which school did the player of the match in the 2024 IPL final attend?",
+      "rank": 1,
+      "chunk_id": "2024_indian_premier_league_final::s000::00",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-07",
+      "kind": "chain",
+      "question": "Which school did the player of the match in the 2024 IPL final attend?",
+      "rank": 2,
+      "chunk_id": "2024_indian_premier_league_final::s004::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-07",
+      "kind": "chain",
+      "question": "Which school did the player of the match in the 2024 IPL final attend?",
+      "rank": 3,
+      "chunk_id": "2024_indian_premier_league::s017::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-07",
+      "kind": "chain",
+      "question": "Which school did the player of the match in the 2024 IPL final attend?",
+      "rank": 4,
+      "chunk_id": "2024_indian_premier_league::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-07",
+      "kind": "chain",
+      "question": "Which school did the player of the match in the 2024 IPL final attend?",
+      "rank": 5,
+      "chunk_id": "2024_indian_premier_league_final::s001::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-08",
+      "kind": "chain",
+      "question": "How many people can the stadium that hosted the first Test of India's 2024–25 tour of Australia hold?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s001::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "chain-08",
+      "kind": "chain",
+      "question": "How many people can the stadium that hosted the first Test of India's 2024–25 tour of Australia hold?",
+      "rank": 2,
+      "chunk_id": "perth_stadium::s000::01",
+      "label": "partial",
+      "parts_held": 1,
+      "parts": 2,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "chain-08",
+      "kind": "chain",
+      "question": "How many people can the stadium that hosted the first Test of India's 2024–25 tour of Australia hold?",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s009::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-08",
+      "kind": "chain",
+      "question": "How many people can the stadium that hosted the first Test of India's 2024–25 tour of Australia hold?",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s004::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "chain-08",
+      "kind": "chain",
+      "question": "How many people can the stadium that hosted the first Test of India's 2024–25 tour of Australia hold?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 2,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-01",
+      "kind": "gap",
+      "question": "On what date did Cheteshwar Pujara announce his retirement from all forms of cricket?",
+      "rank": 1,
+      "chunk_id": "australian_cricket_team_in_india_in_2016-17::s005::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-01",
+      "kind": "gap",
+      "question": "On what date did Cheteshwar Pujara announce his retirement from all forms of cricket?",
+      "rank": 2,
+      "chunk_id": "2023_world_test_championship_final::s011::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-01",
+      "kind": "gap",
+      "question": "On what date did Cheteshwar Pujara announce his retirement from all forms of cricket?",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-01",
+      "kind": "gap",
+      "question": "On what date did Cheteshwar Pujara announce his retirement from all forms of cricket?",
+      "rank": 4,
+      "chunk_id": "australian_cricket_team_in_india_in_2016-17::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-01",
+      "kind": "gap",
+      "question": "On what date did Cheteshwar Pujara announce his retirement from all forms of cricket?",
+      "rank": 5,
+      "chunk_id": "australian_cricket_team_in_india_in_2016-17::s005::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-02",
+      "kind": "gap",
+      "question": "Which radio commentary team did Cheteshwar Pujara join in June 2025, and for which match?",
+      "rank": 1,
+      "chunk_id": "2023_world_test_championship_final::s011::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-02",
+      "kind": "gap",
+      "question": "Which radio commentary team did Cheteshwar Pujara join in June 2025, and for which match?",
+      "rank": 2,
+      "chunk_id": "2023_world_test_championship_final::s009::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-02",
+      "kind": "gap",
+      "question": "Which radio commentary team did Cheteshwar Pujara join in June 2025, and for which match?",
+      "rank": 3,
+      "chunk_id": "2025_indian_premier_league::s005::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-02",
+      "kind": "gap",
+      "question": "Which radio commentary team did Cheteshwar Pujara join in June 2025, and for which match?",
+      "rank": 4,
+      "chunk_id": "lords::s009::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-02",
+      "kind": "gap",
+      "question": "Which radio commentary team did Cheteshwar Pujara join in June 2025, and for which match?",
+      "rank": 5,
+      "chunk_id": "2013_ashes_series::s011::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-03",
+      "kind": "gap",
+      "question": "In June 2026, Rishabh Pant was traded from Lucknow Super Giants to Delhi Capitals in exchange for which player?",
+      "rank": 1,
+      "chunk_id": "2025_indian_premier_league::s008::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-03",
+      "kind": "gap",
+      "question": "In June 2026, Rishabh Pant was traded from Lucknow Super Giants to Delhi Capitals in exchange for which player?",
+      "rank": 2,
+      "chunk_id": "2024_indian_premier_league::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-03",
+      "kind": "gap",
+      "question": "In June 2026, Rishabh Pant was traded from Lucknow Super Giants to Delhi Capitals in exchange for which player?",
+      "rank": 3,
+      "chunk_id": "2022_indian_premier_league::s009::28",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-03",
+      "kind": "gap",
+      "question": "In June 2026, Rishabh Pant was traded from Lucknow Super Giants to Delhi Capitals in exchange for which player?",
+      "rank": 4,
+      "chunk_id": "2024_indian_premier_league::s012::10",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-03",
+      "kind": "gap",
+      "question": "In June 2026, Rishabh Pant was traded from Lucknow Super Giants to Delhi Capitals in exchange for which player?",
+      "rank": 5,
+      "chunk_id": "2024_indian_premier_league::s012::27",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-04",
+      "kind": "gap",
+      "question": "When did Kane Williamson retire from international cricket, and what did he score in his last match?",
+      "rank": 1,
+      "chunk_id": "2021_mens_t20_world_cup_final::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "gap-04",
+      "kind": "gap",
+      "question": "When did Kane Williamson retire from international cricket, and what did he score in his last match?",
+      "rank": 2,
+      "chunk_id": "2021_mens_t20_world_cup_final::s004::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "gap-04",
+      "kind": "gap",
+      "question": "When did Kane Williamson retire from international cricket, and what did he score in his last match?",
+      "rank": 3,
+      "chunk_id": "2019_cricket_world_cup_final::s007::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-04",
+      "kind": "gap",
+      "question": "When did Kane Williamson retire from international cricket, and what did he score in his last match?",
+      "rank": 4,
+      "chunk_id": "2019_cricket_world_cup_final::s003::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-04",
+      "kind": "gap",
+      "question": "When did Kane Williamson retire from international cricket, and what did he score in his last match?",
+      "rank": 5,
+      "chunk_id": "2019_cricket_world_cup_group_stage::s027::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-05",
+      "kind": "gap",
+      "question": "Which team in The Hundred made Kane Williamson its first male direct signing, and in which year?",
+      "rank": 1,
+      "chunk_id": "david_warner_cricketer::s004::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-05",
+      "kind": "gap",
+      "question": "Which team in The Hundred made Kane Williamson its first male direct signing, and in which year?",
+      "rank": 2,
+      "chunk_id": "2020_indian_premier_league::s014::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-05",
+      "kind": "gap",
+      "question": "Which team in The Hundred made Kane Williamson its first male direct signing, and in which year?",
+      "rank": 3,
+      "chunk_id": "2020_indian_premier_league_final::s005::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-05",
+      "kind": "gap",
+      "question": "Which team in The Hundred made Kane Williamson its first male direct signing, and in which year?",
+      "rank": 4,
+      "chunk_id": "jos_buttler::s029::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-05",
+      "kind": "gap",
+      "question": "Which team in The Hundred made Kane Williamson its first male direct signing, and in which year?",
+      "rank": 5,
+      "chunk_id": "2021_mens_t20_world_cup_final::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-06",
+      "kind": "gap",
+      "question": "How many runs did Suryakumar Yadav score in India's home T20I series against New Zealand in January 2026, and what award did he win?",
+      "rank": 1,
+      "chunk_id": "jasprit_bumrah::s011::04",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-06",
+      "kind": "gap",
+      "question": "How many runs did Suryakumar Yadav score in India's home T20I series against New Zealand in January 2026, and what award did he win?",
+      "rank": 2,
+      "chunk_id": "2024_mens_t20_world_cup::s018::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-06",
+      "kind": "gap",
+      "question": "How many runs did Suryakumar Yadav score in India's home T20I series against New Zealand in January 2026, and what award did he win?",
+      "rank": 3,
+      "chunk_id": "narendra_modi_stadium::s014::05",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-06",
+      "kind": "gap",
+      "question": "How many runs did Suryakumar Yadav score in India's home T20I series against New Zealand in January 2026, and what award did he win?",
+      "rank": 4,
+      "chunk_id": "english_cricket_team_in_india_in_2020-21::s010::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "gap-06",
+      "kind": "gap",
+      "question": "How many runs did Suryakumar Yadav score in India's home T20I series against New Zealand in January 2026, and what award did he win?",
+      "rank": 5,
+      "chunk_id": "m_a_chidambaram_stadium::s015::05",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-01",
+      "kind": "trap",
+      "question": "What is the highest individual Test score by an Indian captain, and who made it?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_england_in_2025::s007::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-01",
+      "kind": "trap",
+      "question": "What is the highest individual Test score by an Indian captain, and who made it?",
+      "rank": 2,
+      "chunk_id": "shubman_gill::s003::07",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-01",
+      "kind": "trap",
+      "question": "What is the highest individual Test score by an Indian captain, and who made it?",
+      "rank": 3,
+      "chunk_id": "rohit_sharma::s004::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "trap-01",
+      "kind": "trap",
+      "question": "What is the highest individual Test score by an Indian captain, and who made it?",
+      "rank": 4,
+      "chunk_id": "australian_cricket_team_in_india_in_2012-13::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-01",
+      "kind": "trap",
+      "question": "What is the highest individual Test score by an Indian captain, and who made it?",
+      "rank": 5,
+      "chunk_id": "ms_dhoni::s014::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-02",
+      "kind": "trap",
+      "question": "Who scored the fastest fifty on debut in ODIs, and off how many balls?",
+      "rank": 1,
+      "chunk_id": "english_cricket_team_in_india_in_2020-21::s012::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-02",
+      "kind": "trap",
+      "question": "Who scored the fastest fifty on debut in ODIs, and off how many balls?",
+      "rank": 2,
+      "chunk_id": "australian_cricket_team_in_india_in_2012-13::s014::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "trap-02",
+      "kind": "trap",
+      "question": "Who scored the fastest fifty on debut in ODIs, and off how many balls?",
+      "rank": 3,
+      "chunk_id": "david_warner_cricketer::s006::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-02",
+      "kind": "trap",
+      "question": "Who scored the fastest fifty on debut in ODIs, and off how many balls?",
+      "rank": 4,
+      "chunk_id": "2007_world_twenty20::s013::03",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-02",
+      "kind": "trap",
+      "question": "Who scored the fastest fifty on debut in ODIs, and off how many balls?",
+      "rank": 5,
+      "chunk_id": "eden_gardens::s023::04",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-03",
+      "kind": "trap",
+      "question": "What is the highest Test score by an Australian captain in India?",
+      "rank": 1,
+      "chunk_id": "australian_cricket_team_in_india_in_2016-17::s005::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-03",
+      "kind": "trap",
+      "question": "What is the highest Test score by an Australian captain in India?",
+      "rank": 2,
+      "chunk_id": "steve_smith_cricketer::s021::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-03",
+      "kind": "trap",
+      "question": "What is the highest Test score by an Australian captain in India?",
+      "rank": 3,
+      "chunk_id": "australian_cricket_team_in_india_in_2016-17::s005::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-03",
+      "kind": "trap",
+      "question": "What is the highest Test score by an Australian captain in India?",
+      "rank": 4,
+      "chunk_id": "australian_cricket_team_in_india_in_2012-13::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-03",
+      "kind": "trap",
+      "question": "What is the highest Test score by an Australian captain in India?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2011-12::s007::03",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": true
+    },
+    {
+      "id": "trap-04",
+      "kind": "trap",
+      "question": "As of the 2015 Cricket World Cup, what was the highest team total in a World Cup semi-final, and which team made it?",
+      "rank": 1,
+      "chunk_id": "2015_cricket_world_cup::s021::01",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-04",
+      "kind": "trap",
+      "question": "As of the 2015 Cricket World Cup, what was the highest team total in a World Cup semi-final, and which team made it?",
+      "rank": 2,
+      "chunk_id": "2015_cricket_world_cup::s021::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-04",
+      "kind": "trap",
+      "question": "As of the 2015 Cricket World Cup, what was the highest team total in a World Cup semi-final, and which team made it?",
+      "rank": 3,
+      "chunk_id": "2015_cricket_world_cup::s000::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-04",
+      "kind": "trap",
+      "question": "As of the 2015 Cricket World Cup, what was the highest team total in a World Cup semi-final, and which team made it?",
+      "rank": 4,
+      "chunk_id": "wankhede_stadium::s014::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "trap-04",
+      "kind": "trap",
+      "question": "As of the 2015 Cricket World Cup, what was the highest team total in a World Cup semi-final, and which team made it?",
+      "rank": 5,
+      "chunk_id": "2023_cricket_world_cup::s017::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "trap-05",
+      "kind": "trap",
+      "question": "What is the highest individual Test score by an Indian batter against England, and who made it?",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_england_in_2025::s007::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-05",
+      "kind": "trap",
+      "question": "What is the highest individual Test score by an Indian batter against England, and who made it?",
+      "rank": 2,
+      "chunk_id": "english_cricket_team_in_india_in_2016-17::s006::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-05",
+      "kind": "trap",
+      "question": "What is the highest individual Test score by an Indian batter against England, and who made it?",
+      "rank": 3,
+      "chunk_id": "english_cricket_team_in_india_in_2016-17::s005::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 10,
+      "decoy": true
+    },
+    {
+      "id": "trap-05",
+      "kind": "trap",
+      "question": "What is the highest individual Test score by an Indian batter against England, and who made it?",
+      "rank": 4,
+      "chunk_id": "m_a_chidambaram_stadium::s006::02",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 5,
+      "decoy": false
+    },
+    {
+      "id": "trap-05",
+      "kind": "trap",
+      "question": "What is the highest individual Test score by an Indian batter against England, and who made it?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_england_in_2021::s003::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-06",
+      "kind": "trap",
+      "question": "Which wicketkeeper took the most catches on Test debut, and how many?",
+      "rank": 1,
+      "chunk_id": "2021-22_ashes_series::s004::00",
+      "label": "relevant",
+      "parts_held": 1,
+      "parts": 1,
+      "score": 10,
+      "decoy": false
+    },
+    {
+      "id": "trap-06",
+      "kind": "trap",
+      "question": "Which wicketkeeper took the most catches on Test debut, and how many?",
+      "rank": 2,
+      "chunk_id": "2013_ashes_series::s008::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-06",
+      "kind": "trap",
+      "question": "Which wicketkeeper took the most catches on Test debut, and how many?",
+      "rank": 3,
+      "chunk_id": "steve_smith_cricketer::s060::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-06",
+      "kind": "trap",
+      "question": "Which wicketkeeper took the most catches on Test debut, and how many?",
+      "rank": 4,
+      "chunk_id": "ms_dhoni::s014::00",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    },
+    {
+      "id": "trap-06",
+      "kind": "trap",
+      "question": "Which wicketkeeper took the most catches on Test debut, and how many?",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_england_in_2025::s006::01",
+      "label": "irrelevant",
+      "parts_held": 0,
+      "parts": 1,
+      "score": 0,
+      "decoy": false
+    }
+  ]
+}

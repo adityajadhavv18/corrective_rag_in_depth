@@ -2,3 +2,4 @@
 data/
 __pycache__/
 .env
+corrective/results/phase2_disagree.json
