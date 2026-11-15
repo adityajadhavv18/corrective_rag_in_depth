@@ -8,6 +8,8 @@ like Phase 0 (Contextual's 1-vote grader and Adaptive's 3-vote grader).
     3c   3a + fallback library
     3d   3a + deeper main search (ranks 6-40, keep 10s only)
     3e   all of them
+    3f   fallback without drop: CORRECT / AMBIGUOUS keep every main passage (AMBIGUOUS adds useful fallback ones),
+         INCORRECT swaps them for the fallback's
 
 Per step: right answers (1 and 3 votes) overall and by kind, actions, questions fixed / broken against 3.0, cost per
 question and p50 time. Times come from the cached replay (run a step again with a dummy key: $0, and it proves
@@ -40,6 +42,7 @@ STEPS = {
     "3c": ("drop + fallback", {"drop": True, "fallback": True}),
     "3d": ("drop + deep main search", {"drop": True, "deep": True}),
     "3e": ("drop + strips + fallback + deep", ALL),
+    "3f": ("fallback, main passages kept unless INCORRECT", {"discard": True, "fallback": True}),
 }
 KINDS = ("old", "chain", "gap", "trap", "none")
 

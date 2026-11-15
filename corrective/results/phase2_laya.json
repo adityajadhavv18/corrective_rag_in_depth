@@ -1,0 +1,3443 @@
+{
+  "llm": {
+    "action_match": 0.8103448275862069,
+    "action_by_kind": {
+      "chain": "2/8",
+      "gap": "5/6",
+      "none": "2/2",
+      "old": "32/36",
+      "trap": "6/6"
+    },
+    "passage_match": 0.7862068965517242,
+    "catch_rate": 0.9230769230769231,
+    "false_alarms": 0.20100502512562815,
+    "passage_confusion": {
+      "relevant": {
+        "relevant": 66,
+        "partial": 3,
+        "irrelevant": 0
+      },
+      "partial": {
+        "relevant": 12,
+        "partial": 3,
+        "irrelevant": 7
+      },
+      "irrelevant": {
+        "relevant": 11,
+        "partial": 29,
+        "irrelevant": 159
+      }
+    },
+    "incorrect_caught": "8/10",
+    "false_incorrect": 3,
+    "actions": {
+      "which-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-06": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-03": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "twin-04": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "twin-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "multi-01": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "multi-02": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "multi-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "multi-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "none-01": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "none-02": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "rule-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-03": {
+        "key": "CORRECT",
+        "grader": "AMBIGUOUS"
+      },
+      "fame-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "recent-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "recent-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-01": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-02": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-03": {
+        "key": "AMBIGUOUS",
+        "grader": "AMBIGUOUS"
+      },
+      "chain-04": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-05": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-06": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-07": {
+        "key": "AMBIGUOUS",
+        "grader": "INCORRECT"
+      },
+      "chain-08": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "gap-01": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-02": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-03": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-04": {
+        "key": "INCORRECT",
+        "grader": "AMBIGUOUS"
+      },
+      "gap-05": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "gap-06": {
+        "key": "INCORRECT",
+        "grader": "INCORRECT"
+      },
+      "trap-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-06": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      }
+    },
+    "p50_ms": 826.7778959707357
+  },
+  "laya": {
+    "action_match": 0.6724137931034483,
+    "action_by_kind": {
+      "chain": "1/8",
+      "gap": "0/6",
+      "none": "0/2",
+      "old": "32/36",
+      "trap": "6/6"
+    },
+    "passage_match": 0.23448275862068965,
+    "catch_rate": 1.0,
+    "false_alarms": 1.0,
+    "passage_confusion": {
+      "relevant": {
+        "relevant": 68,
+        "partial": 1,
+        "irrelevant": 0
+      },
+      "partial": {
+        "relevant": 22,
+        "partial": 0,
+        "irrelevant": 0
+      },
+      "irrelevant": {
+        "relevant": 178,
+        "partial": 21,
+        "irrelevant": 0
+      }
+    },
+    "incorrect_caught": "0/10",
+    "false_incorrect": 0,
+    "actions": {
+      "which-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "which-06": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-03": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "twin-04": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "twin-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "pron-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "num-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "multi-01": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "multi-02": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "multi-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "multi-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "bio-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "none-01": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "none-02": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "rule-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "fame-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "recent-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "recent-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-01": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-02": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-03": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-04": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "chain-05": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-06": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-07": {
+        "key": "AMBIGUOUS",
+        "grader": "CORRECT"
+      },
+      "chain-08": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "gap-01": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "gap-02": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "gap-03": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "gap-04": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "gap-05": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "gap-06": {
+        "key": "INCORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-01": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-02": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-03": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-04": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-05": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      },
+      "trap-06": {
+        "key": "CORRECT",
+        "grader": "CORRECT"
+      }
+    },
+    "picks": {
+      "A": 268,
+      "B": 22,
+      "C": 0
+    },
+    "p50_ms": 315.0889789976645
+  },
+  "passages": [
+    {
+      "id": "which-01",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::04",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.408
+    },
+    {
+      "id": "which-01",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2784
+    },
+    {
+      "id": "which-01",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::05",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2505
+    },
+    {
+      "id": "which-01",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3409
+    },
+    {
+      "id": "which-01",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s007::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0857
+    },
+    {
+      "id": "which-02",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2013-14_ashes_series::s006::01",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1597
+    },
+    {
+      "id": "which-02",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2013-14_ashes_series::s006::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3704
+    },
+    {
+      "id": "which-02",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "ben_stokes::s005::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0674
+    },
+    {
+      "id": "which-02",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2013-14_ashes_series::s006::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1196
+    },
+    {
+      "id": "which-02",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2013_ashes_series::s007::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2233
+    },
+    {
+      "id": "which-03",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2023_ashes_series::s006::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2126
+    },
+    {
+      "id": "which-03",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2023_ashes_series::s002::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.4649
+    },
+    {
+      "id": "which-03",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2023_ashes_series::s003::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3091
+    },
+    {
+      "id": "which-03",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "joe_root::s019::00",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0443
+    },
+    {
+      "id": "which-03",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2019_ashes_series::s005::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.098
+    },
+    {
+      "id": "which-04",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2023_world_test_championship_final::s010::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2643
+    },
+    {
+      "id": "which-04",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2023_world_test_championship_final::s012::03",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.071
+    },
+    {
+      "id": "which-04",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2023_world_test_championship_final::s007::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3305
+    },
+    {
+      "id": "which-04",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2023_world_test_championship_final::s009::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1904
+    },
+    {
+      "id": "which-04",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2023_world_test_championship_final::s011::01",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0715
+    },
+    {
+      "id": "which-05",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s028::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1516
+    },
+    {
+      "id": "which-05",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s025::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1982
+    },
+    {
+      "id": "which-05",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s026::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0969
+    },
+    {
+      "id": "which-05",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s029::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1645
+    },
+    {
+      "id": "which-05",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "english_cricket_team_in_india_in_2020-21::s002::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1103
+    },
+    {
+      "id": "which-06",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "wankhede_stadium::s012::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3681
+    },
+    {
+      "id": "which-06",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2011_cricket_world_cup_final::s007::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1254
+    },
+    {
+      "id": "which-06",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2011_cricket_world_cup_final::s000::01",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3185
+    },
+    {
+      "id": "which-06",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2011_cricket_world_cup_final::s008::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0467
+    },
+    {
+      "id": "which-06",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2011_cricket_world_cup_final::s008::03",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1153
+    },
+    {
+      "id": "twin-01",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s011::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1757
+    },
+    {
+      "id": "twin-01",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s010::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2491
+    },
+    {
+      "id": "twin-01",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s013::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0695
+    },
+    {
+      "id": "twin-01",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.174
+    },
+    {
+      "id": "twin-01",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1787
+    },
+    {
+      "id": "twin-02",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3175
+    },
+    {
+      "id": "twin-02",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2436
+    },
+    {
+      "id": "twin-02",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "adelaide_oval::s014::03",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0476
+    },
+    {
+      "id": "twin-02",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "rohit_sharma::s004::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3911
+    },
+    {
+      "id": "twin-02",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2025_champions_trophy::s029::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0368
+    },
+    {
+      "id": "twin-03",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2017_indian_premier_league_final::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1028
+    },
+    {
+      "id": "twin-03",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2017_indian_premier_league::s012::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2366
+    },
+    {
+      "id": "twin-03",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2017_indian_premier_league_final::s006::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.069
+    },
+    {
+      "id": "twin-03",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2017_indian_premier_league_final::s006::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1143
+    },
+    {
+      "id": "twin-03",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2017_indian_premier_league::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1871
+    },
+    {
+      "id": "twin-04",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s014::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1981
+    },
+    {
+      "id": "twin-04",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s016::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1256
+    },
+    {
+      "id": "twin-04",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s018::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1026
+    },
+    {
+      "id": "twin-04",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s003::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1576
+    },
+    {
+      "id": "twin-04",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "narendra_modi_stadium::s003::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0905
+    },
+    {
+      "id": "twin-05",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2019_cricket_world_cup_group_stage::s031::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3011
+    },
+    {
+      "id": "twin-05",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2019_cricket_world_cup::s014::00",
+      "label": "relevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0325
+    },
+    {
+      "id": "twin-05",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2019_cricket_world_cup::s014::01",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.324
+    },
+    {
+      "id": "twin-05",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2019_cricket_world_cup_group_stage::s044::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1994
+    },
+    {
+      "id": "twin-05",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2019_cricket_world_cup_group_stage::s012::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2785
+    },
+    {
+      "id": "pron-01",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2019_ashes_series::s016::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2189
+    },
+    {
+      "id": "pron-01",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2019_ashes_series::s018::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1105
+    },
+    {
+      "id": "pron-01",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "ben_stokes::s011::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1534
+    },
+    {
+      "id": "pron-01",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "headingley_cricket_ground::s002::04",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0604
+    },
+    {
+      "id": "pron-01",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "headingley_cricket_ground::s002::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1543
+    },
+    {
+      "id": "pron-02",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_england_in_2014::s009::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2974
+    },
+    {
+      "id": "pron-02",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_england_in_2014::s009::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2304
+    },
+    {
+      "id": "pron-02",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_england_in_2014::s005::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.186
+    },
+    {
+      "id": "pron-02",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "adelaide_oval::s014::03",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0585
+    },
+    {
+      "id": "pron-02",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_england_in_2025::s010::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3067
+    },
+    {
+      "id": "pron-03",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2013-14_ashes_series::s003::01",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2487
+    },
+    {
+      "id": "pron-03",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2013-14_ashes_series::s003::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3383
+    },
+    {
+      "id": "pron-03",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2013-14_ashes_series::s003::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.308
+    },
+    {
+      "id": "pron-03",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2013_ashes_series::s004::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1408
+    },
+    {
+      "id": "pron-03",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2013_ashes_series::s004::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3289
+    },
+    {
+      "id": "pron-04",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s013::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1856
+    },
+    {
+      "id": "pron-04",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s012::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1921
+    },
+    {
+      "id": "pron-04",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "jasprit_bumrah::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1247
+    },
+    {
+      "id": "pron-04",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2182
+    },
+    {
+      "id": "pron-04",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s012::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1224
+    },
+    {
+      "id": "pron-05",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2015_ashes_series::s004::02",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.4219
+    },
+    {
+      "id": "pron-05",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2015_ashes_series::s004::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2534
+    },
+    {
+      "id": "pron-05",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2015_ashes_series::s004::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2081
+    },
+    {
+      "id": "pron-05",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2019_ashes_series::s010::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2443
+    },
+    {
+      "id": "pron-05",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2015_ashes_series::s005::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1735
+    },
+    {
+      "id": "num-01",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s010::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2511
+    },
+    {
+      "id": "num-01",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s013::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1932
+    },
+    {
+      "id": "num-01",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "josh_hazlewood::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1168
+    },
+    {
+      "id": "num-01",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s011::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0921
+    },
+    {
+      "id": "num-01",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2289
+    },
+    {
+      "id": "num-02",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2019_ashes_series::s016::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2885
+    },
+    {
+      "id": "num-02",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "ben_stokes::s011::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2256
+    },
+    {
+      "id": "num-02",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2019_ashes_series::s020::03",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0648
+    },
+    {
+      "id": "num-02",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2019_ashes_series::s020::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2348
+    },
+    {
+      "id": "num-02",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2019_ashes_series::s020::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1589
+    },
+    {
+      "id": "num-03",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s009::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1936
+    },
+    {
+      "id": "num-03",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "jasprit_bumrah::s005::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0657
+    },
+    {
+      "id": "num-03",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s012::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3073
+    },
+    {
+      "id": "num-03",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3003
+    },
+    {
+      "id": "num-03",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s011::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1797
+    },
+    {
+      "id": "num-04",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2023_cricket_world_cup_group_stage::s009::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2991
+    },
+    {
+      "id": "num-04",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2023_cricket_world_cup_group_stage::s009::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2414
+    },
+    {
+      "id": "num-04",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2023_cricket_world_cup::s011::01",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0139
+    },
+    {
+      "id": "num-04",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2023_cricket_world_cup_group_stage::s005::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1034
+    },
+    {
+      "id": "num-04",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2023_cricket_world_cup_group_stage::s005::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1096
+    },
+    {
+      "id": "num-05",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2016_indian_premier_league::s014::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3585
+    },
+    {
+      "id": "num-05",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2016_indian_premier_league_final::s000::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0599
+    },
+    {
+      "id": "num-05",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2016_indian_premier_league_final::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1553
+    },
+    {
+      "id": "num-05",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2016_indian_premier_league_final::s003::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0858
+    },
+    {
+      "id": "num-05",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2016_indian_premier_league::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1874
+    },
+    {
+      "id": "multi-01",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2023_cricket_world_cup_final::s007::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0964
+    },
+    {
+      "id": "multi-01",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2023_cricket_world_cup_final::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2553
+    },
+    {
+      "id": "multi-01",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2023_cricket_world_cup_final::s005::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1845
+    },
+    {
+      "id": "multi-01",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2023_cricket_world_cup_final::s006::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2151
+    },
+    {
+      "id": "multi-01",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "narendra_modi_stadium::s013::03",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1775
+    },
+    {
+      "id": "multi-02",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s030::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2348
+    },
+    {
+      "id": "multi-02",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s025::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2342
+    },
+    {
+      "id": "multi-02",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "shubman_gill::s003::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0901
+    },
+    {
+      "id": "multi-02",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s027::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1053
+    },
+    {
+      "id": "multi-02",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2020-21::s023::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1016
+    },
+    {
+      "id": "multi-03",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2019_ashes_series::s020::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1438
+    },
+    {
+      "id": "multi-03",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2019_ashes_series::s019::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1479
+    },
+    {
+      "id": "multi-03",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "joe_root::s014::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1479
+    },
+    {
+      "id": "multi-03",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "headingley_cricket_ground::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0999
+    },
+    {
+      "id": "multi-03",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2015_ashes_series::s006::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2544
+    },
+    {
+      "id": "multi-04",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2017_champions_trophy_final::s006::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1539
+    },
+    {
+      "id": "multi-04",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2017_champions_trophy_final::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.4382
+    },
+    {
+      "id": "multi-04",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2017_champions_trophy::s013::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3741
+    },
+    {
+      "id": "multi-04",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2017_champions_trophy_final::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1458
+    },
+    {
+      "id": "multi-04",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2017_champions_trophy_final::s008::04",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0331
+    },
+    {
+      "id": "bio-01",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "jasprit_bumrah::s005::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1406
+    },
+    {
+      "id": "bio-01",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "jasprit_bumrah::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2009
+    },
+    {
+      "id": "bio-01",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "jasprit_bumrah::s005::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1348
+    },
+    {
+      "id": "bio-01",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "jasprit_bumrah::s000::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1292
+    },
+    {
+      "id": "bio-01",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "jasprit_bumrah::s005::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2009
+    },
+    {
+      "id": "bio-02",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "nathan_lyon::s003::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1176
+    },
+    {
+      "id": "bio-02",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "nathan_lyon::s003::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1763
+    },
+    {
+      "id": "bio-02",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "nathan_lyon::s003::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1933
+    },
+    {
+      "id": "bio-02",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "nathan_lyon::s003::07",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2839
+    },
+    {
+      "id": "bio-02",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "nathan_lyon::s000::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3601
+    },
+    {
+      "id": "bio-03",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "perth_stadium::s011::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1809
+    },
+    {
+      "id": "bio-03",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2025-26_ashes_series::s002::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1627
+    },
+    {
+      "id": "bio-03",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2025-26_ashes_series::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3728
+    },
+    {
+      "id": "bio-03",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s001::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2079
+    },
+    {
+      "id": "bio-03",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2021-22_ashes_series::s003::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1155
+    },
+    {
+      "id": "none-01",
+      "kind": "none",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s009::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0828
+    },
+    {
+      "id": "none-01",
+      "kind": "none",
+      "rank": 2,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s009::04",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1326
+    },
+    {
+      "id": "none-01",
+      "kind": "none",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2014-15::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1567
+    },
+    {
+      "id": "none-01",
+      "kind": "none",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2482
+    },
+    {
+      "id": "none-01",
+      "kind": "none",
+      "rank": 5,
+      "chunk_id": "2019_cricket_world_cup::s017::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0317
+    },
+    {
+      "id": "none-02",
+      "kind": "none",
+      "rank": 1,
+      "chunk_id": "2019_ashes_series::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1836
+    },
+    {
+      "id": "none-02",
+      "kind": "none",
+      "rank": 2,
+      "chunk_id": "2019_ashes_series::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0325
+    },
+    {
+      "id": "none-02",
+      "kind": "none",
+      "rank": 3,
+      "chunk_id": "2017-18_ashes_series::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0524
+    },
+    {
+      "id": "none-02",
+      "kind": "none",
+      "rank": 4,
+      "chunk_id": "2017-18_ashes_series::s002::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0406
+    },
+    {
+      "id": "none-02",
+      "kind": "none",
+      "rank": 5,
+      "chunk_id": "2017-18_ashes_series::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2352
+    },
+    {
+      "id": "rule-01",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2010_world_twenty20::s003::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2307
+    },
+    {
+      "id": "rule-01",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2009_world_twenty20::s004::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2607
+    },
+    {
+      "id": "rule-01",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2012_world_twenty20::s002::01",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2629
+    },
+    {
+      "id": "rule-01",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2010_indian_premier_league::s004::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1193
+    },
+    {
+      "id": "rule-01",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2007_world_twenty20::s001::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1459
+    },
+    {
+      "id": "rule-02",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2023_ashes_series::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0712
+    },
+    {
+      "id": "rule-02",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2010-11_ashes_series::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0871
+    },
+    {
+      "id": "rule-02",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2017-18_ashes_series::s000::01",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1306
+    },
+    {
+      "id": "rule-02",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2013_ashes_series::s000::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0268
+    },
+    {
+      "id": "rule-02",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2021-22_ashes_series::s000::01",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2449
+    },
+    {
+      "id": "rule-03",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "james_anderson_cricketer::s009::02",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.1003
+    },
+    {
+      "id": "rule-03",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2017_champions_trophy_final::s002::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1614
+    },
+    {
+      "id": "rule-03",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2010_world_twenty20::s009::02",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1772
+    },
+    {
+      "id": "rule-03",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2019_cricket_world_cup::s013::00",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.1825
+    },
+    {
+      "id": "rule-03",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2019_cricket_world_cup::s017::03",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0241
+    },
+    {
+      "id": "fame-01",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2011_cricket_world_cup::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3948
+    },
+    {
+      "id": "fame-01",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2011_cricket_world_cup_final::s000::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1182
+    },
+    {
+      "id": "fame-01",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2011_cricket_world_cup::s024::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3632
+    },
+    {
+      "id": "fame-01",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2011_cricket_world_cup_final::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3244
+    },
+    {
+      "id": "fame-01",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "wankhede_stadium::s012::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3325
+    },
+    {
+      "id": "fame-02",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2008_indian_premier_league::s000::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1432
+    },
+    {
+      "id": "fame-02",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2008_indian_premier_league_final::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2439
+    },
+    {
+      "id": "fame-02",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2008_indian_premier_league_final::s005::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2931
+    },
+    {
+      "id": "fame-02",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2008_indian_premier_league::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.4561
+    },
+    {
+      "id": "fame-02",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2013_indian_premier_league_final::s005::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0651
+    },
+    {
+      "id": "fame-03",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2007_world_twenty20::s014::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2104
+    },
+    {
+      "id": "fame-03",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2024_mens_t20_world_cup::s019::03",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0192
+    },
+    {
+      "id": "fame-03",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2024_mens_t20_world_cup::s018::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0073
+    },
+    {
+      "id": "fame-03",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2024_mens_t20_world_cup::s018::03",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0031
+    },
+    {
+      "id": "fame-03",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "stuart_broad::s014::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1132
+    },
+    {
+      "id": "recent-01",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2024_mens_t20_world_cup_final::s000::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1493
+    },
+    {
+      "id": "recent-01",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2024_mens_t20_world_cup::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3434
+    },
+    {
+      "id": "recent-01",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2024_mens_t20_world_cup::s024::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2505
+    },
+    {
+      "id": "recent-01",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2024_mens_t20_world_cup_final::s001::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1246
+    },
+    {
+      "id": "recent-01",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2024_mens_t20_world_cup_final::s009::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.287
+    },
+    {
+      "id": "recent-02",
+      "kind": "old",
+      "rank": 1,
+      "chunk_id": "2025_indian_premier_league::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1936
+    },
+    {
+      "id": "recent-02",
+      "kind": "old",
+      "rank": 2,
+      "chunk_id": "2025_indian_premier_league_final::s000::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0999
+    },
+    {
+      "id": "recent-02",
+      "kind": "old",
+      "rank": 3,
+      "chunk_id": "2025_indian_premier_league_final::s011::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1248
+    },
+    {
+      "id": "recent-02",
+      "kind": "old",
+      "rank": 4,
+      "chunk_id": "2025_indian_premier_league::s017::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3787
+    },
+    {
+      "id": "recent-02",
+      "kind": "old",
+      "rank": 5,
+      "chunk_id": "2025_indian_premier_league_final::s001::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1581
+    },
+    {
+      "id": "chain-01",
+      "kind": "chain",
+      "rank": 1,
+      "chunk_id": "2023_world_test_championship_final::s001::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1782
+    },
+    {
+      "id": "chain-01",
+      "kind": "chain",
+      "rank": 2,
+      "chunk_id": "2023_world_test_championship_final::s000::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0956
+    },
+    {
+      "id": "chain-01",
+      "kind": "chain",
+      "rank": 3,
+      "chunk_id": "2023_world_test_championship_final::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1136
+    },
+    {
+      "id": "chain-01",
+      "kind": "chain",
+      "rank": 4,
+      "chunk_id": "2023_world_test_championship_final::s009::01",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0947
+    },
+    {
+      "id": "chain-01",
+      "kind": "chain",
+      "rank": 5,
+      "chunk_id": "2023_world_test_championship_final::s001::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2715
+    },
+    {
+      "id": "chain-02",
+      "kind": "chain",
+      "rank": 1,
+      "chunk_id": "narendra_modi_stadium::s000::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.4745
+    },
+    {
+      "id": "chain-02",
+      "kind": "chain",
+      "rank": 2,
+      "chunk_id": "2011_cricket_world_cup::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.125
+    },
+    {
+      "id": "chain-02",
+      "kind": "chain",
+      "rank": 3,
+      "chunk_id": "2011_cricket_world_cup_final::s000::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0923
+    },
+    {
+      "id": "chain-02",
+      "kind": "chain",
+      "rank": 4,
+      "chunk_id": "2011_cricket_world_cup_final::s000::02",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0823
+    },
+    {
+      "id": "chain-02",
+      "kind": "chain",
+      "rank": 5,
+      "chunk_id": "2011_cricket_world_cup::s000::01",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.091
+    },
+    {
+      "id": "chain-03",
+      "kind": "chain",
+      "rank": 1,
+      "chunk_id": "2025_indian_premier_league_final::s001::00",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0901
+    },
+    {
+      "id": "chain-03",
+      "kind": "chain",
+      "rank": 2,
+      "chunk_id": "2025_indian_premier_league_final::s000::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.063
+    },
+    {
+      "id": "chain-03",
+      "kind": "chain",
+      "rank": 3,
+      "chunk_id": "narendra_modi_stadium::s004::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2142
+    },
+    {
+      "id": "chain-03",
+      "kind": "chain",
+      "rank": 4,
+      "chunk_id": "2025_indian_premier_league::s004::00",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0891
+    },
+    {
+      "id": "chain-03",
+      "kind": "chain",
+      "rank": 5,
+      "chunk_id": "2024_indian_premier_league::s004::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1401
+    },
+    {
+      "id": "chain-04",
+      "kind": "chain",
+      "rank": 1,
+      "chunk_id": "edgbaston_cricket_ground::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1579
+    },
+    {
+      "id": "chain-04",
+      "kind": "chain",
+      "rank": 2,
+      "chunk_id": "edgbaston_cricket_ground::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1487
+    },
+    {
+      "id": "chain-04",
+      "kind": "chain",
+      "rank": 3,
+      "chunk_id": "edgbaston_cricket_ground::s004::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1731
+    },
+    {
+      "id": "chain-04",
+      "kind": "chain",
+      "rank": 4,
+      "chunk_id": "edgbaston_cricket_ground::s002::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2147
+    },
+    {
+      "id": "chain-04",
+      "kind": "chain",
+      "rank": 5,
+      "chunk_id": "edgbaston_cricket_ground::s007::05",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0565
+    },
+    {
+      "id": "chain-05",
+      "kind": "chain",
+      "rank": 1,
+      "chunk_id": "perth_stadium::s011::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0767
+    },
+    {
+      "id": "chain-05",
+      "kind": "chain",
+      "rank": 2,
+      "chunk_id": "2025-26_ashes_series::s002::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1428
+    },
+    {
+      "id": "chain-05",
+      "kind": "chain",
+      "rank": 3,
+      "chunk_id": "2025-26_ashes_series::s006::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3714
+    },
+    {
+      "id": "chain-05",
+      "kind": "chain",
+      "rank": 4,
+      "chunk_id": "2025-26_ashes_series::s000::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.18
+    },
+    {
+      "id": "chain-05",
+      "kind": "chain",
+      "rank": 5,
+      "chunk_id": "2017-18_ashes_series::s002::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2735
+    },
+    {
+      "id": "chain-06",
+      "kind": "chain",
+      "rank": 1,
+      "chunk_id": "adelaide_oval::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2812
+    },
+    {
+      "id": "chain-06",
+      "kind": "chain",
+      "rank": 2,
+      "chunk_id": "adelaide_oval::s014::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1214
+    },
+    {
+      "id": "chain-06",
+      "kind": "chain",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s004::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2919
+    },
+    {
+      "id": "chain-06",
+      "kind": "chain",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1991
+    },
+    {
+      "id": "chain-06",
+      "kind": "chain",
+      "rank": 5,
+      "chunk_id": "adelaide_oval::s001::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1614
+    },
+    {
+      "id": "chain-07",
+      "kind": "chain",
+      "rank": 1,
+      "chunk_id": "2024_indian_premier_league_final::s000::00",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0874
+    },
+    {
+      "id": "chain-07",
+      "kind": "chain",
+      "rank": 2,
+      "chunk_id": "2024_indian_premier_league_final::s004::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.071
+    },
+    {
+      "id": "chain-07",
+      "kind": "chain",
+      "rank": 3,
+      "chunk_id": "2024_indian_premier_league::s017::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3179
+    },
+    {
+      "id": "chain-07",
+      "kind": "chain",
+      "rank": 4,
+      "chunk_id": "2024_indian_premier_league::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0619
+    },
+    {
+      "id": "chain-07",
+      "kind": "chain",
+      "rank": 5,
+      "chunk_id": "2024_indian_premier_league_final::s001::00",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0716
+    },
+    {
+      "id": "chain-08",
+      "kind": "chain",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s001::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2718
+    },
+    {
+      "id": "chain-08",
+      "kind": "chain",
+      "rank": 2,
+      "chunk_id": "perth_stadium::s000::01",
+      "label": "partial",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1985
+    },
+    {
+      "id": "chain-08",
+      "kind": "chain",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s009::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3979
+    },
+    {
+      "id": "chain-08",
+      "kind": "chain",
+      "rank": 4,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s004::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3596
+    },
+    {
+      "id": "chain-08",
+      "kind": "chain",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2024-25::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1666
+    },
+    {
+      "id": "gap-01",
+      "kind": "gap",
+      "rank": 1,
+      "chunk_id": "australian_cricket_team_in_india_in_2016-17::s005::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1726
+    },
+    {
+      "id": "gap-01",
+      "kind": "gap",
+      "rank": 2,
+      "chunk_id": "2023_world_test_championship_final::s011::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0751
+    },
+    {
+      "id": "gap-01",
+      "kind": "gap",
+      "rank": 3,
+      "chunk_id": "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.4177
+    },
+    {
+      "id": "gap-01",
+      "kind": "gap",
+      "rank": 4,
+      "chunk_id": "australian_cricket_team_in_india_in_2016-17::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2491
+    },
+    {
+      "id": "gap-01",
+      "kind": "gap",
+      "rank": 5,
+      "chunk_id": "australian_cricket_team_in_india_in_2016-17::s005::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2195
+    },
+    {
+      "id": "gap-02",
+      "kind": "gap",
+      "rank": 1,
+      "chunk_id": "2023_world_test_championship_final::s011::01",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.094
+    },
+    {
+      "id": "gap-02",
+      "kind": "gap",
+      "rank": 2,
+      "chunk_id": "2023_world_test_championship_final::s009::01",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0928
+    },
+    {
+      "id": "gap-02",
+      "kind": "gap",
+      "rank": 3,
+      "chunk_id": "2025_indian_premier_league::s005::00",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.1183
+    },
+    {
+      "id": "gap-02",
+      "kind": "gap",
+      "rank": 4,
+      "chunk_id": "lords::s009::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1176
+    },
+    {
+      "id": "gap-02",
+      "kind": "gap",
+      "rank": 5,
+      "chunk_id": "2013_ashes_series::s011::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3327
+    },
+    {
+      "id": "gap-03",
+      "kind": "gap",
+      "rank": 1,
+      "chunk_id": "2025_indian_premier_league::s008::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1156
+    },
+    {
+      "id": "gap-03",
+      "kind": "gap",
+      "rank": 2,
+      "chunk_id": "2024_indian_premier_league::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.135
+    },
+    {
+      "id": "gap-03",
+      "kind": "gap",
+      "rank": 3,
+      "chunk_id": "2022_indian_premier_league::s009::28",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.003
+    },
+    {
+      "id": "gap-03",
+      "kind": "gap",
+      "rank": 4,
+      "chunk_id": "2024_indian_premier_league::s012::10",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.019
+    },
+    {
+      "id": "gap-03",
+      "kind": "gap",
+      "rank": 5,
+      "chunk_id": "2024_indian_premier_league::s012::27",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0075
+    },
+    {
+      "id": "gap-04",
+      "kind": "gap",
+      "rank": 1,
+      "chunk_id": "2021_mens_t20_world_cup_final::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0982
+    },
+    {
+      "id": "gap-04",
+      "kind": "gap",
+      "rank": 2,
+      "chunk_id": "2021_mens_t20_world_cup_final::s004::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1628
+    },
+    {
+      "id": "gap-04",
+      "kind": "gap",
+      "rank": 3,
+      "chunk_id": "2019_cricket_world_cup_final::s007::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1311
+    },
+    {
+      "id": "gap-04",
+      "kind": "gap",
+      "rank": 4,
+      "chunk_id": "2019_cricket_world_cup_final::s003::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.113
+    },
+    {
+      "id": "gap-04",
+      "kind": "gap",
+      "rank": 5,
+      "chunk_id": "2019_cricket_world_cup_group_stage::s027::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2688
+    },
+    {
+      "id": "gap-05",
+      "kind": "gap",
+      "rank": 1,
+      "chunk_id": "david_warner_cricketer::s004::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0733
+    },
+    {
+      "id": "gap-05",
+      "kind": "gap",
+      "rank": 2,
+      "chunk_id": "2020_indian_premier_league::s014::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2338
+    },
+    {
+      "id": "gap-05",
+      "kind": "gap",
+      "rank": 3,
+      "chunk_id": "2020_indian_premier_league_final::s005::01",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0648
+    },
+    {
+      "id": "gap-05",
+      "kind": "gap",
+      "rank": 4,
+      "chunk_id": "jos_buttler::s029::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1827
+    },
+    {
+      "id": "gap-05",
+      "kind": "gap",
+      "rank": 5,
+      "chunk_id": "2021_mens_t20_world_cup_final::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0925
+    },
+    {
+      "id": "gap-06",
+      "kind": "gap",
+      "rank": 1,
+      "chunk_id": "jasprit_bumrah::s011::04",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2101
+    },
+    {
+      "id": "gap-06",
+      "kind": "gap",
+      "rank": 2,
+      "chunk_id": "2024_mens_t20_world_cup::s018::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.08
+    },
+    {
+      "id": "gap-06",
+      "kind": "gap",
+      "rank": 3,
+      "chunk_id": "narendra_modi_stadium::s014::05",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2687
+    },
+    {
+      "id": "gap-06",
+      "kind": "gap",
+      "rank": 4,
+      "chunk_id": "english_cricket_team_in_india_in_2020-21::s010::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1786
+    },
+    {
+      "id": "gap-06",
+      "kind": "gap",
+      "rank": 5,
+      "chunk_id": "m_a_chidambaram_stadium::s015::05",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2164
+    },
+    {
+      "id": "trap-01",
+      "kind": "trap",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_england_in_2025::s007::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1474
+    },
+    {
+      "id": "trap-01",
+      "kind": "trap",
+      "rank": 2,
+      "chunk_id": "shubman_gill::s003::07",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.262
+    },
+    {
+      "id": "trap-01",
+      "kind": "trap",
+      "rank": 3,
+      "chunk_id": "rohit_sharma::s004::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3503
+    },
+    {
+      "id": "trap-01",
+      "kind": "trap",
+      "rank": 4,
+      "chunk_id": "australian_cricket_team_in_india_in_2012-13::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3809
+    },
+    {
+      "id": "trap-01",
+      "kind": "trap",
+      "rank": 5,
+      "chunk_id": "ms_dhoni::s014::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0398
+    },
+    {
+      "id": "trap-02",
+      "kind": "trap",
+      "rank": 1,
+      "chunk_id": "english_cricket_team_in_india_in_2020-21::s012::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1758
+    },
+    {
+      "id": "trap-02",
+      "kind": "trap",
+      "rank": 2,
+      "chunk_id": "australian_cricket_team_in_india_in_2012-13::s014::00",
+      "label": "irrelevant",
+      "score": 5,
+      "pick": "B",
+      "confidence": 0.0702
+    },
+    {
+      "id": "trap-02",
+      "kind": "trap",
+      "rank": 3,
+      "chunk_id": "david_warner_cricketer::s006::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1723
+    },
+    {
+      "id": "trap-02",
+      "kind": "trap",
+      "rank": 4,
+      "chunk_id": "2007_world_twenty20::s013::03",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0957
+    },
+    {
+      "id": "trap-02",
+      "kind": "trap",
+      "rank": 5,
+      "chunk_id": "eden_gardens::s023::04",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0801
+    },
+    {
+      "id": "trap-03",
+      "kind": "trap",
+      "rank": 1,
+      "chunk_id": "australian_cricket_team_in_india_in_2016-17::s005::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3556
+    },
+    {
+      "id": "trap-03",
+      "kind": "trap",
+      "rank": 2,
+      "chunk_id": "steve_smith_cricketer::s021::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1465
+    },
+    {
+      "id": "trap-03",
+      "kind": "trap",
+      "rank": 3,
+      "chunk_id": "australian_cricket_team_in_india_in_2016-17::s005::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1628
+    },
+    {
+      "id": "trap-03",
+      "kind": "trap",
+      "rank": 4,
+      "chunk_id": "australian_cricket_team_in_india_in_2012-13::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3051
+    },
+    {
+      "id": "trap-03",
+      "kind": "trap",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_australia_in_2011-12::s007::03",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2854
+    },
+    {
+      "id": "trap-04",
+      "kind": "trap",
+      "rank": 1,
+      "chunk_id": "2015_cricket_world_cup::s021::01",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3556
+    },
+    {
+      "id": "trap-04",
+      "kind": "trap",
+      "rank": 2,
+      "chunk_id": "2015_cricket_world_cup::s021::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2343
+    },
+    {
+      "id": "trap-04",
+      "kind": "trap",
+      "rank": 3,
+      "chunk_id": "2015_cricket_world_cup::s000::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0889
+    },
+    {
+      "id": "trap-04",
+      "kind": "trap",
+      "rank": 4,
+      "chunk_id": "wankhede_stadium::s014::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1858
+    },
+    {
+      "id": "trap-04",
+      "kind": "trap",
+      "rank": 5,
+      "chunk_id": "2023_cricket_world_cup::s017::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0881
+    },
+    {
+      "id": "trap-05",
+      "kind": "trap",
+      "rank": 1,
+      "chunk_id": "indian_cricket_team_in_england_in_2025::s007::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2302
+    },
+    {
+      "id": "trap-05",
+      "kind": "trap",
+      "rank": 2,
+      "chunk_id": "english_cricket_team_in_india_in_2016-17::s006::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2095
+    },
+    {
+      "id": "trap-05",
+      "kind": "trap",
+      "rank": 3,
+      "chunk_id": "english_cricket_team_in_india_in_2016-17::s005::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1178
+    },
+    {
+      "id": "trap-05",
+      "kind": "trap",
+      "rank": 4,
+      "chunk_id": "m_a_chidambaram_stadium::s006::02",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3402
+    },
+    {
+      "id": "trap-05",
+      "kind": "trap",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_england_in_2021::s003::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.3081
+    },
+    {
+      "id": "trap-06",
+      "kind": "trap",
+      "rank": 1,
+      "chunk_id": "2021-22_ashes_series::s004::00",
+      "label": "relevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.2776
+    },
+    {
+      "id": "trap-06",
+      "kind": "trap",
+      "rank": 2,
+      "chunk_id": "2013_ashes_series::s008::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1551
+    },
+    {
+      "id": "trap-06",
+      "kind": "trap",
+      "rank": 3,
+      "chunk_id": "steve_smith_cricketer::s060::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1427
+    },
+    {
+      "id": "trap-06",
+      "kind": "trap",
+      "rank": 4,
+      "chunk_id": "ms_dhoni::s014::00",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.0593
+    },
+    {
+      "id": "trap-06",
+      "kind": "trap",
+      "rank": 5,
+      "chunk_id": "indian_cricket_team_in_england_in_2025::s006::01",
+      "label": "irrelevant",
+      "score": 10,
+      "pick": "A",
+      "confidence": 0.1904
+    }
+  ]
+}

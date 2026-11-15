@@ -6,6 +6,7 @@ answer step would have read (the loop's pool once, after the loop) and the none 
 
     grade every passage (grader.py: 10 / 5 / 0)  ->  CORRECT (a 10) / INCORRECT (all 0) / AMBIGUOUS
     drop      keep passages scored 5 or 10
+    discard   INCORRECT only: throw the main passages away (drop does this too); CORRECT / AMBIGUOUS keep them all
     fallback  AMBIGUOUS / INCORRECT: f6a on the 9 left-out biographies (cricket_fallback_header_match_note),
               top 5, graded, keep 5s and 10s
     deep      AMBIGUOUS / INCORRECT: the main library's ranks 6-40 for the original question (6-20 from f6a's
@@ -30,7 +31,7 @@ from llm_cache import chat
 import fallback_index
 import grader
 
-CONFIG = {"drop": False, "fallback": False, "deep": False, "strips": False}
+CONFIG = {"drop": False, "discard": False, "fallback": False, "deep": False, "strips": False}
 LOG: dict[str, dict] = {}
 TOP_K = 5
 DEEP = (5, 40)  # ranks 6-40
@@ -102,6 +103,8 @@ def crag_answer_from(question: str, hits: list, replies: list, answer: str = "v2
     act = grader.action(scores)
     log = {"action": act, "scores": scores, "pool": len(hits)}
     kept = [h for h, s in zip(hits, scores) if s >= grader.LOWER] if CONFIG["drop"] else list(hits)
+    if CONFIG["discard"] and act == "INCORRECT":
+        kept = []
     if act != "CORRECT":
         extra = {}
         if CONFIG["fallback"]:
