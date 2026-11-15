@@ -44,13 +44,13 @@ STEPS = {
     "3e": ("drop + strips + fallback + deep", ALL),
     "3f": ("fallback, main passages kept unless INCORRECT", {"discard": True, "fallback": True}),
 }
-KINDS = ("old", "chain", "gap", "trap", "none")
+KINDS = ("old", "solo", "chain", "gap", "trap", "none")
 
 
-def run(step: str, golden: dict) -> dict:
+def run(step: str, golden: dict, split: str = "tune") -> dict:
     crag.install(STEPS[step][1])
     picks = {}
-    rows = route_eval.run_route(f"crag_{step}", golden, baseline.routed(picks), golden_set=gc.golden_name("tune"))
+    rows = route_eval.run_route(f"crag_{step}", golden, baseline.routed(picks), golden_set=gc.golden_name(split))
     for i, row in rows.items():
         q = golden[i].question
         row["route"], row["kind"] = picks[q], gc.kind(i)
@@ -64,7 +64,7 @@ def summary(rows: dict, base: dict | None) -> dict:
     out = {"correct": mean([r["correct"] for r in rows.values()]),
            "correct3": mean([r["correct3"] for r in rows.values()]),
            "by_kind": {k: f"{sum(r['correct'] for r in rows.values() if r['kind'] == k):g}/"
-                          f"{sum(r['kind'] == k for r in rows.values())}" for k in KINDS},
+                          f"{sum(r['kind'] == k for r in rows.values())}" for k in KINDS if any(r["kind"] == k for r in rows.values())},
            "actions": dict(Counter(r["crag"]["action"] for r in rows.values() if r["crag"])),
            "routes": dict(Counter(r["route"] for r in rows.values())),
            "refused": sum(r["refused"] for r in rows.values()),
@@ -90,7 +90,7 @@ def main():
     for step in (s for s in STEPS if s in saved):
         s = saved[step]["summary"]
         print(f"| {step} | {saved[step]['what']} | {s['correct']:.3f} | {s['correct3']:.3f} | "
-              + " | ".join(s["by_kind"][k] for k in KINDS)
+              + " | ".join(s["by_kind"].get(k, "-") for k in KINDS)
               + f" | {', '.join(f'{a} {n}' for a, n in sorted(s['actions'].items())) or '-'} | "
               f"{s['cost_per_question']:.5f} | {s['p50_ms'] / 1000:.1f} |")
     for step in (s for s in STEPS if s in saved and s != "3.0"):

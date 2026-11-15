@@ -12,156 +12,92 @@
         "1 main + 0 fallback",
         "1 main + 0 fallback",
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/3",
-      "memory": {
-        "correct": 1.0,
-        "answer": "The two ends of the ground that hosted the 2023 World Test Championship final at The Oval are called the Pavilion End and the Vauxhall End."
-      }
+      ]
     },
     "chain-02": {
       "kind": "chain",
       "chunks": [
         "1 main + 0 fallback",
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "The Wankhede Stadium, which hosted the 2011 Cricket World Cup final, took approximately 3 years to build and opened in 1975."
-      }
+      ]
     },
     "chain-03": {
       "kind": "chain",
       "chunks": [
         "1 main + 0 fallback",
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "chain-04": {
       "kind": "chain",
       "chunks": [
         "1 main + 0 fallback",
         "2 main + 0 fallback"
-      ],
-      "top5_parts": "0/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "chain-05": {
       "kind": "chain",
       "chunks": [
         "2 main + 0 fallback",
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "chain-06": {
       "kind": "chain",
       "chunks": [
         "1 main + 0 fallback",
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "0/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "chain-07": {
       "kind": "chain",
       "chunks": [
         "1 main + 0 fallback",
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "chain-08": {
       "kind": "chain",
       "chunks": [
         "1 main + 0 fallback",
         "2 main + 0 fallback"
-      ],
-      "top5_parts": "1/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "gap-01": {
       "kind": "gap",
       "chunks": [
         "0 main + 1 fallback"
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "gap-02": {
       "kind": "gap",
       "chunks": [
         "0 main + 1 fallback"
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "gap-03": {
       "kind": "gap",
       "chunks": [
         "0 main + 1 fallback"
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "gap-04": {
       "kind": "gap",
       "chunks": [
         "0 main + 1 fallback"
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "gap-05": {
       "kind": "gap",
       "chunks": [
         "0 main + 1 fallback"
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "Kane Williamson was made the first male direct signing by the Sunrisers Eastern Cape in 2022."
-      }
+      ]
     },
     "gap-06": {
       "kind": "gap",
       "chunks": [
         "0 main + 1 fallback"
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "trap-01": {
       "kind": "trap",
@@ -170,13 +106,7 @@
       ],
       "decoy_chunks": [
         1
-      ],
-      "top5_parts": "1/1",
-      "decoy_ranks": [],
-      "memory": {
-        "correct": 0.0,
-        "answer": "The highest individual Test score by an Indian captain is 248*, made by Virat Kohli."
-      }
+      ]
     },
     "trap-02": {
       "kind": "trap",
@@ -185,13 +115,7 @@
       ],
       "decoy_chunks": [
         1
-      ],
-      "top5_parts": "1/1",
-      "decoy_ranks": [],
-      "memory": {
-        "correct": 0.0,
-        "answer": "AB de Villiers scored the fastest fifty on debut in ODIs, off 31 balls."
-      }
+      ]
     },
     "trap-03": {
       "kind": "trap",
@@ -200,16 +124,7 @@
       ],
       "decoy_chunks": [
         2
-      ],
-      "top5_parts": "1/1",
-      "decoy_ranks": [
-        5,
-        6
-      ],
-      "memory": {
-        "correct": 0.5,
-        "answer": "The highest Test score by an Australian captain in India is 207 runs, achieved by Mark Taylor."
-      }
+      ]
     },
     "trap-04": {
       "kind": "trap",
@@ -219,13 +134,7 @@
       "decoy_chunks": [
         1,
         1
-      ],
-      "top5_parts": "1/1",
-      "decoy_ranks": [],
-      "memory": {
-        "correct": 0.0,
-        "answer": "As of the 2015 Cricket World Cup, the highest team total in a World Cup semi-final was 397 runs, made by India against Australia in the 1983 World Cup semi-final."
-      }
+      ]
     },
     "trap-05": {
       "kind": "trap",
@@ -234,15 +143,7 @@
       ],
       "decoy_chunks": [
         1
-      ],
-      "top5_parts": "1/1",
-      "decoy_ranks": [
-        3
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "The highest individual Test score by an Indian batter against England is 400*, made by Virender Sehwag."
-      }
+      ]
     },
     "trap-06": {
       "kind": "trap",
@@ -251,13 +152,7 @@
       ],
       "decoy_chunks": [
         1
-      ],
-      "top5_parts": "1/1",
-      "decoy_ranks": [],
-      "memory": {
-        "correct": 0.0,
-        "answer": "The wicketkeeper who took the most catches on Test debut is Kamran Akmal, with 6 catches."
-      }
+      ]
     }
   },
   "tune_problems": [],
@@ -266,155 +161,89 @@
       "kind": "solo",
       "chunks": [
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/1",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "solo-02": {
       "kind": "solo",
       "chunks": [
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/1",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "solo-03": {
       "kind": "solo",
       "chunks": [
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/1",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "solo-04": {
       "kind": "solo",
       "chunks": [
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/1",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "solo-05": {
       "kind": "solo",
       "chunks": [
         "6 main + 0 fallback"
-      ],
-      "top5_parts": "1/1",
-      "memory": {
-        "correct": 1.0,
-        "answer": "Sam Curran was the player of the match in the 2022 Men's T20 World Cup final."
-      }
+      ]
     },
     "solo-06": {
       "kind": "solo",
       "chunks": [
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/1",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "chain-15": {
       "kind": "chain",
       "chunks": [
         "13 main + 0 fallback",
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "0/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "chain-16": {
       "kind": "chain",
       "chunks": [
         "28 main + 0 fallback",
         "2 main + 0 fallback"
-      ],
-      "top5_parts": "0/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "chain-17": {
       "kind": "chain",
       "chunks": [
         "24 main + 0 fallback",
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "chain-18": {
       "kind": "chain",
       "chunks": [
         "34 main + 0 fallback",
         "1 main + 0 fallback"
-      ],
-      "top5_parts": "1/2",
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "gap-07": {
       "kind": "gap",
       "chunks": [
         "0 main + 1 fallback"
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "Travis Head's highest ODI score is 152, which he made against New Zealand."
-      }
+      ]
     },
     "gap-08": {
       "kind": "gap",
       "chunks": [
         "0 main + 1 fallback"
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "gap-09": {
       "kind": "gap",
       "chunks": [
         "0 main + 1 fallback"
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "gap-10": {
       "kind": "gap",
       "chunks": [
         "0 main + 1 fallback"
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "I don't know."
-      }
+      ]
     },
     "trap-07": {
       "kind": "trap",
@@ -424,13 +253,7 @@
       "decoy_chunks": [
         1,
         1
-      ],
-      "top5_parts": "1/1",
-      "decoy_ranks": [],
-      "memory": {
-        "correct": 1.0,
-        "answer": "The fastest to reach 12,000 ODI runs is Virat Kohli, who broke the record previously held by Sachin Tendulkar."
-      }
+      ]
     },
     "trap-08": {
       "kind": "trap",
@@ -439,15 +262,7 @@
       ],
       "decoy_chunks": [
         1
-      ],
-      "top5_parts": "1/1",
-      "decoy_ranks": [
-        8
-      ],
-      "memory": {
-        "correct": 0.0,
-        "answer": "Anil Kumble holds India's record for the most five-wicket hauls in Tests, with 35 five-wicket hauls."
-      }
+      ]
     },
     "trap-09": {
       "kind": "trap",
@@ -457,13 +272,7 @@
       "decoy_chunks": [
         1,
         1
-      ],
-      "top5_parts": "1/1",
-      "decoy_ranks": [],
-      "memory": {
-        "correct": 0.0,
-        "answer": "The pair that holds Sri Lanka's record for the highest second-wicket partnership in ODIs is Kumar Sangakkara and Mahela Jayawardene, who added 624 runs."
-      }
+      ]
     },
     "trap-10": {
       "kind": "trap",
@@ -472,19 +281,16 @@
       ],
       "decoy_chunks": [
         1
-      ],
-      "top5_parts": "1/1",
-      "decoy_ranks": [],
-      "memory": {
-        "correct": 0.0,
-        "answer": "The most wickets to fall to pace bowlers in a single Ashes Test is 29, achieved during the Test match at the Gabba in Brisbane in 2017."
-      }
+      ]
     },
     "none-05": {
       "kind": "none"
     },
-    "none-06": {
-      "kind": "none"
+    "solo-07": {
+      "kind": "solo",
+      "chunks": [
+        "1 main + 0 fallback"
+      ]
     }
   },
   "test_problems": []

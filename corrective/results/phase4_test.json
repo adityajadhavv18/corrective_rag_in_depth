@@ -1,0 +1,1643 @@
+{
+  "3.0": {
+    "what": "Adaptive as it is",
+    "summary": {
+      "correct": 0.7,
+      "correct3": 0.7,
+      "by_kind": {
+        "solo": "6/6",
+        "chain": "3/4",
+        "gap": "0/4",
+        "trap": "4/4",
+        "none": "1/2"
+      },
+      "actions": {},
+      "routes": {
+        "multi": 11,
+        "single": 9
+      },
+      "refused": 5,
+      "cost_per_question": 0.0025770525,
+      "p50_ms": 10318.0
+    },
+    "questions": {
+      "solo-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0050325,
+        "ms": 21751,
+        "searches": 3,
+        "thoughts": [
+          "Royal Challengers Bengaluru scored 190 runs for 9 wickets in their innings, while Punjab Kings replied with 184 runs for 7 wickets.",
+          "Royal Challengers Bengaluru won the match by 6 runs.",
+          "Royal Challengers Bengaluru won their maiden IPL title after 18 years."
+        ],
+        "added": [
+          [
+            "2025_indian_premier_league_final::s000::00",
+            "2025_indian_premier_league::s017::00",
+            "2025_indian_premier_league_final::s010::00",
+            "2025_indian_premier_league_final::s010::02",
+            "2025_indian_premier_league_final::s011::00"
+          ],
+          [
+            "2025_indian_premier_league_final::s010::07",
+            "2025_indian_premier_league_final::s010::04"
+          ],
+          [
+            "2025_indian_premier_league_final::s010::01"
+          ]
+        ],
+        "answer": "In the 2025 IPL final, Royal Challengers Bengaluru scored 190/9, while Punjab Kings replied with 184/7 [1][2].",
+        "route": "multi",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "solo-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00289545,
+        "ms": 12041,
+        "searches": 2,
+        "thoughts": [
+          "Ollie Pope scored 196 runs in England's second innings.",
+          "So the answer is: 196."
+        ],
+        "added": [
+          [
+            "english_cricket_team_in_india_in_2023-24::s003::00",
+            "english_cricket_team_in_india_in_2023-24::s000::00",
+            "2023_ashes_series::s010::01",
+            "indian_cricket_team_in_england_in_2021::s006::00",
+            "indian_cricket_team_in_england_in_2025::s006::00"
+          ],
+          [
+            "2023_ashes_series::s001::01",
+            "2023_ashes_series::s006::00"
+          ]
+        ],
+        "answer": "In the first Test of England's 2023–24 tour of India at Hyderabad, Ollie Pope scored 196 runs in England's second innings [1].",
+        "route": "multi",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "solo-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0034254,
+        "ms": 14319,
+        "searches": 2,
+        "thoughts": [
+          "Sunrisers Hyderabad scored 113 runs in 18.3 overs.",
+          "So the answer is: 113 runs in 18.3 overs."
+        ],
+        "added": [
+          [
+            "2024_indian_premier_league_final::s000::00",
+            "2024_indian_premier_league_final::s004::00",
+            "2024_indian_premier_league::s017::00",
+            "2024_indian_premier_league_final::s005::00",
+            "2024_indian_premier_league_final::s007::00"
+          ],
+          [
+            "2024_indian_premier_league_final::s007::01"
+          ]
+        ],
+        "answer": "Sunrisers Hyderabad scored 113 runs in 18.3 overs in the 2024 IPL final [1].",
+        "route": "multi",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "solo-04": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0015092999999999999,
+        "ms": 6134,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2025_world_test_championship_final::s010::12",
+            "2025_world_test_championship_final::s010::05",
+            "2025_world_test_championship_final::s010::00",
+            "2025_world_test_championship_final::s006::00",
+            "2025_world_test_championship_final::s000::00"
+          ]
+        ],
+        "answer": "Aiden Markram scored 136 runs in South Africa's second innings of the 2025 World Test Championship final [1].",
+        "route": "single",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "solo-05": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00125775,
+        "ms": 4843,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2022_mens_t20_world_cup_final::s000::00",
+            "2022_mens_t20_world_cup_final::s007::01",
+            "2022_mens_t20_world_cup_final::s007::00",
+            "2022_mens_t20_world_cup::s000::00",
+            "2024_mens_t20_world_cup_final::s000::00"
+          ]
+        ],
+        "answer": "The player of the match in the 2022 Men's T20 World Cup final was Sam Curran from England [1].",
+        "route": "single",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "solo-06": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0013104000000000002,
+        "ms": 5534,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2024-25::s009::00",
+            "indian_cricket_team_in_australia_in_2024-25::s009::01",
+            "indian_cricket_team_in_australia_in_2024-25::s011::00",
+            "indian_cricket_team_in_australia_in_2024-25::s000::00",
+            "indian_cricket_team_in_australia_in_2024-25::s012::00"
+          ]
+        ],
+        "answer": "Jasprit Bumrah's bowling figures in Australia's first innings of the Perth Test in November 2024 were 5 wickets for 30 runs in 18 overs [1].",
+        "route": "single",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "chain-15": {
+        "correct": 0.0,
+        "refused": false,
+        "recall": 0.0,
+        "cost": 0.0026663999999999998,
+        "ms": 16760,
+        "searches": 2,
+        "thoughts": [
+          "Edgbaston Cricket Ground has a capacity of approximately 25,000 spectators for international matches.",
+          "So the answer is: 25,000."
+        ],
+        "added": [
+          [
+            "edgbaston_cricket_ground::s000::01",
+            "edgbaston_cricket_ground::s000::00",
+            "edgbaston_cricket_ground::s003::01",
+            "edgbaston_cricket_ground::s004::00",
+            "edgbaston_cricket_ground::s007::05"
+          ],
+          [
+            "edgbaston_cricket_ground::s003::00"
+          ]
+        ],
+        "answer": "Edgbaston Cricket Ground can hold approximately 25,000 spectators for an international match [1].",
+        "route": "multi",
+        "kind": "chain",
+        "correct3": 0.0,
+        "crag": null
+      },
+      "chain-16": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 0.5,
+        "cost": 0.0032391,
+        "ms": 10898,
+        "searches": 2,
+        "thoughts": [
+          "The ground that hosted the second Test of India's 2025 tour of England is Lord's, which staged its first Test match in 1884.",
+          "So the answer is: 1884."
+        ],
+        "added": [
+          [
+            "m_a_chidambaram_stadium::s002::00",
+            "m_a_chidambaram_stadium::s000::02",
+            "edgbaston_cricket_ground::s007::04",
+            "edgbaston_cricket_ground::s007::05",
+            "indian_cricket_team_in_england_in_2025::s008::00"
+          ],
+          [
+            "indian_cricket_team_in_england_in_2025::s007::00",
+            "lords::s000::00",
+            "lords::s003::01",
+            "old_trafford_cricket_ground::s003::00"
+          ]
+        ],
+        "answer": "The ground that hosted the second Test of India's 2025 tour of England, Edgbaston, staged its first Test match in 1902 [4].",
+        "route": "multi",
+        "kind": "chain",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "chain-17": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0031467,
+        "ms": 10786,
+        "searches": 2,
+        "thoughts": [
+          "Virat Kohli, the Player of the Match, was born in Delhi.",
+          "So the answer is: Delhi."
+        ],
+        "added": [
+          [
+            "2024_mens_t20_world_cup_final::s000::00",
+            "2024_mens_t20_world_cup_final::s009::00",
+            "2024_mens_t20_world_cup_final::s009::08",
+            "2024_mens_t20_world_cup::s000::00",
+            "2024_mens_t20_world_cup_final::s001::00"
+          ],
+          [
+            "virat_kohli::s001::00",
+            "virat_kohli::s000::02",
+            "virat_kohli::s000::00",
+            "virat_kohli::s002::03",
+            "virat_kohli::s002::02"
+          ]
+        ],
+        "answer": "The player of the match, Virat Kohli, was born in New Delhi, India [6].",
+        "route": "multi",
+        "kind": "chain",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "chain-18": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0046518,
+        "ms": 14210,
+        "searches": 3,
+        "thoughts": [
+          "Lord's Cricket Ground, where the third Test of India's 2025 tour of England was held, is the third of three grounds established by Thomas Lord between 1787 and 1814.",
+          "Lord's moved to its present site in 1814.",
+          "So the answer is: 1814."
+        ],
+        "added": [
+          [
+            "lords::s000::01",
+            "narendra_modi_stadium::s000::02",
+            "indian_cricket_team_in_england_in_2025::s004::00",
+            "indian_cricket_team_in_england_in_2025::s008::00",
+            "indian_cricket_team_in_england_in_2021::s000::00"
+          ],
+          [
+            "lords::s001::00",
+            "lords::s000::00",
+            "lords::s003::03"
+          ],
+          [
+            "lords::s002::00",
+            "lords::s000::02"
+          ]
+        ],
+        "answer": "The ground that hosted the third Test of India's 2025 tour of England, Lord's, moved to its present site in 1814 [1].",
+        "route": "multi",
+        "kind": "chain",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "gap-07": {
+        "correct": 0.0,
+        "refused": true,
+        "recall": 0.0,
+        "cost": 0.0027159,
+        "ms": 9850,
+        "searches": 2,
+        "thoughts": [
+          "Travis Head's highest ODI score is 137, which he made against India at the Narendra Modi Stadium, Ahmedabad.",
+          "So the answer is: 137 against India."
+        ],
+        "added": [
+          [
+            "2023_cricket_world_cup_group_stage::s030::00",
+            "narendra_modi_stadium::s013::03",
+            "2023_cricket_world_cup::s019::00",
+            "melbourne_cricket_ground::s020::00",
+            "2021-22_ashes_series::s029::00"
+          ],
+          [
+            "2023_cricket_world_cup_final::s007::00",
+            "2023_cricket_world_cup_final::s006::00",
+            "2023_cricket_world_cup_final::s000::00"
+          ]
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "multi",
+        "kind": "gap",
+        "correct3": 0.0,
+        "crag": null
+      },
+      "gap-08": {
+        "correct": 0.0,
+        "refused": true,
+        "recall": 0.0,
+        "cost": 0.00143655,
+        "ms": 5386,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2024_indian_premier_league::s012::20",
+            "2024_indian_premier_league::s012::24",
+            "2024_indian_premier_league::s012::39",
+            "narendra_modi_stadium::s013::03",
+            "2025-26_ashes_series::s010::00"
+          ]
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "single",
+        "kind": "gap",
+        "correct3": 0.0,
+        "crag": null
+      },
+      "gap-09": {
+        "correct": 0.0,
+        "refused": true,
+        "recall": 0.0,
+        "cost": 0.00119325,
+        "ms": 5407,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2025_world_test_championship_final::s004::00",
+            "2023_ashes_series::s011::01",
+            "2023_ashes_series::s023::00",
+            "2023_world_test_championship_final::s004::00",
+            "2023_cricket_world_cup_group_stage::s013::02"
+          ]
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "single",
+        "kind": "gap",
+        "correct3": 0.0,
+        "crag": null
+      },
+      "gap-10": {
+        "correct": 0.0,
+        "refused": true,
+        "recall": 0.0,
+        "cost": 0.00138675,
+        "ms": 6019,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2025_indian_premier_league::s012::03",
+            "mitchell_starc::s002::04",
+            "2024_indian_premier_league::s006::00",
+            "2020_indian_premier_league::s006::00",
+            "2025_indian_premier_league::s012::02"
+          ]
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "single",
+        "kind": "gap",
+        "correct3": 0.0,
+        "crag": null
+      },
+      "trap-07": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0041456999999999996,
+        "ms": 16437,
+        "searches": 3,
+        "thoughts": [
+          "Virat Kohli reached 12,000 runs in ODI cricket faster than anyone else, breaking Sachin Tendulkar's record.",
+          "Virat Kohli achieved this milestone in 242 innings.",
+          "Virat Kohli broke Sachin Tendulkar's previous record of 300 innings to reach 12,000 ODI runs."
+        ],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s006::00",
+            "2025_champions_trophy::s016::01",
+            "2023_cricket_world_cup::s017::01",
+            "rohit_sharma::s006::03",
+            "wankhede_stadium::s017::00"
+          ],
+          [
+            "2025_champions_trophy::s017::00",
+            "virat_kohli::s004::04",
+            "virat_kohli::s009::00"
+          ],
+          [
+            "2022_mens_t20_world_cup::s018::00",
+            "virat_kohli::s000::02",
+            "virat_kohli::s000::01"
+          ]
+        ],
+        "answer": "Virat Kohli was the fastest to reach 12,000 ODI runs, breaking Sachin Tendulkar's record for the fastest to achieve this milestone [1].",
+        "route": "multi",
+        "kind": "trap",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "trap-08": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0011403,
+        "ms": 6191,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "english_cricket_team_in_india_in_2023-24::s007::01",
+            "ravichandran_ashwin::s012::00",
+            "ravichandran_ashwin::s005::03",
+            "ravichandran_ashwin::s000::03",
+            "jasprit_bumrah::s005::01"
+          ]
+        ],
+        "answer": "Ravichandran Ashwin holds India's record for the most five-wicket hauls in Tests, with a total of 36 five-wicket hauls [1].",
+        "route": "single",
+        "kind": "trap",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "trap-09": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0031086,
+        "ms": 14645,
+        "searches": 2,
+        "thoughts": [
+          "Tillakaratne Dilshan and Kumar Sangakkara's unbroken partnership of 210 is Sri Lanka's highest second-wicket partnership in ODIs.",
+          "So the answer is: Tillakaratne Dilshan and Kumar Sangakkara, 210 runs."
+        ],
+        "added": [
+          [
+            "2015_cricket_world_cup_pool_a::s011::00",
+            "wankhede_stadium::s017::00",
+            "edgbaston_cricket_ground::s007::03",
+            "edgbaston_cricket_ground::s007::02",
+            "jasprit_bumrah::s004::01"
+          ],
+          [
+            "2015_cricket_world_cup_pool_a::s013::01",
+            "2015_cricket_world_cup_pool_a::s017::00",
+            "2011_cricket_world_cup_final::s006::00",
+            "2011_cricket_world_cup_final::s011::00"
+          ]
+        ],
+        "answer": "The pair that holds Sri Lanka's record for the highest second-wicket partnership in ODIs is Tillakaratne Dilshan and Kumar Sangakkara, and they added 210 runs [1].",
+        "route": "multi",
+        "kind": "trap",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "trap-10": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0012463499999999998,
+        "ms": 6577,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2021-22_ashes_series::s028::01",
+            "2015_ashes_series::s006::02",
+            "2015_ashes_series::s006::01",
+            "2019_ashes_series::s024::00",
+            "nathan_lyon::s003::01"
+          ]
+        ],
+        "answer": "The most wickets to fall to pace bowlers in a single Ashes Test is 39, as noted in the match between Australia and England at Bellerive Oval, Hobart, from 14–18 January 2022 [1].",
+        "route": "single",
+        "kind": "trap",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "none-05": {
+        "correct": 1.0,
+        "refused": true,
+        "recall": null,
+        "cost": 0.00465,
+        "ms": 16628,
+        "searches": 3,
+        "thoughts": [
+          "Royal Challengers Bengaluru won the 2026 IPL final against Gujarat Titans, and Krunal Pandya was the player of the match in the 2025 final.",
+          "Krunal Pandya was the player of the match in the 2025 IPL final, but the excerpts do not provide information about the 2026 final's player of the match.",
+          "The excerpts do not mention the player of the match for the 2026 IPL final."
+        ],
+        "added": [
+          [
+            "2025_indian_premier_league_final::s000::00",
+            "2025_indian_premier_league::s000::00",
+            "2025_indian_premier_league_final::s010::00",
+            "2025_indian_premier_league_final::s010::01",
+            "narendra_modi_stadium::s016::00"
+          ],
+          [
+            "narendra_modi_stadium::s007::00",
+            "2025_indian_premier_league_final::s011::00",
+            "2025_indian_premier_league::s017::00",
+            "2025_indian_premier_league_final::s009::00"
+          ],
+          []
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "multi",
+        "kind": "none",
+        "correct3": 1.0,
+        "crag": null
+      },
+      "none-06": {
+        "correct": 0.0,
+        "refused": false,
+        "recall": null,
+        "cost": 0.00138285,
+        "ms": 7410,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "jasprit_bumrah::s008::02",
+            "narendra_modi_stadium::s014::05",
+            "eden_gardens::s023::04",
+            "narendra_modi_stadium::s014::03",
+            "2024_mens_t20_world_cup_final::s000::00"
+          ]
+        ],
+        "answer": "The player of the match in the 2026 Men's T20 World Cup final was Jasprit Bumrah (Ind) [2].",
+        "route": "single",
+        "kind": "none",
+        "correct3": 0.0,
+        "crag": null
+      }
+    }
+  },
+  "3f": {
+    "what": "fallback, main passages kept unless INCORRECT",
+    "summary": {
+      "correct": 0.85,
+      "correct3": 0.85,
+      "by_kind": {
+        "solo": "6/6",
+        "chain": "3/4",
+        "gap": "3/4",
+        "trap": "4/4",
+        "none": "1/2"
+      },
+      "actions": {
+        "CORRECT": 16,
+        "AMBIGUOUS": 1,
+        "INCORRECT": 3
+      },
+      "routes": {
+        "multi": 11,
+        "single": 9
+      },
+      "refused": 2,
+      "cost_per_question": 0.0031804274999999997,
+      "p50_ms": 12233.5,
+      "fixed": [
+        "gap-08",
+        "gap-09",
+        "gap-10"
+      ],
+      "broken": []
+    },
+    "questions": {
+      "solo-01": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0055977,
+        "ms": 20946,
+        "searches": 3,
+        "thoughts": [
+          "Royal Challengers Bengaluru scored 190 runs for 9 wickets in their innings, while Punjab Kings replied with 184 runs for 7 wickets.",
+          "Royal Challengers Bengaluru won the match by 6 runs.",
+          "Royal Challengers Bengaluru won their maiden IPL title after 18 years."
+        ],
+        "added": [
+          [
+            "2025_indian_premier_league_final::s000::00",
+            "2025_indian_premier_league::s017::00",
+            "2025_indian_premier_league_final::s010::00",
+            "2025_indian_premier_league_final::s010::02",
+            "2025_indian_premier_league_final::s011::00"
+          ],
+          [
+            "2025_indian_premier_league_final::s010::07",
+            "2025_indian_premier_league_final::s010::04"
+          ],
+          [
+            "2025_indian_premier_league_final::s010::01"
+          ]
+        ],
+        "answer": "In the 2025 IPL final, Royal Challengers Bengaluru scored 190/9, while Punjab Kings replied with 184/7 [1][2].",
+        "route": "multi",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            5
+          ],
+          "pool": 8,
+          "kept": [
+            "2025_indian_premier_league_final::s000::00",
+            "2025_indian_premier_league::s017::00",
+            "2025_indian_premier_league_final::s010::00",
+            "2025_indian_premier_league_final::s010::02",
+            "2025_indian_premier_league_final::s011::00",
+            "2025_indian_premier_league_final::s010::07",
+            "2025_indian_premier_league_final::s010::04",
+            "2025_indian_premier_league_final::s010::01"
+          ]
+        }
+      },
+      "solo-02": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0033018,
+        "ms": 13454,
+        "searches": 2,
+        "thoughts": [
+          "Ollie Pope scored 196 runs in England's second innings.",
+          "So the answer is: 196."
+        ],
+        "added": [
+          [
+            "english_cricket_team_in_india_in_2023-24::s003::00",
+            "english_cricket_team_in_india_in_2023-24::s000::00",
+            "2023_ashes_series::s010::01",
+            "indian_cricket_team_in_england_in_2021::s006::00",
+            "indian_cricket_team_in_england_in_2025::s006::00"
+          ],
+          [
+            "2023_ashes_series::s001::01",
+            "2023_ashes_series::s006::00"
+          ]
+        ],
+        "answer": "In the first Test of England's 2023–24 tour of India at Hyderabad, Ollie Pope scored 196 runs in England's second innings [1].",
+        "route": "multi",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "pool": 7,
+          "kept": [
+            "english_cricket_team_in_india_in_2023-24::s003::00",
+            "english_cricket_team_in_india_in_2023-24::s000::00",
+            "2023_ashes_series::s010::01",
+            "indian_cricket_team_in_england_in_2021::s006::00",
+            "indian_cricket_team_in_england_in_2025::s006::00",
+            "2023_ashes_series::s001::01",
+            "2023_ashes_series::s006::00"
+          ]
+        }
+      },
+      "solo-03": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0038539499999999997,
+        "ms": 15322,
+        "searches": 2,
+        "thoughts": [
+          "Sunrisers Hyderabad scored 113 runs in 18.3 overs.",
+          "So the answer is: 113 runs in 18.3 overs."
+        ],
+        "added": [
+          [
+            "2024_indian_premier_league_final::s000::00",
+            "2024_indian_premier_league_final::s004::00",
+            "2024_indian_premier_league::s017::00",
+            "2024_indian_premier_league_final::s005::00",
+            "2024_indian_premier_league_final::s007::00"
+          ],
+          [
+            "2024_indian_premier_league_final::s007::01"
+          ]
+        ],
+        "answer": "Sunrisers Hyderabad scored 113 runs in 18.3 overs in the 2024 IPL final [1].",
+        "route": "multi",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            10,
+            10,
+            0,
+            0,
+            10
+          ],
+          "pool": 6,
+          "kept": [
+            "2024_indian_premier_league_final::s000::00",
+            "2024_indian_premier_league_final::s004::00",
+            "2024_indian_premier_league::s017::00",
+            "2024_indian_premier_league_final::s005::00",
+            "2024_indian_premier_league_final::s007::00",
+            "2024_indian_premier_league_final::s007::01"
+          ]
+        }
+      },
+      "solo-04": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0018694499999999997,
+        "ms": 7398,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2025_world_test_championship_final::s010::12",
+            "2025_world_test_championship_final::s010::05",
+            "2025_world_test_championship_final::s010::00",
+            "2025_world_test_championship_final::s006::00",
+            "2025_world_test_championship_final::s000::00"
+          ]
+        ],
+        "answer": "Aiden Markram scored 136 runs in South Africa's second innings of the 2025 World Test Championship final [1].",
+        "route": "single",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            10,
+            0,
+            10,
+            0
+          ],
+          "pool": 5,
+          "kept": [
+            "2025_world_test_championship_final::s010::12",
+            "2025_world_test_championship_final::s010::05",
+            "2025_world_test_championship_final::s010::00",
+            "2025_world_test_championship_final::s006::00",
+            "2025_world_test_championship_final::s000::00"
+          ]
+        }
+      },
+      "solo-05": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0015730499999999999,
+        "ms": 6122,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2022_mens_t20_world_cup_final::s000::00",
+            "2022_mens_t20_world_cup_final::s007::01",
+            "2022_mens_t20_world_cup_final::s007::00",
+            "2022_mens_t20_world_cup::s000::00",
+            "2024_mens_t20_world_cup_final::s000::00"
+          ]
+        ],
+        "answer": "The player of the match in the 2022 Men's T20 World Cup final was Sam Curran from England [1].",
+        "route": "single",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            10,
+            10,
+            10,
+            0
+          ],
+          "pool": 5,
+          "kept": [
+            "2022_mens_t20_world_cup_final::s000::00",
+            "2022_mens_t20_world_cup_final::s007::01",
+            "2022_mens_t20_world_cup_final::s007::00",
+            "2022_mens_t20_world_cup::s000::00",
+            "2024_mens_t20_world_cup_final::s000::00"
+          ]
+        }
+      },
+      "solo-06": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00160635,
+        "ms": 6730,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2024-25::s009::00",
+            "indian_cricket_team_in_australia_in_2024-25::s009::01",
+            "indian_cricket_team_in_australia_in_2024-25::s011::00",
+            "indian_cricket_team_in_australia_in_2024-25::s000::00",
+            "indian_cricket_team_in_australia_in_2024-25::s012::00"
+          ]
+        ],
+        "answer": "Jasprit Bumrah's bowling figures in Australia's first innings of the Perth Test in November 2024 were 5 wickets for 30 runs in 18 overs [1].",
+        "route": "single",
+        "kind": "solo",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          "pool": 5,
+          "kept": [
+            "indian_cricket_team_in_australia_in_2024-25::s009::00",
+            "indian_cricket_team_in_australia_in_2024-25::s009::01",
+            "indian_cricket_team_in_australia_in_2024-25::s011::00",
+            "indian_cricket_team_in_australia_in_2024-25::s000::00",
+            "indian_cricket_team_in_australia_in_2024-25::s012::00"
+          ]
+        }
+      },
+      "chain-15": {
+        "correct": 0.0,
+        "refused": false,
+        "recall": 0.0,
+        "cost": 0.0030301499999999997,
+        "ms": 16254,
+        "searches": 2,
+        "thoughts": [
+          "Edgbaston Cricket Ground has a capacity of approximately 25,000 spectators for international matches.",
+          "So the answer is: 25,000."
+        ],
+        "added": [
+          [
+            "edgbaston_cricket_ground::s000::01",
+            "edgbaston_cricket_ground::s000::00",
+            "edgbaston_cricket_ground::s003::01",
+            "edgbaston_cricket_ground::s004::00",
+            "edgbaston_cricket_ground::s007::05"
+          ],
+          [
+            "edgbaston_cricket_ground::s003::00"
+          ]
+        ],
+        "answer": "Edgbaston Cricket Ground can hold approximately 25,000 spectators for an international match [1].",
+        "route": "multi",
+        "kind": "chain",
+        "correct3": 0.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            10,
+            5,
+            0,
+            0,
+            0
+          ],
+          "pool": 6,
+          "kept": [
+            "edgbaston_cricket_ground::s000::01",
+            "edgbaston_cricket_ground::s000::00",
+            "edgbaston_cricket_ground::s003::01",
+            "edgbaston_cricket_ground::s004::00",
+            "edgbaston_cricket_ground::s007::05",
+            "edgbaston_cricket_ground::s003::00"
+          ]
+        }
+      },
+      "chain-16": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 0.5,
+        "cost": 0.0037891500000000002,
+        "ms": 12780,
+        "searches": 2,
+        "thoughts": [
+          "The ground that hosted the second Test of India's 2025 tour of England is Lord's, which staged its first Test match in 1884.",
+          "So the answer is: 1884."
+        ],
+        "added": [
+          [
+            "m_a_chidambaram_stadium::s002::00",
+            "m_a_chidambaram_stadium::s000::02",
+            "edgbaston_cricket_ground::s007::04",
+            "edgbaston_cricket_ground::s007::05",
+            "indian_cricket_team_in_england_in_2025::s008::00"
+          ],
+          [
+            "indian_cricket_team_in_england_in_2025::s007::00",
+            "lords::s000::00",
+            "lords::s003::01",
+            "old_trafford_cricket_ground::s003::00"
+          ]
+        ],
+        "answer": "The ground that hosted the second Test of India's 2025 tour of England, Edgbaston, staged its first Test match in 1902 [4].",
+        "route": "multi",
+        "kind": "chain",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            10,
+            5
+          ],
+          "pool": 9,
+          "kept": [
+            "m_a_chidambaram_stadium::s002::00",
+            "m_a_chidambaram_stadium::s000::02",
+            "edgbaston_cricket_ground::s007::04",
+            "edgbaston_cricket_ground::s007::05",
+            "indian_cricket_team_in_england_in_2025::s008::00",
+            "indian_cricket_team_in_england_in_2025::s007::00",
+            "lords::s000::00",
+            "lords::s003::01",
+            "old_trafford_cricket_ground::s003::00"
+          ]
+        }
+      },
+      "chain-17": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00501,
+        "ms": 17733,
+        "searches": 2,
+        "thoughts": [
+          "Virat Kohli, the Player of the Match, was born in Delhi.",
+          "So the answer is: Delhi."
+        ],
+        "added": [
+          [
+            "2024_mens_t20_world_cup_final::s000::00",
+            "2024_mens_t20_world_cup_final::s009::00",
+            "2024_mens_t20_world_cup_final::s009::08",
+            "2024_mens_t20_world_cup::s000::00",
+            "2024_mens_t20_world_cup_final::s001::00"
+          ],
+          [
+            "virat_kohli::s001::00",
+            "virat_kohli::s000::02",
+            "virat_kohli::s000::00",
+            "virat_kohli::s002::03",
+            "virat_kohli::s002::02"
+          ]
+        ],
+        "answer": "The player of the match in the 2024 Men's T20 World Cup final, Virat Kohli, was born in New Delhi, India [6].",
+        "route": "multi",
+        "kind": "chain",
+        "correct3": 1.0,
+        "crag": {
+          "action": "AMBIGUOUS",
+          "scores": [
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ],
+          "pool": 10,
+          "fallback": {
+            "scores": [
+              0,
+              5,
+              0,
+              0,
+              0
+            ],
+            "kept": [
+              "suryakumar_yadav::s000::01"
+            ]
+          },
+          "kept": [
+            "2024_mens_t20_world_cup_final::s000::00",
+            "2024_mens_t20_world_cup_final::s009::00",
+            "2024_mens_t20_world_cup_final::s009::08",
+            "2024_mens_t20_world_cup::s000::00",
+            "2024_mens_t20_world_cup_final::s001::00",
+            "virat_kohli::s001::00",
+            "virat_kohli::s000::02",
+            "virat_kohli::s000::00",
+            "virat_kohli::s002::03",
+            "virat_kohli::s002::02",
+            "suryakumar_yadav::s000::01"
+          ]
+        }
+      },
+      "chain-18": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00525585,
+        "ms": 16303,
+        "searches": 3,
+        "thoughts": [
+          "Lord's Cricket Ground, where the third Test of India's 2025 tour of England was held, is the third of three grounds established by Thomas Lord between 1787 and 1814.",
+          "Lord's moved to its present site in 1814.",
+          "So the answer is: 1814."
+        ],
+        "added": [
+          [
+            "lords::s000::01",
+            "narendra_modi_stadium::s000::02",
+            "indian_cricket_team_in_england_in_2025::s004::00",
+            "indian_cricket_team_in_england_in_2025::s008::00",
+            "indian_cricket_team_in_england_in_2021::s000::00"
+          ],
+          [
+            "lords::s001::00",
+            "lords::s000::00",
+            "lords::s003::03"
+          ],
+          [
+            "lords::s002::00",
+            "lords::s000::02"
+          ]
+        ],
+        "answer": "The ground that hosted the third Test of India's 2025 tour of England, Lord's, moved to its present site in 1814 [1].",
+        "route": "multi",
+        "kind": "chain",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0
+          ],
+          "pool": 10,
+          "kept": [
+            "lords::s000::01",
+            "narendra_modi_stadium::s000::02",
+            "indian_cricket_team_in_england_in_2025::s004::00",
+            "indian_cricket_team_in_england_in_2025::s008::00",
+            "indian_cricket_team_in_england_in_2021::s000::00",
+            "lords::s001::00",
+            "lords::s000::00",
+            "lords::s003::03",
+            "lords::s002::00",
+            "lords::s000::02"
+          ]
+        }
+      },
+      "gap-07": {
+        "correct": 0.0,
+        "refused": true,
+        "recall": 0.0,
+        "cost": 0.0031159499999999997,
+        "ms": 11170,
+        "searches": 2,
+        "thoughts": [
+          "Travis Head's highest ODI score is 137, which he made against India at the Narendra Modi Stadium, Ahmedabad.",
+          "So the answer is: 137 against India."
+        ],
+        "added": [
+          [
+            "2023_cricket_world_cup_group_stage::s030::00",
+            "narendra_modi_stadium::s013::03",
+            "2023_cricket_world_cup::s019::00",
+            "melbourne_cricket_ground::s020::00",
+            "2021-22_ashes_series::s029::00"
+          ],
+          [
+            "2023_cricket_world_cup_final::s007::00",
+            "2023_cricket_world_cup_final::s006::00",
+            "2023_cricket_world_cup_final::s000::00"
+          ]
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "multi",
+        "kind": "gap",
+        "correct3": 0.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            10,
+            10,
+            5,
+            0,
+            10,
+            10,
+            0
+          ],
+          "pool": 8,
+          "kept": [
+            "2023_cricket_world_cup_group_stage::s030::00",
+            "narendra_modi_stadium::s013::03",
+            "2023_cricket_world_cup::s019::00",
+            "melbourne_cricket_ground::s020::00",
+            "2021-22_ashes_series::s029::00",
+            "2023_cricket_world_cup_final::s007::00",
+            "2023_cricket_world_cup_final::s006::00",
+            "2023_cricket_world_cup_final::s000::00"
+          ]
+        }
+      },
+      "gap-08": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0026248499999999998,
+        "ms": 11471,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2024_indian_premier_league::s012::20",
+            "2024_indian_premier_league::s012::24",
+            "2024_indian_premier_league::s012::39",
+            "narendra_modi_stadium::s013::03",
+            "2025-26_ashes_series::s010::00"
+          ]
+        ],
+        "answer": "Travis Head was involved in a highly publicised on-field altercation with Royal Challengers Bengaluru player Virat Kohli during the 2026 IPL [1].",
+        "route": "single",
+        "kind": "gap",
+        "correct3": 1.0,
+        "crag": {
+          "action": "INCORRECT",
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "pool": 5,
+          "fallback": {
+            "scores": [
+              10,
+              0,
+              0,
+              0,
+              0
+            ],
+            "kept": [
+              "travis_head::s011::00"
+            ]
+          },
+          "kept": [
+            "travis_head::s011::00"
+          ]
+        }
+      },
+      "gap-09": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0022191,
+        "ms": 11687,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2025_world_test_championship_final::s004::00",
+            "2023_ashes_series::s011::01",
+            "2023_ashes_series::s023::00",
+            "2023_world_test_championship_final::s004::00",
+            "2023_cricket_world_cup_group_stage::s013::02"
+          ]
+        ],
+        "answer": "In June 2024, Marnus Labuschagne was formally announced as the captain of the Queensland Bulls for both Sheffield Shield and One-Day Cup [1].",
+        "route": "single",
+        "kind": "gap",
+        "correct3": 1.0,
+        "crag": {
+          "action": "INCORRECT",
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "pool": 5,
+          "fallback": {
+            "scores": [
+              10,
+              0,
+              10,
+              0,
+              0
+            ],
+            "kept": [
+              "marnus_labuschagne::s002::01",
+              "marnus_labuschagne::s000::02"
+            ]
+          },
+          "kept": [
+            "marnus_labuschagne::s002::01",
+            "marnus_labuschagne::s000::02"
+          ]
+        }
+      },
+      "gap-10": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0025689000000000003,
+        "ms": 11670,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2025_indian_premier_league::s012::03",
+            "mitchell_starc::s002::04",
+            "2024_indian_premier_league::s006::00",
+            "2020_indian_premier_league::s006::00",
+            "2025_indian_premier_league::s012::02"
+          ]
+        ],
+        "answer": "Kevin Pietersen was appointed as the mentor of the Delhi Capitals for IPL 2025 [1].",
+        "route": "single",
+        "kind": "gap",
+        "correct3": 1.0,
+        "crag": {
+          "action": "INCORRECT",
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "pool": 5,
+          "fallback": {
+            "scores": [
+              10,
+              0,
+              0,
+              0,
+              0
+            ],
+            "kept": [
+              "kevin_pietersen::s005::00"
+            ]
+          },
+          "kept": [
+            "kevin_pietersen::s005::00"
+          ]
+        }
+      },
+      "trap-07": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0047440500000000005,
+        "ms": 19044,
+        "searches": 3,
+        "thoughts": [
+          "Virat Kohli reached 12,000 runs in ODI cricket faster than anyone else, breaking Sachin Tendulkar's record.",
+          "Virat Kohli achieved this milestone in 242 innings.",
+          "Virat Kohli broke Sachin Tendulkar's previous record of 300 innings to reach 12,000 ODI runs."
+        ],
+        "added": [
+          [
+            "indian_cricket_team_in_australia_in_2020-21::s006::00",
+            "2025_champions_trophy::s016::01",
+            "2023_cricket_world_cup::s017::01",
+            "rohit_sharma::s006::03",
+            "wankhede_stadium::s017::00"
+          ],
+          [
+            "2025_champions_trophy::s017::00",
+            "virat_kohli::s004::04",
+            "virat_kohli::s009::00"
+          ],
+          [
+            "2022_mens_t20_world_cup::s018::00",
+            "virat_kohli::s000::02",
+            "virat_kohli::s000::01"
+          ]
+        ],
+        "answer": "Virat Kohli was the fastest to reach 12,000 ODI runs, breaking Sachin Tendulkar's record for the fastest to achieve this milestone [1].",
+        "route": "multi",
+        "kind": "trap",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "pool": 11,
+          "kept": [
+            "indian_cricket_team_in_australia_in_2020-21::s006::00",
+            "2025_champions_trophy::s016::01",
+            "2023_cricket_world_cup::s017::01",
+            "rohit_sharma::s006::03",
+            "wankhede_stadium::s017::00",
+            "2025_champions_trophy::s017::00",
+            "virat_kohli::s004::04",
+            "virat_kohli::s009::00",
+            "2022_mens_t20_world_cup::s018::00",
+            "virat_kohli::s000::02",
+            "virat_kohli::s000::01"
+          ]
+        }
+      },
+      "trap-08": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.00141645,
+        "ms": 6841,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "english_cricket_team_in_india_in_2023-24::s007::01",
+            "ravichandran_ashwin::s012::00",
+            "ravichandran_ashwin::s005::03",
+            "ravichandran_ashwin::s000::03",
+            "jasprit_bumrah::s005::01"
+          ]
+        ],
+        "answer": "Ravichandran Ashwin holds India's record for the most five-wicket hauls in Tests, with a total of 36 five-wicket hauls [1].",
+        "route": "single",
+        "kind": "trap",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            5,
+            5,
+            0,
+            5
+          ],
+          "pool": 5,
+          "kept": [
+            "english_cricket_team_in_india_in_2023-24::s007::01",
+            "ravichandran_ashwin::s012::00",
+            "ravichandran_ashwin::s005::03",
+            "ravichandran_ashwin::s000::03",
+            "jasprit_bumrah::s005::01"
+          ]
+        }
+      },
+      "trap-09": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0036535499999999998,
+        "ms": 16168,
+        "searches": 2,
+        "thoughts": [
+          "Tillakaratne Dilshan and Kumar Sangakkara's unbroken partnership of 210 is Sri Lanka's highest second-wicket partnership in ODIs.",
+          "So the answer is: Tillakaratne Dilshan and Kumar Sangakkara, 210 runs."
+        ],
+        "added": [
+          [
+            "2015_cricket_world_cup_pool_a::s011::00",
+            "wankhede_stadium::s017::00",
+            "edgbaston_cricket_ground::s007::03",
+            "edgbaston_cricket_ground::s007::02",
+            "jasprit_bumrah::s004::01"
+          ],
+          [
+            "2015_cricket_world_cup_pool_a::s013::01",
+            "2015_cricket_world_cup_pool_a::s017::00",
+            "2011_cricket_world_cup_final::s006::00",
+            "2011_cricket_world_cup_final::s011::00"
+          ]
+        ],
+        "answer": "The pair that holds Sri Lanka's record for the highest second-wicket partnership in ODIs is Tillakaratne Dilshan and Kumar Sangakkara, and they added 210 runs [1].",
+        "route": "multi",
+        "kind": "trap",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ],
+          "pool": 9,
+          "kept": [
+            "2015_cricket_world_cup_pool_a::s011::00",
+            "wankhede_stadium::s017::00",
+            "edgbaston_cricket_ground::s007::03",
+            "edgbaston_cricket_ground::s007::02",
+            "jasprit_bumrah::s004::01",
+            "2015_cricket_world_cup_pool_a::s013::01",
+            "2015_cricket_world_cup_pool_a::s017::00",
+            "2011_cricket_world_cup_final::s006::00",
+            "2011_cricket_world_cup_final::s011::00"
+          ]
+        }
+      },
+      "trap-10": {
+        "correct": 1.0,
+        "refused": false,
+        "recall": 1.0,
+        "cost": 0.0015425999999999999,
+        "ms": 7471,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "2021-22_ashes_series::s028::01",
+            "2015_ashes_series::s006::02",
+            "2015_ashes_series::s006::01",
+            "2019_ashes_series::s024::00",
+            "nathan_lyon::s003::01"
+          ]
+        ],
+        "answer": "The most wickets to fall to pace bowlers in a single Ashes Test is 39, as noted in the match between Australia and England at Bellerive Oval, Hobart, from 14–18 January 2022 [1].",
+        "route": "single",
+        "kind": "trap",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            5,
+            5,
+            0,
+            0
+          ],
+          "pool": 5,
+          "kept": [
+            "2021-22_ashes_series::s028::01",
+            "2015_ashes_series::s006::02",
+            "2015_ashes_series::s006::01",
+            "2019_ashes_series::s024::00",
+            "nathan_lyon::s003::01"
+          ]
+        }
+      },
+      "none-05": {
+        "correct": 1.0,
+        "refused": true,
+        "recall": null,
+        "cost": 0.005167499999999999,
+        "ms": 17628,
+        "searches": 3,
+        "thoughts": [
+          "Royal Challengers Bengaluru won the 2026 IPL final against Gujarat Titans, and Krunal Pandya was the player of the match in the 2025 final.",
+          "Krunal Pandya was the player of the match in the 2025 IPL final, but the excerpts do not provide information about the 2026 final's player of the match.",
+          "The excerpts do not mention the player of the match for the 2026 IPL final."
+        ],
+        "added": [
+          [
+            "2025_indian_premier_league_final::s000::00",
+            "2025_indian_premier_league::s000::00",
+            "2025_indian_premier_league_final::s010::00",
+            "2025_indian_premier_league_final::s010::01",
+            "narendra_modi_stadium::s016::00"
+          ],
+          [
+            "narendra_modi_stadium::s007::00",
+            "2025_indian_premier_league_final::s011::00",
+            "2025_indian_premier_league::s017::00",
+            "2025_indian_premier_league_final::s009::00"
+          ],
+          []
+        ],
+        "answer": "I don't know based on the provided documents.",
+        "route": "multi",
+        "kind": "none",
+        "correct3": 1.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            0,
+            0,
+            10,
+            0,
+            5,
+            0,
+            0,
+            10,
+            0
+          ],
+          "pool": 9,
+          "kept": [
+            "2025_indian_premier_league_final::s000::00",
+            "2025_indian_premier_league::s000::00",
+            "2025_indian_premier_league_final::s010::00",
+            "2025_indian_premier_league_final::s010::01",
+            "narendra_modi_stadium::s016::00",
+            "narendra_modi_stadium::s007::00",
+            "2025_indian_premier_league_final::s011::00",
+            "2025_indian_premier_league::s017::00",
+            "2025_indian_premier_league_final::s009::00"
+          ]
+        }
+      },
+      "none-06": {
+        "correct": 0.0,
+        "refused": false,
+        "recall": null,
+        "cost": 0.00166815,
+        "ms": 6805,
+        "searches": 1,
+        "thoughts": [],
+        "added": [
+          [
+            "jasprit_bumrah::s008::02",
+            "narendra_modi_stadium::s014::05",
+            "eden_gardens::s023::04",
+            "narendra_modi_stadium::s014::03",
+            "2024_mens_t20_world_cup_final::s000::00"
+          ]
+        ],
+        "answer": "The player of the match in the 2026 Men's T20 World Cup final was Jasprit Bumrah (Ind) [2].",
+        "route": "single",
+        "kind": "none",
+        "correct3": 0.0,
+        "crag": {
+          "action": "CORRECT",
+          "scores": [
+            10,
+            10,
+            0,
+            10,
+            0
+          ],
+          "pool": 5,
+          "kept": [
+            "jasprit_bumrah::s008::02",
+            "narendra_modi_stadium::s014::05",
+            "eden_gardens::s023::04",
+            "narendra_modi_stadium::s014::03",
+            "2024_mens_t20_world_cup_final::s000::00"
+          ]
+        }
+      }
+    }
+  }
+}

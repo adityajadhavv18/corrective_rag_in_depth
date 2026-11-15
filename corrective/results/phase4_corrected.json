@@ -1,0 +1,33 @@
+{
+  "renamed": {
+    "none-06": "solo-07"
+  },
+  "3.0": {
+    "correct": 0.75,
+    "correct3": 0.75,
+    "by_kind": {
+      "solo": "7/7",
+      "chain": "3/4",
+      "gap": "0/4",
+      "trap": "4/4",
+      "none": "1/1"
+    },
+    "relabelled": {
+      "solo-07": 1.0
+    }
+  },
+  "3f": {
+    "correct": 0.9,
+    "correct3": 0.9,
+    "by_kind": {
+      "solo": "7/7",
+      "chain": "3/4",
+      "gap": "3/4",
+      "trap": "4/4",
+      "none": "1/1"
+    },
+    "relabelled": {
+      "solo-07": 1.0
+    }
+  }
+}
